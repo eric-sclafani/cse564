@@ -1,0 +1,1474 @@
+,index,Job Title,Salary Estimate,Rating,Company Name,Location,Size,Industry,Sector,Revenue,Lower Salary,Upper Salary,Avg Salary(K),Job Location,Age
+0,0,Data Scientist,$53K-$91K (Glassdoor est.),3.8,"Tecolote Research
+3.8","Albuquerque, NM",501 - 1000 ,Aerospace & Defense,Aerospace & Defense,$50 to $100 million (USD),53,91,72.0,NM,48
+1,1,Healthcare Data Scientist,$63K-$112K (Glassdoor est.),3.4,"University of Maryland Medical System
+3.4","Linthicum, MD",10000+ ,Health Care Services & Hospitals,Health Care,$2 to $5 billion (USD),63,112,87.5,MD,37
+2,2,Data Scientist,$80K-$90K (Glassdoor est.),4.8,"KnowBe4
+4.8","Clearwater, FL",501 - 1000 ,Security Services,Business Services,$100 to $500 million (USD),80,90,85.0,FL,11
+3,3,Data Scientist,$56K-$97K (Glassdoor est.),3.8,"PNNL
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),56,97,76.5,WA,56
+4,4,Data Scientist,$86K-$143K (Glassdoor est.),2.9,"Affinity Solutions
+2.9","New York, NY",51 - 200 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,86,143,114.5,NY,23
+5,5,Data Scientist,$71K-$119K (Glassdoor est.),3.4,"CyrusOne
+3.4","Dallas, TX",201 - 500 ,Real Estate,Real Estate,$1 to $2 billion (USD),71,119,95.0,TX,21
+6,6,Data Scientist,$54K-$93K (Glassdoor est.),4.1,"ClearOne Advantage
+4.1","Baltimore, MD",501 - 1000 ,Banks & Credit Unions,Finance,Unknown / Non-Applicable,54,93,73.5,MD,13
+7,7,Data Scientist,$86K-$142K (Glassdoor est.),3.8,"Logic20/20
+3.8","San Jose, CA",201 - 500 ,Consulting,Business Services,$25 to $50 million (USD),86,142,114.0,CA,16
+8,8,Research Scientist,$38K-$84K (Glassdoor est.),3.3,"Rochester Regional Health
+3.3","Rochester, NY",10000+ ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),38,84,61.0,NY,7
+9,9,Data Scientist,$120K-$160K (Glassdoor est.),4.6,"<intent>
+4.6","New York, NY",51 - 200 ,Internet,Information Technology,$100 to $500 million (USD),120,160,140.0,NY,12
+10,10,Data Scientist,$126K-$201K (Glassdoor est.),3.5,"Wish
+3.5","San Jose, CA",501 - 1000 ,Other Retail Stores,Retail,$1 to $2 billion (USD),126,201,163.5,CA,10
+11,11,Data Scientist,$64K-$106K (Glassdoor est.),4.1,"ManTech
+4.1","Chantilly, VA",5001 - 10000 ,Research & Development,Business Services,$1 to $2 billion (USD),64,106,85.0,VA,53
+12,12,Staff Data Scientist - Technology,$106K-$172K (Glassdoor est.),3.2,"Walmart
+3.2","Plano, TX",10000+ ,"Department, Clothing, & Shoe Stores",Retail,$10+ billion (USD),106,172,139.0,TX,59
+13,13,Data Analyst,$46K-$85K (Glassdoor est.),4.1,"Yesler
+4.1","Seattle, WA",201 - 500 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,46,85,65.5,WA,9
+14,14,Data Scientist,$83K-$144K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),83,144,113.5,MA,240
+15,15,Data Engineer I,$102K-$190K (Glassdoor est.),3.6,"Audible
+3.6","Newark, NJ",1001 - 5000 ,Motion Picture Production & Distribution,Media,Unknown / Non-Applicable,102,190,146.0,NJ,26
+16,16,"Scientist I/II, Biology",$67K-$137K (Glassdoor est.),3.9,"Blueprint Medicines
+3.9","Cambridge, MA",51 - 200 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $5 million (USD),67,137,102.0,MA,10
+17,17,Customer Data Scientist,$118K-$189K (Glassdoor est.),4.3,"h2o.ai
+4.3","Mountain View, CA",201 - 500 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,118,189,153.5,CA,10
+18,18,Data Scientist - Health Data Analytics,$110K-$175K (Glassdoor est.),4.2,"Nuna
+4.2","San Francisco, CA",51 - 200 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,110,175,142.5,CA,11
+19,19,Data Scientist,$64K-$111K (Glassdoor est.),4.0,"Pinnacol Assurance
+4.0","Denver, CO",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),64,111,87.5,CO,106
+20,20,Data Scientist,$81K-$130K (Glassdoor est.),3.2,"Porch
+3.2","Seattle, WA",201 - 500 ,Internet,Information Technology,Unknown / Non-Applicable,81,130,105.5,WA,9
+21,21,Senior Data Scientist / Machine Learning,$73K-$119K (Glassdoor est.),3.9,"Health IQ
+3.9","Dallas, TX",201 - 500 ,Insurance Agencies & Brokerages,Insurance,Unknown / Non-Applicable,73,119,96.0,TX,8
+22,22,Data Scientist - Quantitative,$86K-$139K (Glassdoor est.),3.8,"Truckstop.com
+3.8","Chicago, IL",501 - 1000 ,Logistics & Supply Chain,Transportation & Logistics,Unknown / Non-Applicable,86,139,112.5,IL,26
+23,23,Data Scientist,$63K-$105K (Glassdoor est.),4.3,"SMC 3
+4.3","Louisville, KY",51 - 200 ,Logistics & Supply Chain,Transportation & Logistics,$10 to $25 million (USD),63,105,84.0,KY,86
+24,25,Data Scientist,$109K-$177K (Glassdoor est.),4.0,"Novetta
+4.0","Herndon, VA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),109,177,143.0,VA,9
+25,26,Digital Health Data Scientist,$63K-$110K (Glassdoor est.),4.0,"Pfizer
+4.0","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),63,110,86.5,MA,172
+26,27,Data Scientist,$75K-$124K (Glassdoor est.),3.5,"First Tech Federal Credit Union
+3.5","Hillsboro, OR",1001 - 5000 ,Banks & Credit Unions,Finance,$100 to $500 million (USD),75,124,99.5,OR,69
+27,28,Associate Data Analyst,$34K-$61K (Glassdoor est.),3.7,"The Hanover Insurance Group
+3.7","Worcester, MA",5001 - 10000 ,Insurance Carriers,Insurance,$5 to $10 billion (USD),34,61,47.5,MA,169
+28,29,Clinical Data Scientist,$63K-$105K (Glassdoor est.),4.0,"Pfizer
+4.0","Groton, CT",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),63,105,84.0,CT,172
+29,30,Data Scientist,$80K-$90K (Glassdoor est.),4.8,"KnowBe4
+4.8","Clearwater, FL",501 - 1000 ,Security Services,Business Services,$100 to $500 million (USD),80,90,85.0,FL,11
+30,31,Data Scientist,$56K-$97K (Glassdoor est.),3.8,"PNNL
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),56,97,76.5,WA,56
+31,32,Data Scientist,$72K-$120K (Glassdoor est.),3.6,"Amrock
+3.6","Detroit, MI",1001 - 5000 ,Real Estate,Real Estate,$500 million to $1 billion (USD),72,120,96.0,MI,24
+32,33,Data Scientist / Machine Learning Expert,$86K-$143K (Glassdoor est.),3.8,"Novartis
+3.8","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),86,143,114.5,MA,25
+33,34,Data Scientist,$93K-$149K (Glassdoor est.),3.8,"Juniper Networks
+3.8","Sunnyvale, CA",5001 - 10000 ,Telecommunications Services,Telecommunications,$2 to $5 billion (USD),93,149,121.0,CA,25
+34,35,Data Scientist,$85K-$140K (Glassdoor est.),4.7,"New England Biolabs
+4.7","Ipswich, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,85,140,112.5,MA,47
+35,36,Web Data Analyst,$77K-$135K (Glassdoor est.),4.2,"Clarity Insights
+4.2","San Jose, CA",201 - 500 ,IT Services,Information Technology,Unknown / Non-Applicable,77,135,106.0,CA,13
+36,37,Data Scientist,$82K-$132K (Glassdoor est.),3.5,"Esri
+3.5","Redlands, CA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),82,132,107.0,CA,52
+37,38,Data Scientist,$83K-$137K (Glassdoor est.),4.7,"Systems & Technology Research
+4.7","Woburn, MA",201 - 500 ,Aerospace & Defense,Aerospace & Defense,$100 to $500 million (USD),83,137,110.0,MA,11
+38,39,Senior Data Scientist,$115K-$180K (Glassdoor est.),3.5,"Sartorius
+3.5","Fremont, CA",5001 - 10000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $2 billion (USD),115,180,147.5,CA,151
+39,40,Data Engineer,$74K-$138K (Glassdoor est.),3.5,"Lancer Insurance
+3.5","Long Beach, NY",201 - 500 ,Insurance Carriers,Insurance,$100 to $500 million (USD),74,138,106.0,NY,36
+40,41,Data Analyst,$64K-$112K (Glassdoor est.),4.2,"Sauce Labs
+4.2","San Francisco, CA",201 - 500 ,IT Services,Information Technology,$50 to $100 million (USD),64,112,88.0,CA,13
+41,43,Data Engineer,$68K-$129K (Glassdoor est.),3.6,"Persivia
+3.6","Marlborough, MA",1 - 50 ,-1,-1,Less than $1 million (USD),68,129,98.5,MA,-1
+42,44,Data Scientist - Algorithms & Inference,$110K-$175K (Glassdoor est.),4.2,"Nuna
+4.2","San Francisco, CA",51 - 200 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,110,175,142.5,CA,11
+43,45,Scientist,$52K-$113K (Glassdoor est.),3.4,"Edgewell Personal Care
+3.4","Allendale, NJ",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$2 to $5 billion (USD),52,113,82.5,NJ,6
+44,46,Senior Data Scientist,$110K-$150K(Employer est.),4.3,"Equity Residential
+4.3","Chicago, IL",1001 - 5000 ,Real Estate,Real Estate,$2 to $5 billion (USD),110,150,130.0,IL,28
+45,48,Data Scientist,Employer Provided Salary:$150K-$160K,5.0,"BPA Services
+5.0","Washington, DC",unknown,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,150,160,155.0,DC,-1
+46,49,Lead Data Scientist,$158K-$211K (Glassdoor est.),3.7,"Visa Inc.
+3.7","Bellevue, WA",10000+ ,IT Services,Information Technology,$10+ billion (USD),158,211,184.5,WA,63
+47,50,Associate Data Analyst,$20K-$39K (Glassdoor est.),3.1,"Intrado
+3.1","Longmont, CO",5001 - 10000 ,Enterprise Software & Network Solutions,Information Technology,$2 to $5 billion (USD),20,39,29.5,CO,35
+48,51,Spectral Scientist/Engineer,$56K-$117K (Glassdoor est.),4.7,"Centauri
+4.7","Beavercreek, OH",501 - 1000 ,Aerospace & Defense,Aerospace & Defense,$100 to $500 million (USD),56,117,86.5,OH,22
+49,52,College Hire - Data Scientist - Open to December 2019 Graduates,$63K-$99K (Glassdoor est.),3.7,"Caterpillar
+3.7","Peoria, IL",10000+ ,Industrial Manufacturing,Manufacturing,$10+ billion (USD),63,99,81.0,IL,96
+50,54,Data Scientist,$68K-$114K (Glassdoor est.),3.8,"Zimmerman Advertising
+3.8","Fort Lauderdale, FL",501 - 1000 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,68,114,91.0,FL,37
+51,55,"Data Scientist, Office of Data Science",$86K-$143K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Boston, MA",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),86,143,114.5,MA,109
+52,56,Data Science Analyst,$41K-$95K (Glassdoor est.),4.6,"Torch Technologies, Inc.
+4.6","Huntsville, AL",1001 - 5000 ,Aerospace & Defense,Aerospace & Defense,$100 to $500 million (USD),41,95,68.0,AL,19
+53,57,Data Scientist,$86K-$144K (Glassdoor est.),3.7,"Swiss Re
+3.7","Armonk, NY",10000+ ,Insurance Agencies & Brokerages,Insurance,$10+ billion (USD),86,144,115.0,NY,158
+54,58,Data Scientist,$80K-$139K (Glassdoor est.),3.7,"Northrop Grumman
+3.7","San Diego, CA",10000+ ,Aerospace & Defense,Aerospace & Defense,$10+ billion (USD),80,139,109.5,CA,82
+55,59,Data Scientist,$56K-$95K (Glassdoor est.),3.5,"Sartorius
+3.5","Albuquerque, NM",5001 - 10000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $2 billion (USD),56,95,75.5,NM,151
+56,60,Data Scientist,$120K-$189K (Glassdoor est.),4.1,"Netskope
+4.1","San Francisco, CA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,120,189,154.5,CA,9
+57,61,Data Scientist,$111K-$176K (Glassdoor est.),4.7,"1904labs
+4.7","Saint Louis, MO",51 - 200 ,IT Services,Information Technology,Unknown / Non-Applicable,111,176,143.5,MO,5
+58,62,Data Scientist,$54K-$93K (Glassdoor est.),4.1,"ClearOne Advantage
+4.1","Baltimore, MD",501 - 1000 ,Banks & Credit Unions,Finance,Unknown / Non-Applicable,54,93,73.5,MD,13
+59,63,Data Scientist,$71K-$119K (Glassdoor est.),3.4,"CyrusOne
+3.4","Dallas, TX",201 - 500 ,Real Estate,Real Estate,$1 to $2 billion (USD),71,119,95.0,TX,21
+60,65,Senior Data Scientist,$82K-$132K (Glassdoor est.),4.4,"The David J. Joseph Company
+4.4","Cincinnati, OH",201 - 500 ,Metals Brokers,Mining & Metals,Unknown / Non-Applicable,82,132,107.0,OH,136
+61,66,Data Scientist,$84K-$146K (Glassdoor est.),4.3,"USEReady
+4.3","New York, NY",201 - 500 ,Consulting,Business Services,$10 to $25 million (USD),84,146,115.0,NY,10
+62,67,Senior Risk Data Scientist,$107K-$172K (Glassdoor est.),3.8,"Bill.com
+3.8","Palo Alto, CA",501 - 1000 ,Financial Transaction Processing,Finance,$50 to $100 million (USD),107,172,139.5,CA,15
+63,68,Data Scientist in Artificial Intelligence Early Career,$49K-$85K (Glassdoor est.),3.8,"Pacific Northwest National Laboratory
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),49,85,67.0,WA,56
+64,70,Data Scientist,$61K-$109K (Glassdoor est.),3.8,"DICK'S Sporting Goods - Corporate
+3.8","Coraopolis, PA",10000+ ,Sporting Goods Stores,Retail,$5 to $10 billion (USD),61,109,85.0,PA,73
+65,72,Data Scientist,$88K-$148K (Glassdoor est.),2.8,"Berg Health
+2.8","Framingham, MA",51 - 200 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $5 million (USD),88,148,118.0,MA,15
+66,73,Data Scientist,$60K-$99K (Glassdoor est.),4.7,"Oversight Systems
+4.7","Atlanta, GA",51 - 200 ,Computer Hardware & Software,Information Technology,$25 to $50 million (USD),60,99,79.5,GA,18
+67,75,Data Scientist - Research,$41K-$72K (Glassdoor est.),3.1,"C Space
+3.1","Boston, MA",201 - 500 ,Advertising & Marketing,Business Services,$100 to $500 million (USD),41,72,56.5,MA,22
+68,76,Data Scientist,$96K-$161K (Glassdoor est.),3.2,"Numeric, LLC
+3.2","Philadelphia, PA",1 - 50 ,Staffing & Outsourcing,Business Services,$5 to $10 million (USD),96,161,128.5,PA,-1
+69,77,R&D Data Analysis Scientist,$65K-$130K (Glassdoor est.),4.0,"HP Inc.
+4.0","Vancouver, WA",10000+ ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,65,130,97.5,WA,82
+70,78,Analytics Consultant,$52K-$81K (Glassdoor est.),4.4,"SpringML
+4.4","Indianapolis, IN",1 - 50 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,52,81,66.5,IN,6
+71,79,"Director, Data Science",$139K-$220K (Glassdoor est.),3.6,"Grainger
+3.6","Lake Forest, IL",10000+ ,Wholesale,Business Services,$10+ billion (USD),139,220,179.5,IL,94
+72,80,Scientist,$50K-$102K (Glassdoor est.),2.7,"EAG Laboratories
+2.7","Maryland Heights, MO",501 - 1000 ,Research & Development,Business Services,$50 to $100 million (USD),50,102,76.0,MO,43
+73,81,Data Scientist SR,$85K-$139K (Glassdoor est.),3.9,"The Buffalo Group
+3.9","Charlottesville, VA",501 - 1000 ,IT Services,Information Technology,$100 to $500 million (USD),85,139,112.0,VA,11
+74,82,Data Scientist,$74K-$122K (Glassdoor est.),3.1,"Carmeuse
+3.1","Pittsburgh, PA",1001 - 5000 ,Mining,Mining & Metals,$1 to $2 billion (USD),74,122,98.0,PA,161
+75,83,R&D Sr Data Scientist,$99K-$157K (Glassdoor est.),4.0,"HP Inc.
+4.0","Vancouver, WA",10000+ ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,99,157,128.0,WA,82
+76,84,Customer Data Scientist/Sales Engineer (Bay,$79K-$222K (Glassdoor est.),4.3,"h2o.ai
+4.3","Mountain View, CA",201 - 500 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,79,222,150.5,CA,10
+77,85,Research Scientist,$57K-$118K (Glassdoor est.),1.9,"GNS Healthcare
+1.9","Cambridge, MA",51 - 200 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10 to $25 million (USD),57,118,87.5,MA,21
+78,86,Data Scientist,$83K-$137K (Glassdoor est.),3.3,"Peraton
+3.3","Chantilly, VA",1001 - 5000 ,Aerospace & Defense,Aerospace & Defense,$1 to $2 billion (USD),83,137,110.0,VA,4
+79,87,Data Scientist,$86K-$141K (Glassdoor est.),4.4,"Pactera
+4.4","San Jose, CA",10000+ ,IT Services,Information Technology,$500 million to $1 billion (USD),86,141,113.5,CA,26
+80,88,Data Scientist,$94K-$154K (Glassdoor est.),3.9,"Nurx
+3.9","San Francisco, CA",51 - 200 ,Health Care Services & Hospitals,Health Care,$1 to $5 million (USD),94,154,124.0,CA,5
+81,89,Jr. Business Data Analyst,$37K-$76K (Glassdoor est.),4.7,"webfx.com
+4.7","Harrisburg, PA",201 - 500 ,Advertising & Marketing,Business Services,$25 to $50 million (USD),37,76,56.5,PA,24
+82,90,Data Scientist,$100K-$160K (Glassdoor est.),4.5,"Johns Hopkins University Applied Physics Laboratory
+4.5","Laurel, MD",5001 - 10000 ,Aerospace & Defense,Aerospace & Defense,$1 to $2 billion (USD),100,160,130.0,MD,79
+83,91,Data Analyst,$55K-$100K (Glassdoor est.),4.3,"Productive Edge
+4.3","Chicago, IL",51 - 200 ,Computer Hardware & Software,Information Technology,$10 to $25 million (USD),55,100,77.5,IL,13
+84,92,Data Engineer,$60K-$114K (Glassdoor est.),4.0,"Excella Consulting
+4.0","Arlington, VA",201 - 500 ,Consulting,Business Services,$50 to $100 million (USD),60,114,87.0,VA,19
+85,93,Data Analyst,$39K-$68K (Glassdoor est.),4.4,"Gensco
+4.4","Tacoma, WA",501 - 1000 ,Wholesale,Business Services,$100 to $500 million (USD),39,68,53.5,WA,73
+86,94,Staff Data Scientist - Technology,$106K-$172K (Glassdoor est.),3.2,"Walmart
+3.2","Plano, TX",10000+ ,"Department, Clothing, & Shoe Stores",Retail,$10+ billion (USD),106,172,139.0,TX,59
+87,95,Data Scientist,$86K-$142K (Glassdoor est.),3.8,"Logic20/20
+3.8","San Jose, CA",201 - 500 ,Consulting,Business Services,$25 to $50 million (USD),86,142,114.0,CA,16
+88,96,Data Scientist,$64K-$107K (Glassdoor est.),4.2,"goTRG
+4.2","Miami, FL",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),64,107,85.5,FL,13
+89,97,Data Management Specialist,$31K-$65K (Glassdoor est.),4.5,"NMR Consulting
+4.5","Huntsville, AL",51 - 200 ,IT Services,Information Technology,$25 to $50 million (USD),31,65,48.0,AL,25
+90,99,E-Commerce Data Analyst,$34K-$62K (Glassdoor est.),3.5,"iSeatz
+3.5","New Orleans, LA",51 - 200 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,34,62,48.0,LA,22
+91,101,Sr. Scientist II,$117K-$231K (Glassdoor est.),3.5,"Nektar Therapeutics
+3.5","San Francisco, CA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$100 to $500 million (USD),117,231,174.0,CA,31
+92,102,Insurance Data Scientist,$64K-$106K (Glassdoor est.),3.9,"TransUnion
+3.9","Atlanta, GA",5001 - 10000 ,Financial Analytics & Research,Finance,$1 to $2 billion (USD),64,106,85.0,GA,53
+93,104,Data Modeler,$79K-$134K (Glassdoor est.),4.7,"IT Concepts
+4.7","Landover, MD",51 - 200 ,IT Services,Information Technology,$10 to $25 million (USD),79,134,106.5,MD,18
+94,105,Data Analyst / Scientist,$52K-$93K (Glassdoor est.),4.2,"Scientific Research Corporation
+4.2","Patuxent River, MD",1001 - 5000 ,IT Services,Information Technology,$100 to $500 million (USD),52,93,72.5,MD,33
+95,106,Scientist,$55K-$116K (Glassdoor est.),3.4,"General Dynamics Information Technology
+3.4","Suitland, MD",10000+ ,IT Services,Information Technology,$10+ billion (USD),55,116,85.5,MD,25
+96,107,Data Scientist,$72K-$123K (Glassdoor est.),3.2,"MITRE
+3.2","McLean, VA",5001 - 10000 ,Federal Agencies,Government,$1 to $2 billion (USD),72,123,97.5,VA,63
+97,108,Data Scientist,$74K-$124K (Glassdoor est.),3.9,"The Buffalo Group
+3.9","Fort Belvoir, VA",501 - 1000 ,IT Services,Information Technology,$100 to $500 million (USD),74,124,99.0,VA,11
+98,109,Data Analyst,$40K-$73K (Glassdoor est.),3.1,"DentaQuest
+3.1","Milwaukee, WI",1001 - 5000 ,Insurance Carriers,Insurance,$2 to $5 billion (USD),40,73,56.5,WI,20
+99,110,Lead Data Scientist,$102K-$164K (Glassdoor est.),4.1,"Redjack
+4.1","Silver Spring, MD",1 - 50 ,IT Services,Information Technology,Unknown / Non-Applicable,102,164,133.0,MD,14
+100,112,Data Scientist,$89K-$153K (Glassdoor est.),3.8,"7Park Data
+3.8","New York, NY",51 - 200 ,Research & Development,Business Services,Unknown / Non-Applicable,89,153,121.0,NY,9
+101,113,Data Scientist,$61K-$110K (Glassdoor est.),4.7,"Rapid Response Monitoring
+4.7","Syracuse, NY",501 - 1000 ,Security Services,Business Services,Unknown / Non-Applicable,61,110,85.5,NY,29
+102,116,"Data Scientist, Rice University",$65K-$110K (Glassdoor est.),4.3,"Trilogy Ed
+4.3","Houston, TX",1001 - 5000 ,Education Training Services,Education,Unknown / Non-Applicable,65,110,87.5,TX,6
+103,117,Senior Data Scientist,$200K-$275K(Employer est.),4.2,"Gallup
+4.2","Washington, DC",1001 - 5000 ,Consulting,Business Services,Unknown / Non-Applicable,200,275,237.5,DC,86
+104,118,Data Engineer,$68K-$123K (Glassdoor est.),3.9,"CapTech
+3.9","Charlotte, NC",1001 - 5000 ,IT Services,Information Technology,$100 to $500 million (USD),68,123,95.5,NC,24
+105,119,Senior Data Scientist,$80K-$129K (Glassdoor est.),3.3,"American Axle & Manufacturing
+3.3","Southfield, MI",10000+ ,Transportation Equipment Manufacturing,Manufacturing,$5 to $10 billion (USD),80,129,104.5,MI,27
+106,120,Financial Data Analyst,$41K-$72K (Glassdoor est.),4.7,"CentralReach
+4.7","Matawan, NJ",201 - 500 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,41,72,56.5,NJ,9
+107,122,Senior Data Analyst,$39K-$71K (Glassdoor est.),4.3,"Integrate
+4.3","Phoenix, AZ",201 - 500 ,Enterprise Software & Network Solutions,Information Technology,$25 to $50 million (USD),39,71,55.0,AZ,11
+108,123,Research Scientist,$38K-$85K (Glassdoor est.),2.9,"Boys Town Hospital
+2.9","Omaha, NE",1001 - 5000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,38,85,61.5,NE,44
+109,124,Data Scientist,$121K-$193K (Glassdoor est.),4.5,"Demandbase
+4.5","San Francisco, CA",201 - 500 ,Computer Hardware & Software,Information Technology,$100 to $500 million (USD),121,193,157.0,CA,15
+110,125,Data Engineer,$54K-$102K (Glassdoor est.),3.4,"Sapphire Digital
+3.4","Lyndhurst, NJ",201 - 500 ,Internet,Information Technology,Unknown / Non-Applicable,54,102,78.0,NJ,2
+111,126,Data Scientist,$83K-$144K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),83,144,113.5,MA,240
+112,127,Data Scientist,$120K-$160K (Glassdoor est.),4.6,"<intent>
+4.6","New York, NY",51 - 200 ,Internet,Information Technology,$100 to $500 million (USD),120,160,140.0,NY,12
+113,128,Data Scientist,$102K-$163K (Glassdoor est.),3.2,"Formation
+3.2","San Francisco, CA",51 - 200 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,102,163,132.5,CA,6
+114,129,Data Engineer,$76K-$140K (Glassdoor est.),4.0,"Autodesk
+4.0","San Francisco, CA",5001 - 10000 ,Computer Hardware & Software,Information Technology,$2 to $5 billion (USD),76,140,108.0,CA,39
+115,130,Ag Data Scientist,$60K-$101K (Glassdoor est.),4.6,"Beck's Hybrids
+4.6","Atlanta, IN",501 - 1000 ,Farm Support Services,Agriculture & Forestry,$50 to $100 million (USD),60,101,80.5,IN,84
+116,131,Data Scientist,$82K-$133K (Glassdoor est.),2.8,"DrFirst
+2.8","Rockville, MD",201 - 500 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,82,133,107.5,MD,21
+117,132,Data Engineer,$65K-$125K (Glassdoor est.),4.7,"Object Partners
+4.7","Minneapolis, MN",51 - 200 ,Consulting,Business Services,$25 to $50 million (USD),65,125,95.0,MN,25
+118,136,Data Scientist II,$91K-$148K (Glassdoor est.),3.0,"L.A. Care Health Plan
+3.0","Los Angeles, CA",1001 - 5000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,91,148,119.5,CA,24
+119,137,Senior Data Engineer,$95K-$173K (Glassdoor est.),3.2,"Red Ventures
+3.2","Charlotte, NC",1001 - 5000 ,Advertising & Marketing,Business Services,$1 to $2 billion (USD),95,173,134.0,NC,21
+120,138,Data Scientist,$77K-$124K (Glassdoor est.),4.4,"Quick Base
+4.4","Cambridge, MA",201 - 500 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,77,124,100.5,MA,22
+121,139,Data Scientist,$80K-$135K (Glassdoor est.),3.5,"The E.W. Scripps Company
+3.5","Cincinnati, OH",1001 - 5000 ,TV Broadcast & Cable Networks,Media,$500 million to $1 billion (USD),80,135,107.5,OH,143
+122,140,Data Engineer,$85K-$159K (Glassdoor est.),4.0,"Upside Business Travel
+4.0","Washington, DC",51 - 200 ,Internet,Information Technology,Unknown / Non-Applicable,85,159,122.0,DC,6
+123,141,Data Engineer,$80K-$105K(Employer est.),4.3,"Equity Residential
+4.3","Chicago, IL",1001 - 5000 ,Real Estate,Real Estate,$2 to $5 billion (USD),80,105,92.5,IL,28
+124,142,Data Analyst,$43K-$81K (Glassdoor est.),2.3,"Synagro
+2.3","Baltimore, MD",501 - 1000 ,Research & Development,Business Services,$100 to $500 million (USD),43,81,62.0,MD,35
+125,143,Project Scientist,$29K-$50K (Glassdoor est.),4.0,"Alliance Source Testing
+4.0","Alabaster, AL",51 - 200 ,Architectural & Engineering Services,Business Services,$25 to $50 million (USD),29,50,39.5,AL,21
+126,145,Data Scientist,$82K-$133K (Glassdoor est.),3.6,"Accuride International
+3.6","Santa Fe Springs, Los Angeles, CA",1001 - 5000 ,Industrial Manufacturing,Manufacturing,$100 to $500 million (USD),82,133,107.5,CA,55
+127,146,Data Analytics Manager,$26K-$55K (Glassdoor est.),3.8,"Full Potential Solutions
+3.8","Kansas City, MO",501 - 1000 ,Staffing & Outsourcing,Business Services,Unknown / Non-Applicable,26,55,40.5,MO,4
+128,147,Senior Machine Learning (ML) Engineer / Data Scientist - Cyber Security Analytics,$61K-$118K (Glassdoor est.),3.7,"Visa Inc.
+3.7","Ashburn, VA",10000+ ,IT Services,Information Technology,$10+ billion (USD),61,118,89.5,VA,63
+129,148,Data Scientist,$60K-$102K (Glassdoor est.),4.4,"Maven Wave Partners
+4.4","Chicago, IL",201 - 500 ,Consulting,Business Services,$50 to $100 million (USD),60,102,81.0,IL,13
+130,150,Senior Data Scientist,$112K-$182K (Glassdoor est.),4.0,"Novetta
+4.0","Herndon, VA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),112,182,147.0,VA,9
+131,152,Data Scientist,$64K-$106K (Glassdoor est.),3.2,"First Command Financial Services, Inc.
+3.2","Fort Worth, TX",1001 - 5000 ,Brokerage Services,Finance,$100 to $500 million (USD),64,106,85.0,TX,63
+132,153,Associate Scientist,$51K-$112K (Glassdoor est.),2.9,"Pharmavite
+2.9","Valencia, CA",1001 - 5000 ,Consumer Products Manufacturing,Manufacturing,$1 to $2 billion (USD),51,112,81.5,CA,50
+133,154,"Scientist 2, QC Viral Vector",$113K-$223K (Glassdoor est.),3.8,"BioMarin Pharmaceutical
+3.8","Novato, CA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$500 million to $1 billion (USD),113,223,168.0,CA,24
+134,156,Machine Learning Engineer,$72K-$129K (Glassdoor est.),4.3,"Stratagem Group
+4.3","Aurora, CO",1 - 50 ,Aerospace & Defense,Aerospace & Defense,Unknown / Non-Applicable,72,129,100.5,CO,14
+135,157,Data Scientist/ML Engineer,$71K-$123K (Glassdoor est.),3.4,"PA Consulting
+3.4","New York, NY",1001 - 5000 ,Consulting,Business Services,$100 to $500 million (USD),71,123,97.0,NY,78
+136,158,Data Scientist,$64K-$106K (Glassdoor est.),4.1,"ManTech
+4.1","Chantilly, VA",5001 - 10000 ,Research & Development,Business Services,$1 to $2 billion (USD),64,106,85.0,VA,53
+137,159,Customer Data Scientist,$118K-$189K (Glassdoor est.),4.3,"h2o.ai
+4.3","Mountain View, CA",201 - 500 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,118,189,153.5,CA,10
+138,161,Data Engineer,Employer Provided Salary:$120K-$145K,5.0,"Gridiron IT
+5.0","Tampa, FL",51 - 200 ,IT Services,Information Technology,Unknown / Non-Applicable,120,145,132.5,FL,4
+139,162,Data Engineer,$80K-$120K (Glassdoor est.),4.3,"Productive Edge
+4.3","Chicago, IL",51 - 200 ,Computer Hardware & Software,Information Technology,$10 to $25 million (USD),80,120,100.0,IL,13
+140,164,Sr. Data Scientist,$80K-$130K (Glassdoor est.),3.7,"Evolve Vacation Rental
+3.7","Denver, CO",201 - 500 ,Travel Agencies,Travel & Tourism,Unknown / Non-Applicable,80,130,105.0,CO,10
+141,166,Data Engineer 4 - Contract,$59K-$115K (Glassdoor est.),4.2,"The Church of Jesus Christ of Latter-day Saints
+4.2","Riverton, UT",10000+ ,Religious Organizations,Non-Profit,Unknown / Non-Applicable,59,115,87.0,UT,-1
+142,167,Data Analyst - Asset Management,$71K-$136K (Glassdoor est.),4.3,"Maximus Real Estate Partners
+4.3","San Francisco, CA",51 - 200 ,Real Estate,Real Estate,Unknown / Non-Applicable,71,136,103.5,CA,8
+143,168,Senior Research Scientist - Embedded System Development for DevOps,$81K-$167K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,81,167,124.0,PA,37
+144,169,Data Scientist - Bioinformatics,$49K-$85K (Glassdoor est.),3.8,"PNNL
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),49,85,67.0,WA,56
+145,170,Data Engineer,$60K-$114K (Glassdoor est.),3.9,"AVANADE
+3.9","Washington, DC",10000+ ,IT Services,Information Technology,$2 to $5 billion (USD),60,114,87.0,DC,21
+146,171,Customer Data Scientist/Sales Engineer,$71K-$204K (Glassdoor est.),4.3,"h2o.ai
+4.3","Chicago, IL",201 - 500 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,71,204,137.5,IL,10
+147,172,Lead Data Scientist,$75K-$125K (Glassdoor est.),3.8,"PatientPoint
+3.8","Cincinnati, OH",201 - 500 ,Advertising & Marketing,Business Services,$100 to $500 million (USD),75,125,100.0,OH,34
+148,174,MongoDB Data Engineer II,$77K-$136K (Glassdoor est.),3.8,"BlueCross BlueShield of Tennessee
+3.8","Chattanooga, TN",5001 - 10000 ,Insurance Carriers,Insurance,$5 to $10 billion (USD),77,136,106.5,TN,76
+149,175,Senior Data Scientist Statistics,$74K-$123K (Glassdoor est.),3.8,"PNNL
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),74,123,98.5,WA,56
+150,177,Senior Data Analyst,$44K-$78K (Glassdoor est.),4.8,"KnowBe4
+4.8","Clearwater, FL",501 - 1000 ,Security Services,Business Services,$100 to $500 million (USD),44,78,61.0,FL,11
+151,178,Senior Spark Engineer (Data Science),$65K-$148K (Glassdoor est.),4.4,"KSM Consulting
+4.4","Indianapolis, IN",51 - 200 ,Consulting,Business Services,Unknown / Non-Applicable,65,148,106.5,IN,13
+152,179,Data Engineer,$59K-$110K (Glassdoor est.),3.9,"Cogo Labs
+3.9","Cambridge, MA",51 - 200 ,Internet,Information Technology,Unknown / Non-Applicable,59,110,84.5,MA,16
+153,180,BI & Platform Analytics Manager,$85K-$134K (Glassdoor est.),3.4,"Church & Dwight
+3.4","Ewing, NJ",1001 - 5000 ,Consumer Products Manufacturing,Manufacturing,$2 to $5 billion (USD),85,134,109.5,NJ,175
+154,181,Lead Data Scientist,$124K-$204K (Glassdoor est.),3.6,"MassMutual
+3.6","Boston, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),124,204,164.0,MA,170
+155,182,"Sr. Data Scientist - Analytics, Personalized Healthcare (PHC)",$131K-$207K (Glassdoor est.),3.9,"Genentech
+3.9","South San Francisco, CA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),131,207,169.0,CA,45
+156,183,Senior Data Scientist,$110K-$174K (Glassdoor est.),3.8,"Juniper Networks
+3.8","Cupertino, CA",5001 - 10000 ,Telecommunications Services,Telecommunications,$2 to $5 billion (USD),110,174,142.0,CA,25
+157,185,Pricipal Scientist Molecular and cellular biologist,$52K-$101K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Boston, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),52,101,76.5,MA,240
+158,187,"Data Scientist (Actuary, FSA or ASA)",$81K-$133K (Glassdoor est.),3.8,"Legal & General America
+3.8","Frederick, MD",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),81,133,107.0,MD,40
+159,188,Staff Data Scientist,$132K-$211K (Glassdoor est.),3.5,"Western Digital
+3.5","San Jose, CA",10000+ ,Computer Hardware & Software,Information Technology,$10+ billion (USD),132,211,171.5,CA,51
+160,190,Senior Data Scientist / Machine Learning,$73K-$119K (Glassdoor est.),3.9,"Health IQ
+3.9","Dallas, TX",201 - 500 ,Insurance Agencies & Brokerages,Insurance,Unknown / Non-Applicable,73,119,96.0,TX,8
+161,191,Data Scientist - Health Data Analytics,$110K-$175K (Glassdoor est.),4.2,"Nuna
+4.2","San Francisco, CA",51 - 200 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,110,175,142.5,CA,11
+162,192,Data Engineer 5 - Contract (Remote),$74K-$140K (Glassdoor est.),4.2,"The Church of Jesus Christ of Latter-day Saints
+4.2","Riverton, UT",10000+ ,Religious Organizations,Non-Profit,Unknown / Non-Applicable,74,140,107.0,UT,-1
+163,193,Senior Scientist - Neuroscience,$100K-$190K (Glassdoor est.),3.5,"Sunovion
+3.5","Marlborough, MA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $2 billion (USD),100,190,145.0,MA,11
+164,194,Senior Data Analyst,$43K-$80K (Glassdoor est.),2.9,"National Student Clearinghouse
+2.9","Herndon, VA",201 - 500 ,Colleges & Universities,Education,$25 to $50 million (USD),43,80,61.5,VA,28
+165,197,Medical Lab Scientist,$17-$24 Per Hour(Glassdoor est.),3.6,"Tower Health
+3.6","West Reading, PA",5001 - 10000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,35,49,42.0,PA,4
+166,198,"Risk and Analytics IT, Data Scientist",$91K-$149K (Glassdoor est.),2.7,"State of Wisconsin Investment Board
+2.7","Madison, WI",51 - 200 ,Investment Banking & Asset Management,Finance,$50 to $100 million (USD),91,149,120.0,WI,70
+167,199,"Scientist, Analytical Development",$42K-$82K (Glassdoor est.),4.4,"Rubius Therapeutics
+4.4","Cambridge, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$100 to $500 million (USD),42,82,62.0,MA,8
+168,200,Senior Data Scientist,$116K-$185K (Glassdoor est.),4.0,"Autodesk
+4.0","San Francisco, CA",5001 - 10000 ,Computer Hardware & Software,Information Technology,$2 to $5 billion (USD),116,185,150.5,CA,39
+169,201,Analytics Manager,$59K-$116K (Glassdoor est.),4.3,"OneMagnify
+4.3","Dearborn, MI",201 - 500 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,59,116,87.5,MI,54
+170,202,Data Engineer,$48K-$95K (Glassdoor est.),4.2,"IZEA
+4.2","Winter Park, FL",51 - 200 ,Advertising & Marketing,Business Services,$25 to $50 million (USD),48,95,71.5,FL,15
+171,203,Digital Marketing & ECommerce Data Analyst,$31K-$72K (Glassdoor est.),3.6,"Vionic Group
+3.6","San Rafael, CA",51 - 200 ,"Department, Clothing, & Shoe Stores",Retail,$100 to $500 million (USD),31,72,51.5,CA,15
+172,204,Sr. Scientist - Digital & Image Analysis/Computational Pathology,$105K-$198K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","San Diego, CA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),105,198,151.5,CA,240
+173,205,Senior Data Analyst,$55K-$100K (Glassdoor est.),2.8,"Dodge Data & Analytics
+2.8","Hamilton, NJ",201 - 500 ,IT Services,Information Technology,Unknown / Non-Applicable,55,100,77.5,NJ,7
+174,206,Principal Scientist - Immunologist,$98K-$182K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Boston, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),98,182,140.0,MA,240
+175,207,Senior Data Scientist,$73K-$124K (Glassdoor est.),3.3,"Plymouth Rock Assurance
+3.3","Woodbridge, NJ",1001 - 5000 ,Insurance Carriers,Insurance,$10 to $25 million (USD),73,124,98.5,NJ,39
+176,208,Principal Data Scientist with over 10 years experience,Employer Provided Salary:$200K-$250K,-1.0,CA-One Tech Cloud,"San Francisco, CA",51 - 200 ,IT Services,Information Technology,$5 to $10 million (USD),200,250,225.0,CA,4
+177,209,MED TECH/LAB SCIENTIST - LABORATORY,$21-$34 Per Hour(Glassdoor est.),3.6,"Beebe Healthcare
+3.6","Lewes, DE",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$100 to $500 million (USD),43,70,56.5,DE,86
+178,210,"Sr. Scientist, Quantitative Translational Sciences",$117K-$206K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Boston, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),117,206,161.5,MA,240
+179,211,Sr. Data Scientist II,$111K-$183K (Glassdoor est.),3.4,"Argo Group US
+3.4","New York, NY",1001 - 5000 ,Insurance Carriers,Insurance,$1 to $2 billion (USD),111,183,147.0,NY,73
+180,212,Excel / VBA / SQL Data Analyst,$44K-$78K (Glassdoor est.),4.1,"Associated Electric Cooperative
+4.1","Springfield, MO",501 - 1000 ,Energy,"Oil, Gas, Energy & Utilities",$1 to $2 billion (USD),44,78,61.0,MO,60
+181,213,Machine Learning Research Scientist,$81K-$159K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,81,159,120.0,PA,37
+182,215,"VP, Data Science",$83K-$166K (Glassdoor est.),3.2,"PennyMac
+3.2","Phoenix, AZ",1001 - 5000 ,Lending,Finance,$500 million to $1 billion (USD),83,166,124.5,AZ,13
+183,216,Senior Data Scientist,$114K-$182K (Glassdoor est.),3.9,"Zest AI
+3.9","Burbank, CA",51 - 200 ,Financial Analytics & Research,Finance,$50 to $100 million (USD),114,182,148.0,CA,12
+184,217,Radar Data Analyst,$42K-$76K (Glassdoor est.),4.7,"DECISIVE ANALYTICS Corporation
+4.7","Huntsville, AL",51 - 200 ,Aerospace & Defense,Aerospace & Defense,$25 to $50 million (USD),42,76,59.0,AL,25
+185,221,PL Actuarial-Lead Data Scientist,$114K-$179K (Glassdoor est.),3.7,"The Hanover Insurance Group
+3.7","Worcester, MA",5001 - 10000 ,Insurance Carriers,Insurance,$5 to $10 billion (USD),114,179,146.5,MA,169
+186,223,PV Scientist,$60K-$123K (Glassdoor est.),2.9,"Karyopharm Therapeutics Inc.
+2.9","Newton, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,60,123,91.5,MA,-1
+187,224,Senior Data & Machine Learning Scientist,$100K-$166K (Glassdoor est.),3.0,"Tempus Labs
+3.0","Chicago, IL",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,100,166,133.0,IL,6
+188,225,Principal Data Scientist (Computational Chemistry),$108K-$173K (Glassdoor est.),4.7,"Recursion Pharmaceuticals
+4.7","Salt Lake City, UT",51 - 200 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $5 million (USD),108,173,140.5,UT,8
+189,226,Data Engineer,$48K-$93K (Glassdoor est.),3.7,"P2 Energy Solutions
+3.7","Lafayette, LA",501 - 1000 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,48,93,70.5,LA,-1
+190,228,"Principal Scientist, Chemistry & Immunology",$54K-$115K (Glassdoor est.),3.3,"Rochester Regional Health
+3.3","Rochester, NY",10000+ ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),54,115,84.5,NY,7
+191,229,Software Engineer - Data Visualization,$60K-$127K (Glassdoor est.),4.0,"ClearEdge
+4.0","Annapolis Junction, MD",51 - 200 ,Computer Hardware & Software,Information Technology,$5 to $10 million (USD),60,127,93.5,MD,19
+192,230,"Scientist/Senior Scientist, Autoimmune",$90K-$179K (Glassdoor est.),4.4,"Rubius Therapeutics
+4.4","Cambridge, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$100 to $500 million (USD),90,179,134.5,MA,8
+193,233,Staff Machine Learning Engineer,$138K-$224K (Glassdoor est.),3.9,"Tapjoy
+3.9","San Francisco, CA",201 - 500 ,Internet,Information Technology,$10 to $25 million (USD),138,224,181.0,CA,14
+194,234,"Principal Scientist, Hematology",$54K-$115K (Glassdoor est.),3.3,"Rochester Regional Health
+3.3","Rochester, NY",10000+ ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),54,115,84.5,NY,7
+195,235,Lead Data Engineer,$190K-$220K(Employer est.),4.1,"Credit Sesame
+4.1","Mountain View, CA",51 - 200 ,Internet,Information Technology,$50 to $100 million (USD),190,220,205.0,CA,11
+196,239,Marketing Data Analyst,$35K-$62K (Glassdoor est.),3.6,"San Manuel Casino
+3.6","Highland, CA",1001 - 5000 ,Gambling,"Arts, Entertainment & Recreation",$100 to $500 million (USD),35,62,48.5,CA,35
+197,240,Medical Laboratory Scientist,$18-$25 Per Hour(Glassdoor est.),4.0,"Texas Health Huguley Hospital
+4.0","Burleson, TX",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$50 to $100 million (USD),37,52,44.5,TX,44
+198,242,R&D Specialist/ Food Scientist,$39K-$66K (Glassdoor est.),2.4,"Teasdale Latin Foods
+2.4","Hoopeston, IL",501 - 1000 ,Food & Beverage Manufacturing,Manufacturing,$100 to $500 million (USD),39,66,52.5,IL,-1
+199,243,Senior Research Scientist-Machine Learning,$81K-$167K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,81,167,124.0,PA,37
+200,245,Analytics Manager - Data Mart,$42K-$86K (Glassdoor est.),3.5,"Central California Alliance for Health
+3.5","Scotts Valley, CA",501 - 1000 ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),42,86,64.0,CA,25
+201,246,Sr. Data Engineer - Contract-to-Hire (Java),$69K-$127K (Glassdoor est.),3.0,"Pilot Flying J Travel Centers LLC
+3.0","Knoxville, TN",10000+ ,Gas Stations,Retail,$10+ billion (USD),69,127,98.0,TN,63
+202,247,MED TECH/LAB SCIENTIST- SOUTH COASTAL LAB,$21-$34 Per Hour(Glassdoor est.),3.6,"Beebe Healthcare
+3.6","Millville, DE",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$100 to $500 million (USD),43,70,56.5,DE,86
+203,248,Food Scientist - Developer,$40K-$68K (Glassdoor est.),3.3,"Palermo's Pizza
+3.3","Milwaukee, WI",501 - 1000 ,Food & Beverage Manufacturing,Manufacturing,Unknown / Non-Applicable,40,68,54.0,WI,57
+204,250,Staff Scientist-Downstream Process Development,$49K-$113K (Glassdoor est.),2.7,"Advanced BioScience Laboratories
+2.7","Rockville, MD",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),49,113,81.0,MD,60
+205,251,Sr. Data Engineer,$75K-$140K (Glassdoor est.),3.4,"Echo Global Logistics
+3.4","Chicago, IL",1001 - 5000 ,Transportation Management,Transportation & Logistics,$2 to $5 billion (USD),75,140,107.5,IL,16
+206,253,Data Scientist - Quantitative,$86K-$139K (Glassdoor est.),3.8,"Truckstop.com
+3.8","Chicago, IL",501 - 1000 ,Logistics & Supply Chain,Transportation & Logistics,Unknown / Non-Applicable,86,139,112.5,IL,26
+207,254,Data Scientist,$66K-$112K (Glassdoor est.),3.7,"Lockheed Martin
+3.7","Herndon, VA",10000+ ,Aerospace & Defense,Aerospace & Defense,$10+ billion (USD),66,112,89.0,VA,26
+208,255,Senior Research Statistician- Data Scientist,$76K-$125K (Glassdoor est.),4.8,"Acuity Insurance
+4.8","Sheboygan, WI",1001 - 5000 ,Insurance Carriers,Insurance,$1 to $2 billion (USD),76,125,100.5,WI,96
+209,256,"Business Data Analyst, SQL",$44K-$86K (Glassdoor est.),3.8,"Fareportal
+3.8","New York, NY",1001 - 5000 ,Travel Agencies,Travel & Tourism,$2 to $5 billion (USD),44,86,65.0,NY,19
+210,257,Medical Technologist / Clinical Laboratory Scientist,$15-$25 Per Hour(Glassdoor est.),3.4,"Veterans Affairs, Veterans Health Administration
+3.4","New Orleans, LA",10000+ ,Federal Agencies,Government,Unknown / Non-Applicable,31,52,41.5,LA,91
+211,258,Data Scientist,$53K-$92K (Glassdoor est.),4.3,"Credera
+4.3","Dallas, TX",201 - 500 ,Consulting,Business Services,Unknown / Non-Applicable,53,92,72.5,TX,22
+212,259,Senior Data Analyst,$44K-$78K (Glassdoor est.),4.8,"KnowBe4
+4.8","Clearwater, FL",501 - 1000 ,Security Services,Business Services,$100 to $500 million (USD),44,78,61.0,FL,11
+213,260,BI & Platform Analytics Manager,$85K-$134K (Glassdoor est.),3.4,"Church & Dwight
+3.4","Ewing, NJ",1001 - 5000 ,Consumer Products Manufacturing,Manufacturing,$2 to $5 billion (USD),85,134,109.5,NJ,175
+214,262,Data Engineer,$59K-$110K (Glassdoor est.),3.9,"Cogo Labs
+3.9","Cambridge, MA",51 - 200 ,Internet,Information Technology,Unknown / Non-Applicable,59,110,84.5,MA,16
+215,263,Data Scientist,$64K-$111K (Glassdoor est.),3.4,"Spectrum Communications and Consulting
+3.4","Chicago, IL",51 - 200 ,Advertising & Marketing,Business Services,$10 to $25 million (USD),64,111,87.5,IL,29
+216,264,Data Analyst,$65K-$120K (Glassdoor est.),3.1,"NCSOFT
+3.1","San Mateo, CA",1001 - 5000 ,Video Games,Media,$10+ billion (USD),65,120,92.5,CA,24
+217,265,Associate Data Scientist/Computer Scientist,$60K-$103K (Glassdoor est.),3.2,"MITRE
+3.2","McLean, VA",5001 - 10000 ,Federal Agencies,Government,$1 to $2 billion (USD),60,103,81.5,VA,63
+218,266,Business Intelligence Analyst / Developer,$53K-$105K (Glassdoor est.),4.3,"Dayton Freight Lines, Inc.
+4.3","Dayton, OH",1001 - 5000 ,Trucking,Transportation & Logistics,Unknown / Non-Applicable,53,105,79.0,OH,40
+219,267,Lead Data Scientist,$124K-$204K (Glassdoor est.),3.6,"MassMutual
+3.6","Boston, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),124,204,164.0,MA,170
+220,268,"Sr. Data Scientist - Analytics, Personalized Healthcare (PHC)",$131K-$207K (Glassdoor est.),3.9,"Genentech
+3.9","South San Francisco, CA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),131,207,169.0,CA,45
+221,269,Senior Data Scientist,$110K-$174K (Glassdoor est.),3.8,"Juniper Networks
+3.8","Cupertino, CA",5001 - 10000 ,Telecommunications Services,Telecommunications,$2 to $5 billion (USD),110,174,142.0,CA,25
+222,270,Data Analyst,$33K-$62K (Glassdoor est.),2.8,"Community Action Partnership of San Luis Obispo
+2.8","Parlier, CA",501 - 1000 ,Social Assistance,Non-Profit,$50 to $100 million (USD),33,62,47.5,CA,-1
+223,273,Pricipal Scientist Molecular and cellular biologist,$52K-$101K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Boston, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),52,101,76.5,MA,240
+224,274,Data Analyst,$48K-$90K (Glassdoor est.),3.4,"TrueAccord
+3.4","San Francisco, CA",51 - 200 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,48,90,69.0,CA,8
+225,275,Data Analyst,$34K-$64K (Glassdoor est.),4.0,"DRB Systems
+4.0","Meridian, ID",201 - 500 ,Computer Hardware & Software,Information Technology,$50 to $100 million (USD),34,64,49.0,ID,37
+226,276,Staff Data Scientist,$132K-$211K (Glassdoor est.),3.5,"Western Digital
+3.5","San Jose, CA",10000+ ,Computer Hardware & Software,Information Technology,$10+ billion (USD),132,211,171.5,CA,51
+227,277,"Data Scientist (Actuary, FSA or ASA)",$81K-$133K (Glassdoor est.),3.8,"Legal & General America
+3.8","Frederick, MD",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),81,133,107.0,MD,40
+228,278,System and Data Analyst,$42K-$76K (Glassdoor est.),3.7,"Corcentric
+3.7","Cherry Hill, NJ",201 - 500 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,42,76,59.0,NJ,25
+229,281,Data Scientist,$66K-$111K (Glassdoor est.),3.5,"U.Group
+3.5","Indianapolis, IN",201 - 500 ,IT Services,Information Technology,$25 to $50 million (USD),66,111,88.5,IN,2
+230,282,Data Engineer 5 - Contract (Remote),$74K-$140K (Glassdoor est.),4.2,"The Church of Jesus Christ of Latter-day Saints
+4.2","Riverton, UT",10000+ ,Religious Organizations,Non-Profit,Unknown / Non-Applicable,74,140,107.0,UT,-1
+231,284,Digital Health Data Scientist,$63K-$110K (Glassdoor est.),4.0,"Pfizer
+4.0","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),63,110,86.5,MA,172
+232,285,Data Scientist,$63K-$105K (Glassdoor est.),4.3,"SMC 3
+4.3","Louisville, KY",51 - 200 ,Logistics & Supply Chain,Transportation & Logistics,$10 to $25 million (USD),63,105,84.0,KY,86
+233,288,Data & Analytics Consultant (NYC),$91K-$138K (Glassdoor est.),4.7,"Systems Evolution Inc.
+4.7","New York, NY",201 - 500 ,Consulting,Business Services,$50 to $100 million (USD),91,138,114.5,NY,29
+234,289,Senior Scientist - Neuroscience,$100K-$190K (Glassdoor est.),3.5,"Sunovion
+3.5","Marlborough, MA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $2 billion (USD),100,190,145.0,MA,11
+235,290,Data Engineer,$62K-$114K (Glassdoor est.),4.4,"Eventbrite
+4.4","Nashville, TN",1001 - 5000 ,Internet,Information Technology,$100 to $500 million (USD),62,114,88.0,TN,15
+236,291,Big Data Engineer - Chicago - Future Opportunity,$71K-$129K (Glassdoor est.),4.1,"Centro
+4.1","Chicago, IL",501 - 1000 ,Internet,Information Technology,$100 to $500 million (USD),71,129,100.0,IL,20
+237,292,Senior Data Analyst,$43K-$80K (Glassdoor est.),2.9,"National Student Clearinghouse
+2.9","Herndon, VA",201 - 500 ,Colleges & Universities,Education,$25 to $50 million (USD),43,80,61.5,VA,28
+238,293,Data Scientist,$74K-$119K (Glassdoor est.),2.5,"comScore
+2.5","Portland, OR",1001 - 5000 ,Advertising & Marketing,Business Services,$1 to $2 billion (USD),74,119,96.5,OR,22
+239,295,Survey Data Analyst,$55K-$97K (Glassdoor est.),4.2,"SullivanCotter
+4.2","Minneapolis, MN",201 - 500 ,Consulting,Business Services,Unknown / Non-Applicable,55,97,76.0,MN,29
+240,296,Data Scientist,$15K-$16K(Employer est.),3.9,"NPD
+3.9","Port Washington, NY",1001 - 5000 ,Research & Development,Business Services,$100 to $500 million (USD),15,16,15.5,NY,55
+241,299,Data Scientist,$61K-$106K (Glassdoor est.),4.3,"Bakery Agency
+4.3","Austin, TX",1 - 50 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,61,106,83.5,TX,11
+242,300,"Risk and Analytics IT, Data Scientist",$91K-$149K (Glassdoor est.),2.7,"State of Wisconsin Investment Board
+2.7","Madison, WI",51 - 200 ,Investment Banking & Asset Management,Finance,$50 to $100 million (USD),91,149,120.0,WI,70
+243,302,Data Scientist,$127K-$199K (Glassdoor est.),3.9,"Genentech
+3.9","South San Francisco, CA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),127,199,163.0,CA,45
+244,305,Lead Health Data Analyst - Front End,$74K-$126K (Glassdoor est.),3.4,"Blue Cross & Blue Shield of Rhode Island
+3.4","Providence, RI",501 - 1000 ,Insurance Carriers,Insurance,Unknown / Non-Applicable,74,126,100.0,RI,82
+245,306,Research Scientist,$33K-$72K (Glassdoor est.),3.8,"Boys Town
+3.8","Omaha, NE",1001 - 5000 ,Social Assistance,Non-Profit,Unknown / Non-Applicable,33,72,52.5,NE,104
+246,307,Medical Lab Scientist,$17-$24 Per Hour(Glassdoor est.),3.6,"Tower Health
+3.6","West Reading, PA",5001 - 10000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,35,49,42.0,PA,4
+247,308,Junior Data Analyst,$37K-$63K (Glassdoor est.),3.3,"The HSC Health Care System
+3.3","Washington, DC",501 - 1000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,37,63,50.0,DC,138
+248,309,SQL Data Engineer,$67K-$119K (Glassdoor est.),3.4,"Pro-Sphere Tek
+3.4","Austin, TX",201 - 500 ,Consulting,Business Services,$50 to $100 million (USD),67,119,93.0,TX,15
+249,310,Data Scientist,$72K-$117K (Glassdoor est.),3.0,"Ameritas Life Insurance Corp
+3.0","Cincinnati, OH",1001 - 5000 ,Insurance Agencies & Brokerages,Insurance,$2 to $5 billion (USD),72,117,94.5,OH,134
+250,311,Senior Data Scientist,$116K-$185K (Glassdoor est.),4.0,"Autodesk
+4.0","San Francisco, CA",5001 - 10000 ,Computer Hardware & Software,Information Technology,$2 to $5 billion (USD),116,185,150.5,CA,39
+251,312,Data Scientist,$78K-$126K (Glassdoor est.),3.7,"Genworth
+3.7","Raleigh, NC",1001 - 5000 ,Insurance Carriers,Insurance,$5 to $10 billion (USD),78,126,102.0,NC,17
+252,313,"Scientist, Analytical Development",$42K-$82K (Glassdoor est.),4.4,"Rubius Therapeutics
+4.4","Cambridge, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$100 to $500 million (USD),42,82,62.0,MA,8
+253,314,Analytics Manager,$59K-$116K (Glassdoor est.),4.3,"OneMagnify
+4.3","Dearborn, MI",201 - 500 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,59,116,87.5,MI,54
+254,316,Clinical Data Scientist,$63K-$105K (Glassdoor est.),4.0,"Pfizer
+4.0","Groton, CT",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),63,105,84.0,CT,172
+255,317,Data Scientist,$109K-$177K (Glassdoor est.),4.0,"Novetta
+4.0","Herndon, VA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),109,177,143.0,VA,9
+256,318,"Sr. Data Scientist, Cyber-Security LT Contract",$116K-$194K (Glassdoor est.),3.2,"Numeric, LLC
+3.2","Phila, PA",1 - 50 ,Staffing & Outsourcing,Business Services,$5 to $10 million (USD),116,194,155.0,PA,-1
+257,319,Data Engineer,$48K-$95K (Glassdoor est.),4.2,"IZEA
+4.2","Winter Park, FL",51 - 200 ,Advertising & Marketing,Business Services,$25 to $50 million (USD),48,95,71.5,FL,15
+258,320,Data Scientist,$83K-$133K (Glassdoor est.),3.9,"Trace Data
+3.9","Oakland, CA",51 - 200 ,Insurance Carriers,Insurance,$10 to $25 million (USD),83,133,108.0,CA,21
+259,322,Sr. Scientist - Digital & Image Analysis/Computational Pathology,$105K-$198K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","San Diego, CA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),105,198,151.5,CA,240
+260,323,Digital Marketing & ECommerce Data Analyst,$31K-$72K (Glassdoor est.),3.6,"Vionic Group
+3.6","San Rafael, CA",51 - 200 ,"Department, Clothing, & Shoe Stores",Retail,$100 to $500 million (USD),31,72,51.5,CA,15
+261,324,Principal Scientist - Immunologist,$98K-$182K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Boston, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),98,182,140.0,MA,240
+262,325,Senior Data Analyst,$55K-$100K (Glassdoor est.),2.8,"Dodge Data & Analytics
+2.8","Hamilton, NJ",201 - 500 ,IT Services,Information Technology,Unknown / Non-Applicable,55,100,77.5,NJ,7
+263,326,Insurance Financial Data Analyst,$45K-$82K (Glassdoor est.),4.2,"Clearwater Analytics
+4.2","Boise, ID",501 - 1000 ,Investment Banking & Asset Management,Finance,$50 to $100 million (USD),45,82,63.5,ID,17
+264,328,Data Scientist,$83K-$135K (Glassdoor est.),4.0,"Tekvalley, Corp.
+4.0","San Francisco, CA",1 - 50 ,IT Services,Information Technology,Less than $1 million (USD),83,135,109.0,CA,-1
+265,330,Data Scientist,$70K-$122K (Glassdoor est.),3.5,"BWX Technologies
+3.5","Oak Ridge, TN",5001 - 10000 ,Aerospace & Defense,Aerospace & Defense,$500 million to $1 billion (USD),70,122,96.0,TN,171
+266,331,Principal Data Scientist with over 10 years experience,Employer Provided Salary:$200K-$250K,-1.0,CA-One Tech Cloud,"San Francisco, CA",51 - 200 ,IT Services,Information Technology,$5 to $10 million (USD),200,250,225.0,CA,4
+267,332,Data Engineer,$70K-$132K (Glassdoor est.),3.2,"PennyMac
+3.2","Agoura Hills, CA",1001 - 5000 ,Lending,Finance,$500 million to $1 billion (USD),70,132,101.0,CA,13
+268,333,Senior Data Scientist,$73K-$124K (Glassdoor est.),3.3,"Plymouth Rock Assurance
+3.3","Woodbridge, NJ",1001 - 5000 ,Insurance Carriers,Insurance,$10 to $25 million (USD),73,124,98.5,NJ,39
+269,334,Data Engineer I - Azure,$54K-$101K (Glassdoor est.),3.9,"Vermeer
+3.9","Pella, IA",1001 - 5000 ,Industrial Manufacturing,Manufacturing,$1 to $2 billion (USD),54,101,77.5,IA,73
+270,335,"Sr. Scientist, Quantitative Translational Sciences",$117K-$206K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Boston, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),117,206,161.5,MA,240
+271,337,MED TECH/LAB SCIENTIST - LABORATORY,$21-$34 Per Hour(Glassdoor est.),3.6,"Beebe Healthcare
+3.6","Lewes, DE",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$100 to $500 million (USD),43,70,56.5,DE,86
+272,339,Sr. Data Scientist II,$111K-$183K (Glassdoor est.),3.4,"Argo Group US
+3.4","New York, NY",1001 - 5000 ,Insurance Carriers,Insurance,$1 to $2 billion (USD),111,183,147.0,NY,73
+273,341,Data Scientist,$68K-$112K (Glassdoor est.),3.5,"L&T Infotech
+3.5","San Ramon, CA",10000+ ,IT Services,Information Technology,Unknown / Non-Applicable,68,112,90.0,CA,24
+274,342,Information Security Data Analyst,$42K-$74K (Glassdoor est.),4.3,"OceanFirst Financial
+4.3","Red Bank, NJ",501 - 1000 ,Banks & Credit Unions,Finance,$5 to $10 billion (USD),42,74,58.0,NJ,119
+275,344,Excel / VBA / SQL Data Analyst,$44K-$78K (Glassdoor est.),4.1,"Associated Electric Cooperative
+4.1","Springfield, MO",501 - 1000 ,Energy,"Oil, Gas, Energy & Utilities",$1 to $2 billion (USD),44,78,61.0,MO,60
+276,346,Machine Learning Research Scientist,$81K-$159K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,81,159,120.0,PA,37
+277,347,Data Scientist,$95K-$161K (Glassdoor est.),3.6,"Sotheby's
+3.6","New York, NY",1001 - 5000 ,Auctions & Galleries,Retail,$500 million to $1 billion (USD),95,161,128.0,NY,277
+278,348,Data Scientist,$75K-$124K (Glassdoor est.),3.5,"First Tech Federal Credit Union
+3.5","Hillsboro, OR",1001 - 5000 ,Banks & Credit Unions,Finance,$100 to $500 million (USD),75,124,99.5,OR,69
+279,349,Data Scientist,$72K-$120K (Glassdoor est.),3.6,"Amrock
+3.6","Detroit, MI",1001 - 5000 ,Real Estate,Real Estate,$500 million to $1 billion (USD),72,120,96.0,MI,24
+280,350,Data Scientist,$76K-$126K (Glassdoor est.),2.3,"Vanda Pharmaceuticals
+2.3","Washington, DC",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$100 to $500 million (USD),76,126,101.0,DC,18
+281,351,Senior Data Scientist,$114K-$182K (Glassdoor est.),3.9,"Zest AI
+3.9","Burbank, CA",51 - 200 ,Financial Analytics & Research,Finance,$50 to $100 million (USD),114,182,148.0,CA,12
+282,352,"Data Scientist, Senior",$108K-$176K (Glassdoor est.),4.0,"Novetta
+4.0","Fort Belvoir, VA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),108,176,142.0,VA,9
+283,353,Senior Data Scientist,$130K-$208K (Glassdoor est.),4.1,"CK-12 Foundation
+4.1","Palo Alto, CA",1 - 50 ,K-12 Education,Education,Unknown / Non-Applicable,130,208,169.0,CA,14
+284,354,"VP, Data Science",$83K-$166K (Glassdoor est.),3.2,"PennyMac
+3.2","Phoenix, AZ",1001 - 5000 ,Lending,Finance,$500 million to $1 billion (USD),83,166,124.5,AZ,13
+285,355,Radar Data Analyst,$42K-$76K (Glassdoor est.),4.7,"DECISIVE ANALYTICS Corporation
+4.7","Huntsville, AL",51 - 200 ,Aerospace & Defense,Aerospace & Defense,$25 to $50 million (USD),42,76,59.0,AL,25
+286,356,CONSULTANT– DATA ANALYTICS GROUP,$37K-$68K (Glassdoor est.),4.2,"Opinion Dynamics
+4.2","San Diego, CA",51 - 200 ,Consulting,Business Services,$10 to $25 million (USD),37,68,52.5,CA,34
+287,357,Data Engineer,$52K-$99K (Glassdoor est.),4.6,"Applied Information Sciences
+4.6","Houston, TX",501 - 1000 ,IT Services,Information Technology,$50 to $100 million (USD),52,99,75.5,TX,39
+288,358,Senior Data Scientist,$105K-$173K (Glassdoor est.),3.7,"Swiss Re
+3.7","Armonk, NY",10000+ ,Insurance Agencies & Brokerages,Insurance,$10+ billion (USD),105,173,139.0,NY,158
+289,362,"Data Engineer, Data Engineering and Artifical Intelligence",$71K-$134K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),71,134,102.5,MA,240
+290,364,Staff Scientist,$39K-$82K (Glassdoor est.),4.4,"WK Dickson
+4.4","Columbia, SC",201 - 500 ,Architectural & Engineering Services,Business Services,$25 to $50 million (USD),39,82,60.5,SC,92
+291,366,PL Actuarial-Lead Data Scientist,$114K-$179K (Glassdoor est.),3.7,"The Hanover Insurance Group
+3.7","Worcester, MA",5001 - 10000 ,Insurance Carriers,Insurance,$5 to $10 billion (USD),114,179,146.5,MA,169
+292,367,"Associate Scientist/Scientist, Process Analytical Technology - Small Molecule Analytical Chemistry",$88K-$162K (Glassdoor est.),3.9,"Genentech
+3.9","South San Francisco, CA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),88,162,125.0,CA,45
+293,368,Sr. Data Analyst,$60K-$102K (Glassdoor est.),3.6,"MassMutual
+3.6","Springfield, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),60,102,81.0,MA,170
+294,369,Senior Data & Machine Learning Scientist,$100K-$166K (Glassdoor est.),3.0,"Tempus Labs
+3.0","Chicago, IL",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,100,166,133.0,IL,6
+295,370,Program/Data Analyst,$55K-$99K (Glassdoor est.),3.4,"General Dynamics Information Technology
+3.4","Washington, DC",10000+ ,IT Services,Information Technology,$10+ billion (USD),55,99,77.0,DC,25
+296,371,Data Engineer,$67K-$117K (Glassdoor est.),4.1,"ManTech
+4.1","Herndon, VA",5001 - 10000 ,Research & Development,Business Services,$1 to $2 billion (USD),67,117,92.0,VA,53
+297,372,Senior Data Scientist: Causal & Predictive analytics AI Innovation Lab,$92K-$150K (Glassdoor est.),3.8,"Novartis
+3.8","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),92,150,121.0,MA,25
+298,375,"Principal Data Engineer, Data Platform & Insights",$116K-$209K (Glassdoor est.),4.0,"Autodesk
+4.0","San Francisco, CA",5001 - 10000 ,Computer Hardware & Software,Information Technology,$2 to $5 billion (USD),116,209,162.5,CA,39
+299,376,RESEARCH SCIENTIST - BIOLOGICAL SAFETY,$38K-$82K (Glassdoor est.),3.9,"Southwest Research Institute
+3.9","San Antonio, TX",1001 - 5000 ,Research & Development,Business Services,$500 million to $1 billion (USD),38,82,60.0,TX,74
+300,377,Data Operations Lead,Employer Provided Salary:$85K-$90K,-1.0,Muso,"San Francisco, CA",201 - 500 ,-1,-1,Unknown / Non-Applicable,85,90,87.5,CA,-1
+301,379,Big Data Engineer,$62K-$119K (Glassdoor est.),4.4,"SpringML
+4.4","Indianapolis, IN",1 - 50 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,62,119,90.5,IN,6
+302,380,Data Scientist / Machine Learning Expert,$86K-$143K (Glassdoor est.),3.8,"Novartis
+3.8","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),86,143,114.5,MA,25
+303,381,Data Scientist,$93K-$149K (Glassdoor est.),3.8,"Juniper Networks
+3.8","Sunnyvale, CA",5001 - 10000 ,Telecommunications Services,Telecommunications,$2 to $5 billion (USD),93,149,121.0,CA,25
+304,382,Senior Data Scientist,$84K-$136K (Glassdoor est.),2.2,"The Integer Group
+2.2","Dallas, TX",501 - 1000 ,Advertising & Marketing,Business Services,$50 to $100 million (USD),84,136,110.0,TX,28
+305,383,PV Scientist,$60K-$123K (Glassdoor est.),2.9,"Karyopharm Therapeutics Inc.
+2.9","Newton, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,60,123,91.5,MA,-1
+306,384,Clinical Data Analyst,$52K-$89K (Glassdoor est.),4.1,"ManTech
+4.1","Portsmouth, VA",5001 - 10000 ,Research & Development,Business Services,$1 to $2 billion (USD),52,89,70.5,VA,53
+307,386,Data Engineer,$48K-$93K (Glassdoor est.),3.7,"P2 Energy Solutions
+3.7","Lafayette, LA",501 - 1000 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,48,93,70.5,LA,-1
+308,387,Computational Chemist/Data Scientist,$56K-$97K (Glassdoor est.),3.8,"PNNL
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),56,97,76.5,WA,56
+309,388,Data Engineer,$65K-$119K (Glassdoor est.),3.6,"MassMutual
+3.6","Springfield, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),65,119,92.0,MA,170
+310,390,Principal Data Scientist (Computational Chemistry),$108K-$173K (Glassdoor est.),4.7,"Recursion Pharmaceuticals
+4.7","Salt Lake City, UT",51 - 200 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $5 million (USD),108,173,140.5,UT,8
+311,391,Product Engineer – Data Science,$63K-$101K (Glassdoor est.),3.5,"Esri
+3.5","Arlington, VA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),63,101,82.0,VA,52
+312,392,"Principal Scientist, Chemistry & Immunology",$54K-$115K (Glassdoor est.),3.3,"Rochester Regional Health
+3.3","Rochester, NY",10000+ ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),54,115,84.5,NY,7
+313,394,"Scientist/Senior Scientist, Autoimmune",$90K-$179K (Glassdoor est.),4.4,"Rubius Therapeutics
+4.4","Cambridge, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$100 to $500 million (USD),90,179,134.5,MA,8
+314,396,Data Scientist,$127K-$202K (Glassdoor est.),3.3,"Samba TV
+3.3","San Francisco, CA",201 - 500 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,127,202,164.5,CA,13
+315,397,Market Data Analyst,$31K-$57K (Glassdoor est.),3.4,"SV Microwave
+3.4","West Palm Beach, FL",201 - 500 ,Telecommunications Manufacturing,Telecommunications,$50 to $100 million (USD),31,57,44.0,FL,30
+316,398,Software Engineer - Data Visualization,$60K-$127K (Glassdoor est.),4.0,"ClearEdge
+4.0","Annapolis Junction, MD",51 - 200 ,Computer Hardware & Software,Information Technology,$5 to $10 million (USD),60,127,93.5,MD,19
+317,399,Data Engineer,$75K-$143K (Glassdoor est.),4.4,"SpringML
+4.4","Herndon, VA",1 - 50 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,75,143,109.0,VA,6
+318,400,Staff Data Engineer,$105K-$194K (Glassdoor est.),3.8,"Sumo Logic
+3.8","Austin, TX",501 - 1000 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,105,194,149.5,TX,11
+319,401,Associate Data Engineer,$45K-$86K (Glassdoor est.),3.5,"EAB
+3.5","Washington, DC",1001 - 5000 ,Research & Development,Business Services,Unknown / Non-Applicable,45,86,65.5,DC,14
+320,403,Senior Data Scientist,$95K-$154K (Glassdoor est.),3.5,"Brighthouse Financial
+3.5","Charlotte, NC",1001 - 5000 ,Insurance Carriers,Insurance,Unknown / Non-Applicable,95,154,124.5,NC,4
+321,406,Staff BI and Data Engineer,$80K-$148K (Glassdoor est.),2.9,"Affinity Solutions
+2.9","San Jose, CA",51 - 200 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,80,148,114.0,CA,23
+322,407,Marketing Data Analyst,$36K-$62K (Glassdoor est.),3.9,"Citadel Federal Credit Union
+3.9","Exton, PA",501 - 1000 ,Banks & Credit Unions,Finance,Unknown / Non-Applicable,36,62,49.0,PA,84
+323,409,"Principal Scientist, Hematology",$54K-$115K (Glassdoor est.),3.3,"Rochester Regional Health
+3.3","Rochester, NY",10000+ ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),54,115,84.5,NY,7
+324,410,Data Analyst,$50K-$92K (Glassdoor est.),3.7,"CALIBRE Systems
+3.7","Alexandria, VA",501 - 1000 ,IT Services,Information Technology,$100 to $500 million (USD),50,92,71.0,VA,32
+325,411,"Director - Data, Privacy and AI Governance",$67K-$135K (Glassdoor est.),3.6,"MassMutual
+3.6","Boston, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),67,135,101.0,MA,170
+326,412,Data Scientist,$82K-$132K (Glassdoor est.),3.5,"Esri
+3.5","Redlands, CA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),82,132,107.0,CA,52
+327,413,Data Scientist,$85K-$140K (Glassdoor est.),4.7,"New England Biolabs
+4.7","Ipswich, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,85,140,112.5,MA,47
+328,414,Staff Machine Learning Engineer,$138K-$224K (Glassdoor est.),3.9,"Tapjoy
+3.9","San Francisco, CA",201 - 500 ,Internet,Information Technology,$10 to $25 million (USD),138,224,181.0,CA,14
+329,415,Information Security Data Analyst,$42K-$80K (Glassdoor est.),3.7,"Motorola Solutions
+3.7","Chicago, IL",10000+ ,Computer Hardware & Software,Information Technology,$5 to $10 billion (USD),42,80,61.0,IL,93
+330,416,Lead Data Engineer,$190K-$220K(Employer est.),4.1,"Credit Sesame
+4.1","Mountain View, CA",51 - 200 ,Internet,Information Technology,$50 to $100 million (USD),190,220,205.0,CA,11
+331,417,Scientist Manufacturing - Kentucky BioProcessing,$68K-$139K (Glassdoor est.),3.1,"Reynolds American
+3.1","Owensboro, KY",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),68,139,103.5,KY,146
+332,419,Data Analytics Project Manager,$34K-$92K (Glassdoor est.),3.6,"MassMutual
+3.6","Springfield, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),34,92,63.0,MA,170
+333,420,Consultant - Analytics Consulting,$54K-$71K (Glassdoor est.),3.0,"Infosys
+3.0","Hartford, CT",10000+ ,IT Services,Information Technology,$10+ billion (USD),54,71,62.5,CT,40
+334,421,Data Engineer,$65K-$124K (Glassdoor est.),3.5,"Alignment Healthcare
+3.5","Orange, CA",501 - 1000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,65,124,94.5,CA,8
+335,425,Marketing Data Analyst,$35K-$62K (Glassdoor est.),3.6,"San Manuel Casino
+3.6","Highland, CA",1001 - 5000 ,Gambling,"Arts, Entertainment & Recreation",$100 to $500 million (USD),35,62,48.5,CA,35
+336,426,Senior Scientist (Neuroscience),$109K-$200K (Glassdoor est.),3.5,"Sunovion
+3.5","Marlborough, MA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $2 billion (USD),109,200,154.5,MA,11
+337,427,Medical Laboratory Scientist,$18-$25 Per Hour(Glassdoor est.),4.0,"Texas Health Huguley Hospital
+4.0","Burleson, TX",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$50 to $100 million (USD),37,52,44.5,TX,44
+338,428,Machine Learning Engineer - Regulatory,$61K-$113K (Glassdoor est.),3.7,"Cboe Global Markets
+3.7","Lenexa, KS",501 - 1000 ,Stock Exchanges,Finance,$500 million to $1 billion (USD),61,113,87.0,KS,48
+339,429,R&D Specialist/ Food Scientist,$39K-$66K (Glassdoor est.),2.4,"Teasdale Latin Foods
+2.4","Hoopeston, IL",501 - 1000 ,Food & Beverage Manufacturing,Manufacturing,$100 to $500 million (USD),39,66,52.5,IL,-1
+340,430,Data Engineer,$43K-$86K (Glassdoor est.),3.2,"Guidepoint
+3.2","New York, NY",501 - 1000 ,Research & Development,Business Services,Unknown / Non-Applicable,43,86,64.5,NY,18
+341,431,"Scientist, Bacteriology",$74K-$149K (Glassdoor est.),2.1,"Cerus Corporation
+2.1","Concord, CA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),74,149,111.5,CA,-1
+342,433,"Associate Director, Platform and DevOps- Data Engineering and Aritifical Intelligence",$113K-$196K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),113,196,154.5,MA,240
+343,434,Senior Research Scientist-Machine Learning,$81K-$167K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,81,167,124.0,PA,37
+344,435,Senior Data Scientist,$97K-$160K (Glassdoor est.),4.4,"Maven Wave Partners
+4.4","Chicago, IL",201 - 500 ,Consulting,Business Services,$50 to $100 million (USD),97,160,128.5,IL,13
+345,437,Clinical Laboratory Scientist,$24-$39 Per Hour(Glassdoor est.),3.7,"Vail Health
+3.7","Vail, CO",501 - 1000 ,Health Care Services & Hospitals,Health Care,$100 to $500 million (USD),49,81,65.0,CO,55
+346,442,Analytics Manager - Data Mart,$42K-$86K (Glassdoor est.),3.5,"Central California Alliance for Health
+3.5","Scotts Valley, CA",501 - 1000 ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),42,86,64.0,CA,25
+347,443,Sr. Data Engineer - Contract-to-Hire (Java),$69K-$127K (Glassdoor est.),3.0,"Pilot Flying J Travel Centers LLC
+3.0","Knoxville, TN",10000+ ,Gas Stations,Retail,$10+ billion (USD),69,127,98.0,TN,63
+348,444,Data Scientist - Algorithms & Inference,$110K-$175K (Glassdoor est.),4.2,"Nuna
+4.2","San Francisco, CA",51 - 200 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,110,175,142.5,CA,11
+349,446,Senior Data Scientist - R&D Oncology,$102K-$172K (Glassdoor est.),3.9,"AstraZeneca
+3.9","New York, NY",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),102,172,137.0,NY,108
+350,447,Data Engineer,$74K-$124K (Glassdoor est.),4.0,"Pinnacol Assurance
+4.0","Denver, CO",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),74,124,99.0,CO,106
+351,448,Food Scientist - Developer,$40K-$68K (Glassdoor est.),3.3,"Palermo's Pizza
+3.3","Milwaukee, WI",501 - 1000 ,Food & Beverage Manufacturing,Manufacturing,Unknown / Non-Applicable,40,68,54.0,WI,57
+352,449,Senior Data Scientist,$108K-$171K (Glassdoor est.),4.4,"MathWorks
+4.4","Natick, MA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),108,171,139.5,MA,37
+353,450,Data Engineer,$76K-$142K (Glassdoor est.),3.4,"MetroStar Systems
+3.4","Rockville, MD",201 - 500 ,IT Services,Information Technology,$25 to $50 million (USD),76,142,109.0,MD,22
+354,452,"Director II, Data Science - GRM Actuarial",$202K-$306K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Chicago, IL",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),202,306,254.0,IL,109
+355,454,"Scientist, Molecular/Cellular Biologist",$49K-$97K (Glassdoor est.),2.9,"Audentes Therapeutics
+2.9","South San Francisco, CA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,49,97,73.0,CA,9
+356,455,Staff Scientist-Downstream Process Development,$49K-$113K (Glassdoor est.),2.7,"Advanced BioScience Laboratories
+2.7","Rockville, MD",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),49,113,81.0,MD,60
+357,456,MED TECH/LAB SCIENTIST- SOUTH COASTAL LAB,$21-$34 Per Hour(Glassdoor est.),3.6,"Beebe Healthcare
+3.6","Millville, DE",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$100 to $500 million (USD),43,70,56.5,DE,86
+358,458,Scientist - Analytical Services,$65K-$134K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),65,134,99.5,NC,146
+359,459,Associate Data Analyst- Graduate Development Program,$32K-$59K (Glassdoor est.),3.3,"National Interstate
+3.3","Richfield, OH",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),32,59,45.5,OH,32
+360,461,Sr. Data Engineer,$87K-$158K (Glassdoor est.),4.5,"Moser Consulting
+4.5","Indianapolis, IN",51 - 200 ,Consulting,Business Services,$25 to $50 million (USD),87,158,122.5,IN,25
+361,462,Senior Insurance Data Scientist,$107K-$173K (Glassdoor est.),3.9,"TransUnion
+3.9","Chicago, IL",5001 - 10000 ,Financial Analytics & Research,Finance,$1 to $2 billion (USD),107,173,140.0,IL,53
+362,463,Senior Data Science Systems Engineer,$56K-$99K (Glassdoor est.),3.2,"MITRE
+3.2","Hampton, VA",5001 - 10000 ,Federal Agencies,Government,$1 to $2 billion (USD),56,99,77.5,VA,63
+363,464,ENVIRONMENTAL ENGINEER/SCIENTIST,Employer Provided Salary:$25-$28 Per Hour,3.3,"Mcphail Associates
+3.3","Cambridge, MA",1 - 50 ,Construction,"Construction, Repair & Maintenance",Unknown / Non-Applicable,52,58,55.0,MA,45
+364,466,Senior Scientist - Regulatory Submissions,$80K-$155K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),80,155,117.5,NC,146
+365,467,Scientist - Biomarker and Flow Cytometry,$43K-$98K (Glassdoor est.),2.4,"Crown Bioscience
+2.4","San Diego, CA",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$50 to $100 million (USD),43,98,70.5,CA,15
+366,468,Revenue Analytics Manager,$45K-$78K (Glassdoor est.),4.8,"HOVER
+4.8","San Francisco, CA",51 - 200 ,Computer Hardware & Software,Information Technology,$25 to $50 million (USD),45,78,61.5,CA,10
+367,469,"Associate Scientist, LC/MS Biologics",$44K-$96K (Glassdoor est.),2.9,"Q2 Solutions
+2.9","Ithaca, NY",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,44,96,70.0,NY,6
+368,470,Sr. Scientist Method Development,$50K-$110K (Glassdoor est.),2.9,"Q2 Solutions
+2.9","Marietta, GA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,50,110,80.0,GA,6
+369,471,IT - Data Engineer II,$61K-$119K (Glassdoor est.),3.4,"Arbella Insurance
+3.4","Quincy, MA",1001 - 5000 ,Insurance Carriers,Insurance,$100 to $500 million (USD),61,119,90.0,MA,33
+370,472,"Research Scientist, Immunology - Cancer Biology",Employer Provided Salary:$100K-$140K,-1.0,Kronos Bio,"Cambridge, MA",unknown,-1,-1,Unknown / Non-Applicable,100,140,120.0,MA,-1
+371,473,"Project Scientist - Auton Lab, Robotics Institute",$56K-$91K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,56,91,73.5,PA,37
+372,476,Data Scientist,$68K-$114K (Glassdoor est.),3.8,"Zimmerman Advertising
+3.8","Fort Lauderdale, FL",501 - 1000 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,68,114,91.0,FL,37
+373,477,Data Scientist,Employer Provided Salary:$150K-$160K,5.0,"BPA Services
+5.0","Washington, DC",unknown,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,150,160,155.0,DC,-1
+374,479,"Enterprise Architect, Data",$101K-$158K (Glassdoor est.),3.6,"MassMutual
+3.6","Boston, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),101,158,129.5,MA,170
+375,482,"Senior Manager, Epidemiologic Data Scientist",$125K-$210K (Glassdoor est.),4.0,"Pfizer
+4.0","New York, NY",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),125,210,167.5,NY,172
+376,483,Corporate Risk Data Analyst (SQL Based) - Milwaukee or,$43K-$77K (Glassdoor est.),3.8,"Associated Banc-Corp
+3.8","Green Bay, WI",1001 - 5000 ,Banks & Credit Unions,Finance,$1 to $2 billion (USD),43,77,60.0,WI,151
+377,485,Lead Data Scientist,$139K-$221K (Glassdoor est.),3.9,"Zest AI
+3.9","Burbank, CA",51 - 200 ,Financial Analytics & Research,Finance,$50 to $100 million (USD),139,221,180.0,CA,12
+378,486,"Marketing Data Analyst, May 2020 Undergrad",$44K-$86K (Glassdoor est.),3.8,"Fareportal
+3.8","New York, NY",1001 - 5000 ,Travel Agencies,Travel & Tourism,$2 to $5 billion (USD),44,86,65.0,NY,19
+379,487,Senior Data Engineer,$78K-$147K (Glassdoor est.),4.3,"Genesys
+4.3","Durham, NC",5001 - 10000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),78,147,112.5,NC,31
+380,488,Senior Data Analyst,$65K-$110K (Glassdoor est.),1.9,"Moda Operandi
+1.9","New York, NY",201 - 500 ,"Department, Clothing, & Shoe Stores",Retail,$100 to $500 million (USD),65,110,87.5,NY,11
+381,489,Data Modeler - Data Solutions Engineer,$37K-$66K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Indianapolis, IN",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),37,66,51.5,IN,109
+382,490,Associate Environmental Scientist - Wildlife Biologist,$38K-$64K (Glassdoor est.),4.7,"QK
+4.7","Clovis, CA",51 - 200 ,Architectural & Engineering Services,Business Services,$10 to $25 million (USD),38,64,51.0,CA,49
+383,491,"Associate, Data Science, Internal Audit",$43K-$82K (Glassdoor est.),3.1,"Santander
+3.1","Boston, MA",10000+ ,Banks & Credit Unions,Finance,$10+ billion (USD),43,82,62.5,MA,165
+384,492,Sr Data Engineer (Sr BI Developer),$90K-$110K(Employer est.),3.4,"Tivity Health
+3.4","Chandler, AZ",501 - 1000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,90,110,100.0,AZ,40
+385,493,Data Engineer,$61K-$109K (Glassdoor est.),4.4,"BRMi
+4.4","Chantilly, VA",51 - 200 ,IT Services,Information Technology,Unknown / Non-Applicable,61,109,85.0,VA,17
+386,494,Senior LiDAR Data Scientist,$93K-$151K (Glassdoor est.),3.9,"Luminar Technologies
+3.9","Orlando, FL",201 - 500 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,93,151,122.0,FL,9
+387,495,Salesforce Analytics Consultant,$52K-$81K (Glassdoor est.),3.9,"Emtec, Inc.
+3.9","Chicago, IL",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),52,81,66.5,IL,26
+388,496,"Technology-Minded, Data Professional Opportunities",$40K-$101K (Glassdoor est.),4.7,"Veterans United Home Loans
+4.7","Columbia, MO",1001 - 5000 ,Lending,Finance,Unknown / Non-Applicable,40,101,70.5,MO,19
+389,497,Senior Data Engineer,$97K-$180K (Glassdoor est.),4.7,"Praetorian
+4.7","Austin, TX",51 - 200 ,Security Services,Business Services,$10 to $25 million (USD),97,180,138.5,TX,11
+390,498,Managing Data Scientist/ML Engineer,$81K-$134K (Glassdoor est.),3.4,"PA Consulting
+3.4","Boston, MA",1001 - 5000 ,Consulting,Business Services,$100 to $500 million (USD),81,134,107.5,MA,78
+391,499,"Scientist, Pharmacometrics",$84K-$157K (Glassdoor est.),3.8,"Agios Pharmaceuticals
+3.8","Cambridge, MA",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$50 to $100 million (USD),84,157,120.5,MA,13
+392,500,Staff Scientist- Upstream PD,$49K-$113K (Glassdoor est.),2.7,"Advanced BioScience Laboratories
+2.7","Rockville, MD",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),49,113,81.0,MD,60
+393,501,Scientist Manufacturing Pharma - Kentucky BioProcessing,$68K-$139K (Glassdoor est.),3.1,"Reynolds American
+3.1","Owensboro, KY",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),68,139,103.5,KY,146
+394,502,Sr. Data Engineer,$75K-$140K (Glassdoor est.),3.4,"Echo Global Logistics
+3.4","Chicago, IL",1001 - 5000 ,Transportation Management,Transportation & Logistics,$2 to $5 billion (USD),75,140,107.5,IL,16
+395,505,Lead Big Data Engineer,$121K-$203K (Glassdoor est.),4.0,"Glassdoor
+4.0","San Francisco, CA",1001 - 5000 ,Internet,Information Technology,Unknown / Non-Applicable,121,203,162.0,CA,14
+396,506,Product Engineer – Spatial Data Science and Statistical Analysis,$52K-$85K (Glassdoor est.),3.5,"Esri
+3.5","Redlands, CA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),52,85,68.5,CA,52
+397,507,Sr Software Engineer (Data Scientist),$81K-$140K (Glassdoor est.),3.4,"Assurant
+3.4","Westlake, OH",10000+ ,Insurance Carriers,Insurance,$5 to $10 billion (USD),81,140,110.5,OH,43
+398,508,College Hire - Data Scientist - Open to December 2019 Graduates,$63K-$99K (Glassdoor est.),3.7,"Caterpillar
+3.7","Peoria, IL",10000+ ,Industrial Manufacturing,Manufacturing,$10+ billion (USD),63,99,81.0,IL,96
+399,509,Senior Data Scientist,$110K-$150K(Employer est.),4.3,"Equity Residential
+4.3","Chicago, IL",1001 - 5000 ,Real Estate,Real Estate,$2 to $5 billion (USD),110,150,130.0,IL,28
+400,510,Sr. Data Engineer (ETL Developer),$83K-$148K (Glassdoor est.),3.7,"F&G
+3.7","Des Moines, IA",201 - 500 ,Insurance Carriers,Insurance,$100 to $500 million (USD),83,148,115.5,IA,-1
+401,512,Senior Data Scientist Artificial Intelligence,$60K-$101K (Glassdoor est.),3.8,"PNNL
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),60,101,80.5,WA,56
+402,516,Analytics - Business Assurance Data Analyst,$31K-$55K (Glassdoor est.),4.6,"GreatAmerica Financial Services
+4.6","Cedar Rapids, IA",501 - 1000 ,Lending,Finance,$100 to $500 million (USD),31,55,43.0,IA,29
+403,517,"Associate Director/Director, Safety Scientist",$102K-$178K (Glassdoor est.),4.4,"Acceleron Pharma
+4.4","Cambridge, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,102,178,140.0,MA,18
+404,518,"Senior Scientist, Cell Pharmacology/Assay Development",Employer Provided Salary:$110K-$130K,-1.0,Kronos Bio,"Cambridge, MA",unknown,-1,-1,Unknown / Non-Applicable,110,130,120.0,MA,-1
+405,519,Data Analyst Senior,$48K-$85K (Glassdoor est.),3.0,"AmeriHealth Caritas
+3.0","Philadelphia, PA",5001 - 10000 ,Insurance Carriers,Insurance,$5 to $10 billion (USD),48,85,66.5,PA,38
+406,520,Lead Data Engineer (Python),$66K-$123K (Glassdoor est.),4.7,"Strategic Employment Partners
+4.7","San Francisco, CA",51 - 200 ,Staffing & Outsourcing,Business Services,$1 to $5 million (USD),66,123,94.5,CA,15
+407,521,Senior Data Scientist 4 Artificial Intelligence,$92K-$146K (Glassdoor est.),3.8,"PNNL
+3.8","Seattle, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),92,146,119.0,WA,56
+408,522,Medical Lab Scientist - MLT,$21-$29 Per Hour(Glassdoor est.),3.2,"Catholic Health Initiatives
+3.2","Omaha, NE",10000+ ,Health Care Services & Hospitals,Health Care,$10+ billion (USD),43,60,51.5,NE,25
+409,523,"Senior Operations Data Analyst, Call Center Operations",$10-$17 Per Hour(Glassdoor est.),2.7,"FLEETCOR
+2.7","Nashville, TN",5001 - 10000 ,Financial Transaction Processing,Finance,$2 to $5 billion (USD),20,35,27.5,TN,21
+410,524,"Director II, Data Science - GRS Predictive Analytics",$150K-$239K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Chicago, IL",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),150,239,194.5,IL,109
+411,525,RESEARCH COMPUTER SCIENTIST - RESEARCH ENGINEER - SR. COMPUTER SCIENTIST - SOFTWARE DEVELOPMENT,$52K-$91K (Glassdoor est.),3.9,"Southwest Research Institute
+3.9","San Antonio, TX",1001 - 5000 ,Research & Development,Business Services,$500 million to $1 billion (USD),52,91,71.5,TX,74
+412,526,Geospatial Software Developer and Data Scientist,$82K-$129K(Employer est.),3.7,"Applied Research Laboratories
+3.7","Austin, TX",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,82,129,105.5,TX,-1
+413,528,Senior Scientist - Toxicologist - Product Integrity (Stewardship),$47K-$101K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),47,101,74.0,NC,146
+414,530,Systems Engineer II - Data Analyst,$49K-$76K (Glassdoor est.),3.7,"Raytheon
+3.7","Huntsville, AL",10000+ ,Aerospace & Defense,Aerospace & Defense,$10+ billion (USD),49,76,62.5,AL,99
+415,532,Senior Research Analytical Scientist-Non-Targeted Analysis,$43K-$88K (Glassdoor est.),4.3,"RTI International
+4.3","Durham, NC",1001 - 5000 ,Research & Development,Business Services,$500 million to $1 billion (USD),43,88,65.5,NC,63
+416,533,Director Data Science,$124K-$199K (Glassdoor est.),3.6,"TRANZACT
+3.6","Fort Lee, NJ",1001 - 5000 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,124,199,161.5,NJ,32
+417,534,Sr Data Analyst - IT,$52K-$93K (Glassdoor est.),2.1,"United BioSource
+2.1","Blue Bell, PA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$100 to $500 million (USD),52,93,72.5,PA,18
+418,535,Senior Data Engineer,$97K-$181K (Glassdoor est.),3.9,"Figure Eight
+3.9","San Francisco, CA",51 - 200 ,Computer Hardware & Software,Information Technology,$10 to $25 million (USD),97,181,139.0,CA,13
+419,537,Senior Data Engineer,$100K-$173K (Glassdoor est.),3.9,"Tapjoy
+3.9","San Francisco, CA",201 - 500 ,Internet,Information Technology,$10 to $25 million (USD),100,173,136.5,CA,14
+420,538,Associate Machine Learning Engineer / Data Scientist May 2020 Undergrad,$53K-$96K (Glassdoor est.),3.8,"Fareportal
+3.8","New York, NY",1001 - 5000 ,Travel Agencies,Travel & Tourism,$2 to $5 billion (USD),53,96,74.5,NY,19
+421,539,Senior Scientist - Biostatistician,$65K-$96K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),65,96,80.5,NC,146
+422,540,Data Scientist,$56K-$95K (Glassdoor est.),3.5,"Sartorius
+3.5","Albuquerque, NM",5001 - 10000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $2 billion (USD),56,95,75.5,NM,151
+423,541,Data Scientist,$111K-$176K (Glassdoor est.),4.7,"1904labs
+4.7","Saint Louis, MO",51 - 200 ,IT Services,Information Technology,Unknown / Non-Applicable,111,176,143.5,MO,5
+424,542,Data Scientist,$75K-$127K (Glassdoor est.),5.0,"Royce Geospatial
+5.0","Springfield, VA",51 - 200 ,Aerospace & Defense,Aerospace & Defense,$10 to $25 million (USD),75,127,101.0,VA,7
+425,543,Data Engineer,$65K-$119K (Glassdoor est.),3.6,"MassMutual
+3.6","Springfield, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),65,119,92.0,MA,170
+426,544,Computational Chemist/Data Scientist,$56K-$97K (Glassdoor est.),3.8,"PNNL
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),56,97,76.5,WA,56
+427,545,Principal Data Scientist (Computational Chemistry),$108K-$173K (Glassdoor est.),4.7,"Recursion Pharmaceuticals
+4.7","Salt Lake City, UT",51 - 200 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $5 million (USD),108,173,140.5,UT,8
+428,546,Data Scientist,$94K-$139K (Glassdoor est.),3.6,"Citi
+3.6","Jersey City, NJ",10000+ ,Investment Banking & Asset Management,Finance,$10+ billion (USD),94,139,116.5,NJ,209
+429,548,Principal Machine Learning Scientist,$176K-$289K (Glassdoor est.),4.7,"Sage Intacct
+4.7","San Francisco, CA",501 - 1000 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,176,289,232.5,CA,22
+430,549,Data Scientist,$92K-$149K (Glassdoor est.),3.5,"Scale AI
+3.5","San Francisco, CA",51 - 200 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,92,149,120.5,CA,5
+431,550,Product Engineer – Data Science,$63K-$101K (Glassdoor est.),3.5,"Esri
+3.5","Arlington, VA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),63,101,82.0,VA,52
+432,552,"Principal Scientist, Chemistry & Immunology",$54K-$115K (Glassdoor est.),3.3,"Rochester Regional Health
+3.3","Rochester, NY",10000+ ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),54,115,84.5,NY,7
+433,554,Data Scientist,$118K-$188K (Glassdoor est.),2.7,"Change Healthcare
+2.7","Emeryville, CA",10000+ ,IT Services,Information Technology,Unknown / Non-Applicable,118,188,153.0,CA,14
+434,555,Data Scientist,$108K-$146K (Glassdoor est.),3.4,"MZ
+3.4","Palo Alto, CA",501 - 1000 ,Internet,Information Technology,Unknown / Non-Applicable,108,146,127.0,CA,13
+435,556,Data Scientist,$65K-$106K (Glassdoor est.),4.7,"HG Insights
+4.7","Santa Barbara, CA",51 - 200 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,65,106,85.5,CA,11
+436,557,Data Scientist,$55K-$98K (Glassdoor est.),2.8,"1-800-FLOWERS.COM, Inc.
+2.8","Carle Place, NY",1001 - 5000 ,Wholesale,Business Services,$1 to $2 billion (USD),55,98,76.5,NY,45
+437,558,Data Scientist,$94K-$162K (Glassdoor est.),3.5,"CBS Interactive
+3.5","New York, NY",1001 - 5000 ,TV Broadcast & Cable Networks,Media,$500 million to $1 billion (USD),94,162,128.0,NY,29
+438,560,Data Engineer,$63K-$120K (Glassdoor est.),3.2,"Numeric, LLC
+3.2","King of Prussia, PA",1 - 50 ,Staffing & Outsourcing,Business Services,$5 to $10 million (USD),63,120,91.5,PA,-1
+439,561,"Scientist/Senior Scientist, Autoimmune",$90K-$179K (Glassdoor est.),4.4,"Rubius Therapeutics
+4.4","Cambridge, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$100 to $500 million (USD),90,179,134.5,MA,8
+440,562,Data Scientist,$127K-$202K (Glassdoor est.),3.3,"Samba TV
+3.3","San Francisco, CA",201 - 500 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,127,202,164.5,CA,13
+441,563,Software Engineer - Data Visualization,$60K-$127K (Glassdoor est.),4.0,"ClearEdge
+4.0","Annapolis Junction, MD",51 - 200 ,Computer Hardware & Software,Information Technology,$5 to $10 million (USD),60,127,93.5,MD,19
+442,565,Market Data Analyst,$31K-$57K (Glassdoor est.),3.4,"SV Microwave
+3.4","West Palm Beach, FL",201 - 500 ,Telecommunications Manufacturing,Telecommunications,$50 to $100 million (USD),31,57,44.0,FL,30
+443,566,Staff Data Engineer,$105K-$194K (Glassdoor est.),3.8,"Sumo Logic
+3.8","Austin, TX",501 - 1000 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,105,194,149.5,TX,11
+444,567,Associate Data Engineer,$45K-$86K (Glassdoor est.),3.5,"EAB
+3.5","Washington, DC",1001 - 5000 ,Research & Development,Business Services,Unknown / Non-Applicable,45,86,65.5,DC,14
+445,568,Data Engineer,$75K-$143K (Glassdoor est.),4.4,"SpringML
+4.4","Herndon, VA",1 - 50 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,75,143,109.0,VA,6
+446,570,Staff Data Engineer,$126K-$228K (Glassdoor est.),3.7,"Samsung Research America
+3.7","Mountain View, CA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$50 to $100 million (USD),126,228,177.0,CA,33
+447,572,Data Scientist,$80K-$134K (Glassdoor est.),4.7,"Systems & Technology Research
+4.7","Arlington, VA",201 - 500 ,Aerospace & Defense,Aerospace & Defense,$100 to $500 million (USD),80,134,107.0,VA,11
+448,573,Data Scientist,$120K-$189K (Glassdoor est.),4.1,"Netskope
+4.1","Santa Clara, CA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,120,189,154.5,CA,9
+449,575,Data Scientist,$85K-$142K (Glassdoor est.),4.0,"Lorven Technologies Inc
+4.0","Santa Clara, CA",1 - 50 ,Accounting,Accounting & Legal,Less than $1 million (USD),85,142,113.5,CA,-1
+450,576,Senior Data Scientist,$95K-$154K (Glassdoor est.),3.5,"Brighthouse Financial
+3.5","Charlotte, NC",1001 - 5000 ,Insurance Carriers,Insurance,Unknown / Non-Applicable,95,154,124.5,NC,4
+451,577,Data Scientist,$111K-$176K (Glassdoor est.),2.5,"CareDx
+2.5","Brisbane, CA",1 - 50 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,111,176,143.5,CA,-1
+452,578,Data Scientist,$87K-$140K (Glassdoor est.),3.9,"Serigor Inc.
+3.9","San Francisco, CA",1 - 50 ,IT Services,Information Technology,Less than $1 million (USD),87,140,113.5,CA,-1
+453,579,Data Scientist,$76K-$127K (Glassdoor est.),3.4,"Leidos
+3.4","Springfield, VA",10000+ ,Aerospace & Defense,Aerospace & Defense,$10+ billion (USD),76,127,101.5,VA,52
+454,580,"Data Analyst, Performance Partnership",$54K-$92K (Glassdoor est.),3.6,"Beckman Coulter Diagnostics
+3.6","New York, NY",10000+ ,Health Care Products Manufacturing,Manufacturing,$2 to $5 billion (USD),54,92,73.0,NY,86
+455,582,Data Scientist,$61K-$100K (Glassdoor est.),3.5,"IHS Markit
+3.5","New York, NY",10000+ ,Consulting,Business Services,$2 to $5 billion (USD),61,100,80.5,NY,5
+456,583,Data Scientist,$81K-$140K (Glassdoor est.),-1.0,ALIN,"New York, NY",unknown,-1,-1,Unknown / Non-Applicable,81,140,110.5,NY,-1
+457,585,Staff BI and Data Engineer,$80K-$148K (Glassdoor est.),2.9,"Affinity Solutions
+2.9","San Jose, CA",51 - 200 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,80,148,114.0,CA,23
+458,586,Data Scientist,$108K-$171K (Glassdoor est.),3.5,"e-IT Professionals Corp.
+3.5","Foster City, CA",51 - 200 ,"Health, Beauty, & Fitness",Consumer Services,$5 to $10 million (USD),108,171,139.5,CA,-1
+459,587,Data Scientist,$112K-$179K (Glassdoor est.),4.8,"TechProjects
+4.8","New York, NY",1 - 50 ,IT Services,Information Technology,Unknown / Non-Applicable,112,179,145.5,NY,10
+460,588,Data Scientist,$63K-$111K (Glassdoor est.),4.0,"Biz2Credit Inc
+4.0","New York, NY",201 - 500 ,Lending,Finance,$100 to $500 million (USD),63,111,87.0,NY,14
+461,589,Data Scientist,$75K-$126K (Glassdoor est.),4.2,"PeoplesBank
+4.2","Holyoke, MA",201 - 500 ,Banks & Credit Unions,Finance,$50 to $100 million (USD),75,126,100.5,MA,136
+462,590,Data Scientist Manager,$110K-$184K (Glassdoor est.),3.8,"Capgemini
+3.8","New York, NY",10000+ ,Enterprise Software & Network Solutions,Information Technology,$10+ billion (USD),110,184,147.0,NY,54
+463,591,Data Engineer,$76K-$145K (Glassdoor est.),3.7,"GNY Insurance Companies
+3.7","New York, NY",201 - 500 ,Insurance Carriers,Insurance,$100 to $500 million (USD),76,145,110.5,NY,107
+464,594,Marketing Data Analyst,$36K-$62K (Glassdoor est.),3.9,"Citadel Federal Credit Union
+3.9","Exton, PA",501 - 1000 ,Banks & Credit Unions,Finance,Unknown / Non-Applicable,36,62,49.0,PA,84
+465,595,Data Scientist,$70K-$118K (Glassdoor est.),4.6,"Conch Technologies, Inc
+4.6","Waltham, MA",51 - 200 ,Consulting,Business Services,$5 to $10 million (USD),70,118,94.0,MA,-1
+466,597,Senior Data Scientist,$94K-$153K (Glassdoor est.),4.3,"Medidata Solutions
+4.3","New York, NY",1001 - 5000 ,Enterprise Software & Network Solutions,Information Technology,$500 million to $1 billion (USD),94,153,123.5,NY,22
+467,599,"Principal Scientist, Hematology",$54K-$115K (Glassdoor est.),3.3,"Rochester Regional Health
+3.3","Rochester, NY",10000+ ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),54,115,84.5,NY,7
+468,600,Data Analyst,$50K-$92K (Glassdoor est.),3.7,"CALIBRE Systems
+3.7","Alexandria, VA",501 - 1000 ,IT Services,Information Technology,$100 to $500 million (USD),50,92,71.0,VA,32
+469,601,Software Data Engineer - College,$49K-$97K (Glassdoor est.),4.0,"HP Inc.
+4.0","Corvallis, OR",10000+ ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,49,97,73.0,OR,82
+470,602,"Director - Data, Privacy and AI Governance",$67K-$135K (Glassdoor est.),3.6,"MassMutual
+3.6","Boston, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),67,135,101.0,MA,170
+471,603,Staff Machine Learning Engineer,$138K-$224K (Glassdoor est.),3.9,"Tapjoy
+3.9","San Francisco, CA",201 - 500 ,Internet,Information Technology,$10 to $25 million (USD),138,224,181.0,CA,14
+472,604,Data Scientist,$80K-$139K (Glassdoor est.),3.7,"Northrop Grumman
+3.7","San Diego, CA",10000+ ,Aerospace & Defense,Aerospace & Defense,$10+ billion (USD),80,139,109.5,CA,82
+473,605,Lead Data Scientist,$158K-$211K (Glassdoor est.),3.7,"Visa Inc.
+3.7","Bellevue, WA",10000+ ,IT Services,Information Technology,$10+ billion (USD),158,211,184.5,WA,63
+474,606,Senior Data Scientist - Algorithms,$150K-$180K (Glassdoor est.),3.9,"Quartet Health
+3.9","New York, NY",201 - 500 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,150,180,165.0,NY,7
+475,607,Information Security Data Analyst,$42K-$80K (Glassdoor est.),3.7,"Motorola Solutions
+3.7","Chicago, IL",10000+ ,Computer Hardware & Software,Information Technology,$5 to $10 billion (USD),42,80,61.0,IL,93
+476,608,Lead Data Engineer,$190K-$220K(Employer est.),4.1,"Credit Sesame
+4.1","Mountain View, CA",51 - 200 ,Internet,Information Technology,$50 to $100 million (USD),190,220,205.0,CA,11
+477,609,Data Analyst,$42K-$77K (Glassdoor est.),3.1,"Success Academy Charter Schools
+3.1","New York, NY",1001 - 5000 ,K-12 Education,Education,$100 to $500 million (USD),42,77,59.5,NY,15
+478,610,Scientist Manufacturing - Kentucky BioProcessing,$68K-$139K (Glassdoor est.),3.1,"Reynolds American
+3.1","Owensboro, KY",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),68,139,103.5,KY,146
+479,613,Consultant - Analytics Consulting,$54K-$71K (Glassdoor est.),3.0,"Infosys
+3.0","Hartford, CT",10000+ ,IT Services,Information Technology,$10+ billion (USD),54,71,62.5,CT,40
+480,614,Data Analytics Project Manager,$34K-$92K (Glassdoor est.),3.6,"MassMutual
+3.6","Springfield, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),34,92,63.0,MA,170
+481,616,Data Analyst,$47K-$85K (Glassdoor est.),3.6,"AXION Healthcare Solutions
+3.6","New York, NY",1 - 50 ,Health Care Services & Hospitals,Health Care,$10 to $25 million (USD),47,85,66.0,NY,41
+482,617,Data Engineer,$65K-$124K (Glassdoor est.),3.5,"Alignment Healthcare
+3.5","Orange, CA",501 - 1000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,65,124,94.5,CA,8
+483,619,Data Scientist,$56K-$95K (Glassdoor est.),4.2,"ExecOnline
+4.2","New York, NY",51 - 200 ,Education Training Services,Education,Unknown / Non-Applicable,56,95,75.5,NY,9
+484,622,Machine Learning Engineer,$62K-$112K (Glassdoor est.),4.0,"Mteq
+4.0","Fort Belvoir, VA",501 - 1000 ,Aerospace & Defense,Aerospace & Defense,$100 to $500 million (USD),62,112,87.0,VA,67
+485,623,Senior Data Scientist Oncology,$107K-$173K (Glassdoor est.),3.9,"AstraZeneca
+3.9","Gaithersburg, MD",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),107,173,140.0,MD,108
+486,624,Data Scientist,$64K-$108K (Glassdoor est.),3.7,"Brillient
+3.7","Silver Spring, MD",201 - 500 ,IT Services,Information Technology,$25 to $50 million (USD),64,108,86.0,MD,15
+487,625,Senior Data Scientist,$89K-$144K (Glassdoor est.),4.4,"Entefy
+4.4","Palo Alto, CA",1 - 50 ,Internet,Information Technology,Unknown / Non-Applicable,89,144,116.5,CA,9
+488,627,Senior Scientist (Neuroscience),$109K-$200K (Glassdoor est.),3.5,"Sunovion
+3.5","Marlborough, MA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $2 billion (USD),109,200,154.5,MA,11
+489,629,Machine Learning Engineer - Regulatory,$61K-$113K (Glassdoor est.),3.7,"Cboe Global Markets
+3.7","Lenexa, KS",501 - 1000 ,Stock Exchanges,Finance,$500 million to $1 billion (USD),61,113,87.0,KS,48
+490,630,Marketing Data Analyst,$35K-$62K (Glassdoor est.),3.6,"San Manuel Casino
+3.6","Highland, CA",1001 - 5000 ,Gambling,"Arts, Entertainment & Recreation",$100 to $500 million (USD),35,62,48.5,CA,35
+491,631,Data Engineer,$55K-$105K (Glassdoor est.),3.4,"Trace3
+3.4","Houston, TX",501 - 1000 ,IT Services,Information Technology,$1 to $2 billion (USD),55,105,80.0,TX,19
+492,632,Medical Laboratory Scientist,$18-$25 Per Hour(Glassdoor est.),4.0,"Texas Health Huguley Hospital
+4.0","Burleson, TX",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$50 to $100 million (USD),37,52,44.5,TX,44
+493,633,R&D Specialist/ Food Scientist,$39K-$66K (Glassdoor est.),2.4,"Teasdale Latin Foods
+2.4","Hoopeston, IL",501 - 1000 ,Food & Beverage Manufacturing,Manufacturing,$100 to $500 million (USD),39,66,52.5,IL,-1
+494,634,Principal Data Scientist,$135K-$211K (Glassdoor est.),3.7,"Northrop Grumman
+3.7","San Jose, CA",10000+ ,Aerospace & Defense,Aerospace & Defense,$10+ billion (USD),135,211,173.0,CA,82
+495,635,Data Engineer,$57K-$80K (Glassdoor est.),3.5,"Saama Technologies Inc
+3.5","Phoenix, AZ",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,57,80,68.5,AZ,24
+496,636,Data Scientist - Alpha Insights,$129K-$215K (Glassdoor est.),4.4,"Two Sigma
+4.4","New York, NY",1001 - 5000 ,Investment Banking & Asset Management,Finance,Unknown / Non-Applicable,129,215,172.0,NY,20
+497,637,"Data Scientist, Office of Data Science",$86K-$143K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Boston, MA",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),86,143,114.5,MA,109
+498,638,"Associate Principal Scientist, Pharmacogenomics",$63K-$127K (Glassdoor est.),3.9,"AstraZeneca
+3.9","Gaithersburg, MD",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),63,127,95.0,MD,108
+499,639,Data Scientist - Systems Engineering,$50K-$89K (Glassdoor est.),3.2,"MITRE
+3.2","Bedford, MA",5001 - 10000 ,Federal Agencies,Government,$1 to $2 billion (USD),50,89,69.5,MA,63
+500,640,Data Engineer,$43K-$86K (Glassdoor est.),3.2,"Guidepoint
+3.2","New York, NY",501 - 1000 ,Research & Development,Business Services,Unknown / Non-Applicable,43,86,64.5,NY,18
+501,642,"Scientist, Bacteriology",$74K-$149K (Glassdoor est.),2.1,"Cerus Corporation
+2.1","Concord, CA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),74,149,111.5,CA,-1
+502,643,Data Scientist,$71K-$124K (Glassdoor est.),4.0,"Strategic Financial Solutions
+4.0","New York, NY",501 - 1000 ,Consumer Product Rental,Consumer Services,Unknown / Non-Applicable,71,124,97.5,NY,14
+503,644,"Associate Director, Platform and DevOps- Data Engineering and Aritifical Intelligence",$113K-$196K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),113,196,154.5,MA,240
+504,645,Senior Research Scientist-Machine Learning,$81K-$167K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,81,167,124.0,PA,37
+505,646,Data Scientist,$69K-$121K (Glassdoor est.),3.4,"Remedy BPCI Partners, LLC.
+3.4","New York, NY",201 - 500 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,69,121,95.0,NY,10
+506,647,Senior Data Scientist,$97K-$160K (Glassdoor est.),4.4,"Maven Wave Partners
+4.4","Chicago, IL",201 - 500 ,Consulting,Business Services,$50 to $100 million (USD),97,160,128.5,IL,13
+507,648,Principal Data Scientist,$150K-$238K (Glassdoor est.),3.2,"The Climate Corporation
+3.2","San Francisco, CA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,150,238,194.0,CA,15
+508,651,Data Scientist,$77K-$132K (Glassdoor est.),3.5,"Crossix Solutions
+3.5","New York, NY",201 - 500 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,77,132,104.5,NY,16
+509,652,Clinical Laboratory Scientist,$24-$39 Per Hour(Glassdoor est.),3.7,"Vail Health
+3.7","Vail, CO",501 - 1000 ,Health Care Services & Hospitals,Health Care,$100 to $500 million (USD),49,81,65.0,CO,55
+510,653,Data Engineer - Consultant (Charlotte Based),$59K-$112K (Glassdoor est.),4.2,"Clarity Insights
+4.2","Charlotte, NC",201 - 500 ,IT Services,Information Technology,Unknown / Non-Applicable,59,112,85.5,NC,13
+511,654,"Data Analyst 1, full-time contract worker for up to 12 months",$35K-$65K (Glassdoor est.),4.2,"The Church of Jesus Christ of Latter-day Saints
+4.2","Salt Lake City, UT",10000+ ,Religious Organizations,Non-Profit,Unknown / Non-Applicable,35,65,50.0,UT,-1
+512,655,Data Engineer,$79K-$147K (Glassdoor est.),3.1,"NCSOFT
+3.1","Aliso Viejo, CA",1001 - 5000 ,Video Games,Media,$10+ billion (USD),79,147,113.0,CA,24
+513,658,"Scientist, Immuno-Oncology",$62K-$119K (Glassdoor est.),3.9,"GSK
+3.9","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),62,119,90.5,MA,191
+514,660,Senior Data Scientist,$119K-$187K (Glassdoor est.),4.3,"Factual
+4.3","Los Angeles, CA",51 - 200 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,119,187,153.0,CA,13
+515,661,Products Data Analyst II,$90K-$157K (Glassdoor est.),3.3,"TriNet
+3.3","Dublin, CA",1001 - 5000 ,Consulting,Business Services,$2 to $5 billion (USD),90,157,123.5,CA,33
+516,662,Lead Data Analyst,$32K-$62K (Glassdoor est.),3.9,"Signpost
+3.9","New York, NY",201 - 500 ,Internet,Information Technology,$10 to $25 million (USD),32,62,47.0,NY,11
+517,663,Analytics Manager - Data Mart,$42K-$86K (Glassdoor est.),3.5,"Central California Alliance for Health
+3.5","Scotts Valley, CA",501 - 1000 ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),42,86,64.0,CA,25
+518,664,Data Science Engineer - Mobile,$116K-$208K (Glassdoor est.),4.0,"Adobe
+4.0","San Jose, CA",10000+ ,Computer Hardware & Software,Information Technology,$5 to $10 billion (USD),116,208,162.0,CA,39
+519,665,Senior Data Scientist - R&D Oncology,$102K-$172K (Glassdoor est.),3.9,"AstraZeneca
+3.9","New York, NY",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),102,172,137.0,NY,108
+520,666,Sr. Data Engineer - Contract-to-Hire (Java),$69K-$127K (Glassdoor est.),3.0,"Pilot Flying J Travel Centers LLC
+3.0","Knoxville, TN",10000+ ,Gas Stations,Retail,$10+ billion (USD),69,127,98.0,TN,63
+521,668,Data Scientist,$86K-$144K (Glassdoor est.),3.7,"Swiss Re
+3.7","Armonk, NY",10000+ ,Insurance Agencies & Brokerages,Insurance,$10+ billion (USD),86,144,115.0,NY,158
+522,669,Senior Data Scientist,$102K-$165K (Glassdoor est.),3.5,"Sartorius
+3.5","Arvada, CO",5001 - 10000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $2 billion (USD),102,165,133.5,CO,151
+523,670,Data Engineer,$74K-$124K (Glassdoor est.),4.0,"Pinnacol Assurance
+4.0","Denver, CO",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),74,124,99.0,CO,106
+524,671,Food Scientist - Developer,$40K-$68K (Glassdoor est.),3.3,"Palermo's Pizza
+3.3","Milwaukee, WI",501 - 1000 ,Food & Beverage Manufacturing,Manufacturing,Unknown / Non-Applicable,40,68,54.0,WI,57
+525,672,Senior Data Engineer,$76K-$142K (Glassdoor est.),3.2,"Equian LLC
+3.2","Franklin, TN",1001 - 5000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,76,142,109.0,TN,17
+526,673,Data Engineer,$76K-$142K (Glassdoor est.),3.4,"MetroStar Systems
+3.4","Rockville, MD",201 - 500 ,IT Services,Information Technology,$25 to $50 million (USD),76,142,109.0,MD,22
+527,674,Senior Data Scientist,$108K-$171K (Glassdoor est.),4.4,"MathWorks
+4.4","Natick, MA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),108,171,139.5,MA,37
+528,675,"Director II, Data Science - GRM Actuarial",$202K-$306K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Chicago, IL",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),202,306,254.0,IL,109
+529,676,Machine Learning Engineer,$91K-$159K (Glassdoor est.),3.2,"Information Builders
+3.2","New York, NY",1001 - 5000 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,91,159,125.0,NY,46
+530,678,"Sr Expert Data Science, Advanced Visual Analytics (Associate level)",$80K-$133K (Glassdoor est.),3.8,"Novartis
+3.8","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),80,133,106.5,MA,25
+531,679,"Scientist, Molecular/Cellular Biologist",$49K-$97K (Glassdoor est.),2.9,"Audentes Therapeutics
+2.9","South San Francisco, CA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,49,97,73.0,CA,9
+532,681,Staff Scientist-Downstream Process Development,$49K-$113K (Glassdoor est.),2.7,"Advanced BioScience Laboratories
+2.7","Rockville, MD",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),49,113,81.0,MD,60
+533,682,MED TECH/LAB SCIENTIST- SOUTH COASTAL LAB,$21-$34 Per Hour(Glassdoor est.),3.6,"Beebe Healthcare
+3.6","Millville, DE",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$100 to $500 million (USD),43,70,56.5,DE,86
+534,683,Scientist - Analytical Services,$65K-$134K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),65,134,99.5,NC,146
+535,685,Associate Data Analyst- Graduate Development Program,$32K-$59K (Glassdoor est.),3.3,"National Interstate
+3.3","Richfield, OH",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),32,59,45.5,OH,32
+536,687,IT Associate Data Analyst,$39K-$69K (Glassdoor est.),3.7,"The Hanover Insurance Group
+3.7","Worcester, MA",5001 - 10000 ,Insurance Carriers,Insurance,$5 to $10 billion (USD),39,69,54.0,MA,169
+537,688,Sr. Data Engineer,$87K-$158K (Glassdoor est.),4.5,"Moser Consulting
+4.5","Indianapolis, IN",51 - 200 ,Consulting,Business Services,$25 to $50 million (USD),87,158,122.5,IN,25
+538,689,Clinical Data Analyst,$27K-$48K (Glassdoor est.),3.0,"Greenway Health
+3.0","Tampa, FL",1001 - 5000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),27,48,37.5,FL,44
+539,690,Business Data Analyst,$36K-$71K (Glassdoor est.),3.8,"Fareportal
+3.8","New York, NY",1001 - 5000 ,Travel Agencies,Travel & Tourism,$2 to $5 billion (USD),36,71,53.5,NY,19
+540,691,Senior Insurance Data Scientist,$107K-$173K (Glassdoor est.),3.9,"TransUnion
+3.9","Chicago, IL",5001 - 10000 ,Financial Analytics & Research,Finance,$1 to $2 billion (USD),107,173,140.0,IL,53
+541,692,Senior Data Science Systems Engineer,$56K-$99K (Glassdoor est.),3.2,"MITRE
+3.2","Hampton, VA",5001 - 10000 ,Federal Agencies,Government,$1 to $2 billion (USD),56,99,77.5,VA,63
+542,694,ENVIRONMENTAL ENGINEER/SCIENTIST,Employer Provided Salary:$25-$28 Per Hour,3.3,"Mcphail Associates
+3.3","Cambridge, MA",1 - 50 ,Construction,"Construction, Repair & Maintenance",Unknown / Non-Applicable,52,58,55.0,MA,45
+543,695,Senior Scientist - Regulatory Submissions,$80K-$155K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),80,155,117.5,NC,146
+544,696,Scientist - Biomarker and Flow Cytometry,$43K-$98K (Glassdoor est.),2.4,"Crown Bioscience
+2.4","San Diego, CA",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$50 to $100 million (USD),43,98,70.5,CA,15
+545,697,"Associate Scientist, LC/MS Biologics",$44K-$96K (Glassdoor est.),2.9,"Q2 Solutions
+2.9","Ithaca, NY",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,44,96,70.0,NY,6
+546,698,Revenue Analytics Manager,$45K-$78K (Glassdoor est.),4.8,"HOVER
+4.8","San Francisco, CA",51 - 200 ,Computer Hardware & Software,Information Technology,$25 to $50 million (USD),45,78,61.5,CA,10
+547,699,Sr. Scientist Method Development,$50K-$110K (Glassdoor est.),2.9,"Q2 Solutions
+2.9","Marietta, GA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,50,110,80.0,GA,6
+548,700,Data Scientist,$60K-$99K (Glassdoor est.),4.7,"Oversight Systems
+4.7","Atlanta, GA",51 - 200 ,Computer Hardware & Software,Information Technology,$25 to $50 million (USD),60,99,79.5,GA,18
+549,701,Data Scientist - Sales,$130K-$206K (Glassdoor est.),4.7,"Confluent
+4.7","Mountain View, CA",501 - 1000 ,Computer Hardware & Software,Information Technology,$100 to $500 million (USD),130,206,168.0,CA,7
+550,702,IT - Data Engineer II,$61K-$119K (Glassdoor est.),3.4,"Arbella Insurance
+3.4","Quincy, MA",1001 - 5000 ,Insurance Carriers,Insurance,$100 to $500 million (USD),61,119,90.0,MA,33
+551,703,"Research Scientist, Immunology - Cancer Biology",Employer Provided Salary:$100K-$140K,-1.0,Kronos Bio,"Cambridge, MA",unknown,-1,-1,Unknown / Non-Applicable,100,140,120.0,MA,-1
+552,704,Senior Data Analyst,$99K-$178K (Glassdoor est.),3.9,"Life360
+3.9","San Francisco, CA",51 - 200 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,99,178,138.5,CA,13
+553,705,"Principal, Data Science - Advanced Analytics",$86K-$137K (Glassdoor est.),3.6,"IQVIA
+3.6","Plymouth Meeting, PA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$2 to $5 billion (USD),86,137,111.5,PA,4
+554,706,Data Science Project Manager,$37K-$100K (Glassdoor est.),3.6,"MassMutual
+3.6","Boston, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),37,100,68.5,MA,170
+555,707,"Sr Scientist, Immuno-Oncology - Oncology",$58K-$111K (Glassdoor est.),3.9,"GSK
+3.9","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),58,111,84.5,MA,191
+556,708,Senior Data Engineer,$72K-$133K (Glassdoor est.),4.4,"Eventbrite
+4.4","Nashville, TN",1001 - 5000 ,Internet,Information Technology,$100 to $500 million (USD),72,133,102.5,TN,15
+557,709,"Project Scientist - Auton Lab, Robotics Institute",$56K-$91K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,56,91,73.5,PA,37
+558,711,Research Scientist – Security and Privacy,$61K-$126K (Glassdoor est.),3.6,"Riverside Research Institute
+3.6","Beavercreek, OH",501 - 1000 ,Federal Agencies,Government,$50 to $100 million (USD),61,126,93.5,OH,54
+559,712,Data Science Manager,$95K-$160K (Glassdoor est.),3.2,"Numeric, LLC
+3.2","Allentown, PA",1 - 50 ,Staffing & Outsourcing,Business Services,$5 to $10 million (USD),95,160,127.5,PA,-1
+560,714,Data Analyst 2 (Missionary Department),$53K-$91K (Glassdoor est.),4.2,"The Church of Jesus Christ of Latter-day Saints
+4.2","Salt Lake City, UT",10000+ ,Religious Organizations,Non-Profit,Unknown / Non-Applicable,53,91,72.0,UT,-1
+561,715,"Enterprise Architect, Data",$101K-$158K (Glassdoor est.),3.6,"MassMutual
+3.6","Boston, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),101,158,129.5,MA,170
+562,718,Supply Chain Data Analyst,$33K-$61K (Glassdoor est.),3.1,"Icon Health and Fitness
+3.1","Logan, UT",1001 - 5000 ,Consumer Products Manufacturing,Manufacturing,$500 million to $1 billion (USD),33,61,47.0,UT,44
+563,719,Data Engineer - ETL,$44K-$86K (Glassdoor est.),3.8,"Shipt
+3.8","Birmingham, AL",501 - 1000 ,Consumer Product Rental,Consumer Services,Unknown / Non-Applicable,44,86,65.0,AL,7
+564,721,Corporate Risk Data Analyst (SQL Based) - Milwaukee or,$43K-$77K (Glassdoor est.),3.8,"Associated Banc-Corp
+3.8","Green Bay, WI",1001 - 5000 ,Banks & Credit Unions,Finance,$1 to $2 billion (USD),43,77,60.0,WI,151
+565,722,"Senior Manager, Epidemiologic Data Scientist",$125K-$210K (Glassdoor est.),4.0,"Pfizer
+4.0","New York, NY",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),125,210,167.5,NY,172
+566,723,"Marketing Data Analyst, May 2020 Undergrad",$44K-$86K (Glassdoor est.),3.8,"Fareportal
+3.8","New York, NY",1001 - 5000 ,Travel Agencies,Travel & Tourism,$2 to $5 billion (USD),44,86,65.0,NY,19
+567,725,Senior Data Analyst,$69K-$119K (Glassdoor est.),4.0,"Novetta
+4.0","Herndon, VA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),69,119,94.0,VA,9
+568,726,Senior Data Analyst,$65K-$110K (Glassdoor est.),1.9,"Moda Operandi
+1.9","New York, NY",201 - 500 ,"Department, Clothing, & Shoe Stores",Retail,$100 to $500 million (USD),65,110,87.5,NY,11
+569,727,Senior Data Engineer,$67K-$127K (Glassdoor est.),4.0,"Novetta
+4.0","Reston, VA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),67,127,97.0,VA,9
+570,728,Senior Data Engineer,$78K-$147K (Glassdoor est.),4.3,"Genesys
+4.3","Durham, NC",5001 - 10000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),78,147,112.5,NC,31
+571,730,Data Modeler (Analytical Systems),$66K-$117K (Glassdoor est.),3.6,"MassMutual
+3.6","Boston, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),66,117,91.5,MA,170
+572,731,Data Modeler - Data Solutions Engineer,$37K-$66K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Indianapolis, IN",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),37,66,51.5,IN,109
+573,732,Data Scientist in Translational Medicine,$86K-$143K (Glassdoor est.),3.8,"Novartis
+3.8","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),86,143,114.5,MA,25
+574,733,Data Scientist,$84K-$146K (Glassdoor est.),4.3,"USEReady
+4.3","New York, NY",201 - 500 ,Consulting,Business Services,$10 to $25 million (USD),84,146,115.0,NY,10
+575,734,Product Manager/Data Evangelist,$50K-$98K (Glassdoor est.),3.2,"Numeric, LLC
+3.2","Phila, PA",1 - 50 ,Staffing & Outsourcing,Business Services,$5 to $10 million (USD),50,98,74.0,PA,-1
+576,735,Associate Environmental Scientist - Wildlife Biologist,$38K-$64K (Glassdoor est.),4.7,"QK
+4.7","Clovis, CA",51 - 200 ,Architectural & Engineering Services,Business Services,$10 to $25 million (USD),38,64,51.0,CA,49
+577,736,Sr Data Engineer (Sr BI Developer),$90K-$110K(Employer est.),3.4,"Tivity Health
+3.4","Chandler, AZ",501 - 1000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,90,110,100.0,AZ,40
+578,737,"Senior Data Scientist – Visualization, Novartis AI Innovation Lab",$92K-$150K (Glassdoor est.),3.8,"Novartis
+3.8","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),92,150,121.0,MA,25
+579,738,Senior Data Analyst/Scientist,$90K-$153K (Glassdoor est.),4.5,"Demandbase
+4.5","San Francisco, CA",201 - 500 ,Computer Hardware & Software,Information Technology,$100 to $500 million (USD),90,153,121.5,CA,15
+580,740,"Associate, Data Science, Internal Audit",$43K-$82K (Glassdoor est.),3.1,"Santander
+3.1","Boston, MA",10000+ ,Banks & Credit Unions,Finance,$10+ billion (USD),43,82,62.5,MA,165
+581,741,"Scientist – Cancer Discovery, Molecular Assay",Employer Provided Salary:$100K-$135K,-1.0,Monte Rosa Therapeutics,"Cambridge, MA",unknown,-1,-1,Unknown / Non-Applicable,100,135,117.5,MA,-1
+582,742,Senior LiDAR Data Scientist,$93K-$151K (Glassdoor est.),3.9,"Luminar Technologies
+3.9","Orlando, FL",201 - 500 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,93,151,122.0,FL,9
+583,743,Data Engineer,$61K-$109K (Glassdoor est.),4.4,"BRMi
+4.4","Chantilly, VA",51 - 200 ,IT Services,Information Technology,Unknown / Non-Applicable,61,109,85.0,VA,17
+584,744,Data Engineer,$42K-$79K (Glassdoor est.),3.4,"IntraEdge
+3.4","Scottsdale, AZ",501 - 1000 ,IT Services,Information Technology,$50 to $100 million (USD),42,79,60.5,AZ,19
+585,745,Lead Data Scientist,$139K-$221K (Glassdoor est.),3.9,"Zest AI
+3.9","Burbank, CA",51 - 200 ,Financial Analytics & Research,Finance,$50 to $100 million (USD),139,221,180.0,CA,12
+586,746,"Technology-Minded, Data Professional Opportunities",$40K-$101K (Glassdoor est.),4.7,"Veterans United Home Loans
+4.7","Columbia, MO",1001 - 5000 ,Lending,Finance,Unknown / Non-Applicable,40,101,70.5,MO,19
+587,747,Big Data Engineer,$84K-$153K (Glassdoor est.),3.3,"Peraton
+3.3","Chantilly, VA",1001 - 5000 ,Aerospace & Defense,Aerospace & Defense,$1 to $2 billion (USD),84,153,118.5,VA,4
+588,748,Salesforce Analytics Consultant,$52K-$81K (Glassdoor est.),3.9,"Emtec, Inc.
+3.9","Chicago, IL",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),52,81,66.5,IL,26
+589,749,Managing Data Scientist/ML Engineer,$81K-$134K (Glassdoor est.),3.4,"PA Consulting
+3.4","Boston, MA",1001 - 5000 ,Consulting,Business Services,$100 to $500 million (USD),81,134,107.5,MA,78
+590,750,Senior Data Engineer,$97K-$180K (Glassdoor est.),4.7,"Praetorian
+4.7","Austin, TX",51 - 200 ,Security Services,Business Services,$10 to $25 million (USD),97,180,138.5,TX,11
+591,751,Staff Scientist- Upstream PD,$49K-$113K (Glassdoor est.),2.7,"Advanced BioScience Laboratories
+2.7","Rockville, MD",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),49,113,81.0,MD,60
+592,752,Data Engineering Analyst,$44K-$73K (Glassdoor est.),3.8,"COUNTRY Financial
+3.8","Bloomington, IL",1001 - 5000 ,Insurance Carriers,Insurance,$2 to $5 billion (USD),44,73,58.5,IL,96
+593,753,Sr. Data Engineer,$75K-$140K (Glassdoor est.),3.4,"Echo Global Logistics
+3.4","Chicago, IL",1001 - 5000 ,Transportation Management,Transportation & Logistics,$2 to $5 billion (USD),75,140,107.5,IL,16
+594,754,"Scientist, Pharmacometrics",$84K-$157K (Glassdoor est.),3.8,"Agios Pharmaceuticals
+3.8","Cambridge, MA",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$50 to $100 million (USD),84,157,120.5,MA,13
+595,755,Manager of Data Science,$40K-$87K (Glassdoor est.),3.9,"Tapjoy
+3.9","San Francisco, CA",201 - 500 ,Internet,Information Technology,$10 to $25 million (USD),40,87,63.5,CA,14
+596,756,Scientist Manufacturing Pharma - Kentucky BioProcessing,$68K-$139K (Glassdoor est.),3.1,"Reynolds American
+3.1","Owensboro, KY",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),68,139,103.5,KY,146
+597,757,Software Engineer (Data Scientist/Software Engineer) - SISW - MG,$72K-$142K (Glassdoor est.),4.1,"Mentor Graphics
+4.1","Fremont, CA",5001 - 10000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),72,142,107.0,CA,40
+598,758,Data Engineer,$74K-$137K (Glassdoor est.),3.7,"Maxar Technologies
+3.7","Springfield, VA",5001 - 10000 ,Aerospace & Defense,Aerospace & Defense,$2 to $5 billion (USD),74,137,105.5,VA,-1
+599,759,Data Engineer,$57K-$109K (Glassdoor est.),2.8,"ICW Group
+2.8","San Diego, CA",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),57,109,83.0,CA,49
+600,761,Lead Big Data Engineer,$121K-$203K (Glassdoor est.),4.0,"Glassdoor
+4.0","San Francisco, CA",1001 - 5000 ,Internet,Information Technology,Unknown / Non-Applicable,121,203,162.0,CA,14
+601,763,Product Engineer – Spatial Data Science and Statistical Analysis,$52K-$85K (Glassdoor est.),3.5,"Esri
+3.5","Redlands, CA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),52,85,68.5,CA,52
+602,766,Sr Software Engineer (Data Scientist),$81K-$140K (Glassdoor est.),3.4,"Assurant
+3.4","Westlake, OH",10000+ ,Insurance Carriers,Insurance,$5 to $10 billion (USD),81,140,110.5,OH,43
+603,767,Sr. Data Engineer (ETL Developer),$83K-$148K (Glassdoor est.),3.7,"F&G
+3.7","Des Moines, IA",201 - 500 ,Insurance Carriers,Insurance,$100 to $500 million (USD),83,148,115.5,IA,-1
+604,768,Associate Research Scientist I (Protein Expression and Production),$59K-$116K (Glassdoor est.),3.0,"Exelixis
+3.0","Alameda, CA",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,59,116,87.5,CA,27
+605,769,Senior Data Scientist Artificial Intelligence,$60K-$101K (Glassdoor est.),3.8,"PNNL
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),60,101,80.5,WA,56
+606,773,Analytics - Business Assurance Data Analyst,$31K-$55K (Glassdoor est.),4.6,"GreatAmerica Financial Services
+4.6","Cedar Rapids, IA",501 - 1000 ,Lending,Finance,$100 to $500 million (USD),31,55,43.0,IA,29
+607,776,"Associate Director/Director, Safety Scientist",$102K-$178K (Glassdoor est.),4.4,"Acceleron Pharma
+4.4","Cambridge, MA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,102,178,140.0,MA,18
+608,777,"Director, Precision Medicine Clinical Biomarker Scientist",$136K-$208K (Glassdoor est.),4.0,"Pfizer
+4.0","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),136,208,172.0,MA,172
+609,778,"Senior Scientist, Cell Pharmacology/Assay Development",Employer Provided Salary:$110K-$130K,-1.0,Kronos Bio,"Cambridge, MA",unknown,-1,-1,Unknown / Non-Applicable,110,130,120.0,MA,-1
+610,779,Data Analyst Senior,$48K-$85K (Glassdoor est.),3.0,"AmeriHealth Caritas
+3.0","Philadelphia, PA",5001 - 10000 ,Insurance Carriers,Insurance,$5 to $10 billion (USD),48,85,66.5,PA,38
+611,780,Senior Formulations Scientist II,$71K-$129K (Glassdoor est.),3.0,"Exelixis
+3.0","Alameda, CA",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,71,129,100.0,CA,27
+612,781,Lead Data Engineer (Python),$66K-$123K (Glassdoor est.),4.7,"Strategic Employment Partners
+4.7","San Francisco, CA",51 - 200 ,Staffing & Outsourcing,Business Services,$1 to $5 million (USD),66,123,94.5,CA,15
+613,782,Data Science Manager,$171K-$272K (Glassdoor est.),4.2,"Grand Rounds
+4.2","San Francisco, CA",501 - 1000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,171,272,221.5,CA,10
+614,783,Senior Data Scientist 4 Artificial Intelligence,$92K-$146K (Glassdoor est.),3.8,"PNNL
+3.8","Seattle, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),92,146,119.0,WA,56
+615,784,Data Engineer,$65K-$126K (Glassdoor est.),3.5,"SPINS, LLC
+3.5","Chicago, IL",201 - 500 ,Consulting,Business Services,$50 to $100 million (USD),65,126,95.5,IL,26
+616,785,"Director II, Data Science - GRS Predictive Analytics",$150K-$239K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Chicago, IL",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),150,239,194.5,IL,109
+617,786,Medical Lab Scientist - MLT,$21-$29 Per Hour(Glassdoor est.),3.2,"Catholic Health Initiatives
+3.2","Omaha, NE",10000+ ,Health Care Services & Hospitals,Health Care,$10+ billion (USD),43,60,51.5,NE,25
+618,787,"Senior Operations Data Analyst, Call Center Operations",$10-$17 Per Hour(Glassdoor est.),2.7,"FLEETCOR
+2.7","Nashville, TN",5001 - 10000 ,Financial Transaction Processing,Finance,$2 to $5 billion (USD),20,35,27.5,TN,21
+619,788,Senior Quantitative Analyst,$118K-$228K (Glassdoor est.),3.3,"DTCC
+3.3","Jersey City, NJ",1001 - 5000 ,Brokerage Services,Finance,$1 to $2 billion (USD),118,228,173.0,NJ,48
+620,789,Geospatial Software Developer and Data Scientist,$82K-$129K(Employer est.),3.7,"Applied Research Laboratories
+3.7","Austin, TX",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,82,129,105.5,TX,-1
+621,790,RESEARCH COMPUTER SCIENTIST - RESEARCH ENGINEER - SR. COMPUTER SCIENTIST - SOFTWARE DEVELOPMENT,$52K-$91K (Glassdoor est.),3.9,"Southwest Research Institute
+3.9","San Antonio, TX",1001 - 5000 ,Research & Development,Business Services,$500 million to $1 billion (USD),52,91,71.5,TX,74
+622,791,Senior Scientist - Toxicologist - Product Integrity (Stewardship),$47K-$101K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),47,101,74.0,NC,146
+623,794,Systems Engineer II - Data Analyst,$49K-$76K (Glassdoor est.),3.7,"Raytheon
+3.7","Huntsville, AL",10000+ ,Aerospace & Defense,Aerospace & Defense,$10+ billion (USD),49,76,62.5,AL,99
+624,795,Senior Research Analytical Scientist-Non-Targeted Analysis,$43K-$88K (Glassdoor est.),4.3,"RTI International
+4.3","Durham, NC",1001 - 5000 ,Research & Development,Business Services,$500 million to $1 billion (USD),43,88,65.5,NC,63
+625,797,Data Scientist,$61K-$109K (Glassdoor est.),3.8,"DICK'S Sporting Goods - Corporate
+3.8","Coraopolis, PA",10000+ ,Sporting Goods Stores,Retail,$5 to $10 billion (USD),61,109,85.0,PA,73
+626,799,Principal Data Scientist,$113K-$182K (Glassdoor est.),3.9,"AstraZeneca
+3.9","Gaithersburg, MD",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),113,182,147.5,MD,108
+627,802,Director Data Science,$124K-$199K (Glassdoor est.),3.6,"TRANZACT
+3.6","Fort Lee, NJ",1001 - 5000 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,124,199,161.5,NJ,32
+628,803,Data Engineer,$58K-$104K (Glassdoor est.),3.7,"Carilion Clinic
+3.7","Roanoke, VA",10000+ ,Health Care Services & Hospitals,Health Care,$1 to $2 billion (USD),58,104,81.0,VA,122
+629,804,Sr Data Analyst - IT,$52K-$93K (Glassdoor est.),2.1,"United BioSource
+2.1","Blue Bell, PA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$100 to $500 million (USD),52,93,72.5,PA,18
+630,806,Senior Data Engineer,$97K-$181K (Glassdoor est.),3.9,"Figure Eight
+3.9","San Francisco, CA",51 - 200 ,Computer Hardware & Software,Information Technology,$10 to $25 million (USD),97,181,139.0,CA,13
+631,807,Senior Data Engineer,$100K-$173K (Glassdoor est.),3.9,"Tapjoy
+3.9","San Francisco, CA",201 - 500 ,Internet,Information Technology,$10 to $25 million (USD),100,173,136.5,CA,14
+632,808,Sr. Data Analyst,$58K-$108K (Glassdoor est.),3.2,"DoubleVerify
+3.2","New York, NY",201 - 500 ,Internet,Information Technology,Unknown / Non-Applicable,58,108,83.0,NY,13
+633,809,Research Scientist or Senior Research Scientist - Computer Vision,$81K-$161K (Glassdoor est.),4.6,"Mitsubishi Electric Research Labs
+4.6","Cambridge, MA",51 - 200 ,Research & Development,Business Services,$5 to $10 million (USD),81,161,121.0,MA,30
+634,810,Associate Machine Learning Engineer / Data Scientist May 2020 Undergrad,$53K-$96K (Glassdoor est.),3.8,"Fareportal
+3.8","New York, NY",1001 - 5000 ,Travel Agencies,Travel & Tourism,$2 to $5 billion (USD),53,96,74.5,NY,19
+635,811,Data Analyst Chemist - Quality System Contractor,$61K-$110K (Glassdoor est.),2.2,"Rodan and Fields, LLC
+2.2","San Francisco, CA",501 - 1000 ,Beauty & Personal Accessories Stores,Retail,Unknown / Non-Applicable,61,110,85.5,CA,19
+636,812,Senior Scientist - Biostatistician,$65K-$96K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),65,96,80.5,NC,146
+637,815,Research Scientist / Principal Research Scientist - Multiphysical Systems,$115K-$220K (Glassdoor est.),4.6,"Mitsubishi Electric Research Labs
+4.6","Cambridge, MA",51 - 200 ,Research & Development,Business Services,$5 to $10 million (USD),115,220,167.5,MA,30
+638,816,"Research Scientist, Machine Learning Department",$71K-$144K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,71,144,107.5,PA,37
+639,817,Foundational Community Supports Data Analyst,$32K-$57K (Glassdoor est.),3.4,"DESC
+3.4","Seattle, WA",501 - 1000 ,Social Assistance,Non-Profit,$25 to $50 million (USD),32,57,44.5,WA,42
+640,818,"Senior Health Data Analyst, Star Ratings",$79K-$136K (Glassdoor est.),3.3,"Johns Hopkins Health Care
+3.3","Glen Burnie, MD",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),79,136,107.5,MD,132
+641,819,"Principal Research Scientist/Team Lead, Medicinal Chemistry - Oncology",Employer Provided Salary:$120K-$145K,-1.0,Kronos Bio,"Cambridge, MA",unknown,-1,-1,Unknown / Non-Applicable,120,145,132.5,MA,-1
+642,820,Sr. Data Analyst,$50K-$89K (Glassdoor est.),3.7,"Community Behavioral Health
+3.7","Philadelphia, PA",201 - 500 ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),50,89,69.5,PA,27
+643,821,"Senior Engineer, Data Management Engineering",$68K-$129K (Glassdoor est.),3.5,"Western Digital
+3.5","Milpitas, CA",10000+ ,Computer Hardware & Software,Information Technology,$10+ billion (USD),68,129,98.5,CA,51
+644,822,Quality Control Scientist III- Analytical Development,$48K-$113K (Glassdoor est.),2.7,"Advanced BioScience Laboratories
+2.7","Rockville, MD",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),48,113,80.5,MD,60
+645,823,"Clinical Scientist, Clinical Development",$27-$47 Per Hour(Glassdoor est.),3.8,"FORMA THERAPEUTICS
+3.8","Watertown, MA",51 - 200 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10 to $25 million (USD),56,97,76.5,MA,13
+646,824,Software Engineer Staff Scientist: Human Language Technologies,$74K-$124K (Glassdoor est.),3.7,"Raytheon
+3.7","Cambridge, MD",10000+ ,Aerospace & Defense,Aerospace & Defense,$10+ billion (USD),74,124,99.0,MD,99
+647,825,"Manager, Safety Scientist, Medical Safety & Risk Management",$68K-$125K (Glassdoor est.),3.8,"Agios Pharmaceuticals
+3.8","Cambridge, MA",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$50 to $100 million (USD),68,125,96.5,MA,13
+648,826,"Assistant Director/Director, Office of Data Science",$39K-$67K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Boston, MA",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),39,67,53.0,MA,109
+649,827,Sr. Data Engineer | Big Data SaaS Pipeline,$71K-$135K (Glassdoor est.),2.7,"Bridg
+2.7","Los Angeles, CA",1 - 50 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,71,135,103.0,CA,10
+650,828,Senior Risk Data Scientist,$107K-$172K (Glassdoor est.),3.8,"Bill.com
+3.8","Palo Alto, CA",501 - 1000 ,Financial Transaction Processing,Finance,$50 to $100 million (USD),107,172,139.5,CA,15
+651,829,Data Scientist in Artificial Intelligence Early Career,$49K-$85K (Glassdoor est.),3.8,"Pacific Northwest National Laboratory
+3.8","Richland, WA",1001 - 5000 ,Energy,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),49,85,67.0,WA,56
+652,830,Consultant - Analytics Consulting,$54K-$71K (Glassdoor est.),3.0,"Infosys
+3.0","Hartford, CT",10000+ ,IT Services,Information Technology,$10+ billion (USD),54,71,62.5,CT,40
+653,831,Scientist - CVRM Metabolism - in vivo pharmacology,$61K-$123K (Glassdoor est.),3.9,"AstraZeneca
+3.9","Gaithersburg, MD",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),61,123,92.0,MD,108
+654,832,Data Analyst,$47K-$85K (Glassdoor est.),3.6,"AXION Healthcare Solutions
+3.6","New York, NY",1 - 50 ,Health Care Services & Hospitals,Health Care,$10 to $25 million (USD),47,85,66.0,NY,41
+655,836,Data Engineer,$65K-$124K (Glassdoor est.),3.5,"Alignment Healthcare
+3.5","Orange, CA",501 - 1000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,65,124,94.5,CA,8
+656,837,Data Scientist,$87K-$141K (Glassdoor est.),3.6,"TRANZACT
+3.6","Fort Lee, NJ",1001 - 5000 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,87,141,114.0,NJ,32
+657,838,Data Scientist,$56K-$95K (Glassdoor est.),4.2,"ExecOnline
+4.2","New York, NY",51 - 200 ,Education Training Services,Education,Unknown / Non-Applicable,56,95,75.5,NY,9
+658,839,Data Scientist,$71K-$121K (Glassdoor est.),3.5,"Charter Spectrum
+3.5","Maryland Heights, MO",1 - 50 ,K-12 Education,Education,$5 to $10 million (USD),71,121,96.0,MO,-1
+659,840,Machine Learning Engineer,$62K-$112K (Glassdoor est.),4.0,"Mteq
+4.0","Fort Belvoir, VA",501 - 1000 ,Aerospace & Defense,Aerospace & Defense,$100 to $500 million (USD),62,112,87.0,VA,67
+660,841,Data Scientist,$64K-$108K (Glassdoor est.),3.7,"Brillient
+3.7","Silver Spring, MD",201 - 500 ,IT Services,Information Technology,$25 to $50 million (USD),64,108,86.0,MD,15
+661,845,Senior Data Scientist,$89K-$144K (Glassdoor est.),4.4,"Entefy
+4.4","Palo Alto, CA",1 - 50 ,Internet,Information Technology,Unknown / Non-Applicable,89,144,116.5,CA,9
+662,848,Senior Scientist (Neuroscience),$109K-$200K (Glassdoor est.),3.5,"Sunovion
+3.5","Marlborough, MA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$1 to $2 billion (USD),109,200,154.5,MA,11
+663,851,Marketing Data Analyst,$35K-$62K (Glassdoor est.),3.6,"San Manuel Casino
+3.6","Highland, CA",1001 - 5000 ,Gambling,"Arts, Entertainment & Recreation",$100 to $500 million (USD),35,62,48.5,CA,35
+664,852,Machine Learning Engineer - Regulatory,$61K-$113K (Glassdoor est.),3.7,"Cboe Global Markets
+3.7","Lenexa, KS",501 - 1000 ,Stock Exchanges,Finance,$500 million to $1 billion (USD),61,113,87.0,KS,48
+665,853,Data Engineer,$55K-$105K (Glassdoor est.),3.4,"Trace3
+3.4","Houston, TX",501 - 1000 ,IT Services,Information Technology,$1 to $2 billion (USD),55,105,80.0,TX,19
+666,854,Medical Laboratory Scientist,$18-$25 Per Hour(Glassdoor est.),4.0,"Texas Health Huguley Hospital
+4.0","Burleson, TX",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$50 to $100 million (USD),37,52,44.5,TX,44
+667,855,Principal Data Scientist,$135K-$211K (Glassdoor est.),3.7,"Northrop Grumman
+3.7","San Jose, CA",10000+ ,Aerospace & Defense,Aerospace & Defense,$10+ billion (USD),135,211,173.0,CA,82
+668,856,R&D Specialist/ Food Scientist,$39K-$66K (Glassdoor est.),2.4,"Teasdale Latin Foods
+2.4","Hoopeston, IL",501 - 1000 ,Food & Beverage Manufacturing,Manufacturing,$100 to $500 million (USD),39,66,52.5,IL,-1
+669,857,Data Engineer,$57K-$80K (Glassdoor est.),3.5,"Saama Technologies Inc
+3.5","Phoenix, AZ",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,57,80,68.5,AZ,24
+670,858,"Associate Principal Scientist, Pharmacogenomics",$63K-$127K (Glassdoor est.),3.9,"AstraZeneca
+3.9","Gaithersburg, MD",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),63,127,95.0,MD,108
+671,859,Data Scientist - Systems Engineering,$50K-$89K (Glassdoor est.),3.2,"MITRE
+3.2","Bedford, MA",5001 - 10000 ,Federal Agencies,Government,$1 to $2 billion (USD),50,89,69.5,MA,63
+672,860,Senior Data Scientist,$82K-$132K (Glassdoor est.),4.4,"The David J. Joseph Company
+4.4","Cincinnati, OH",201 - 500 ,Metals Brokers,Mining & Metals,Unknown / Non-Applicable,82,132,107.0,OH,136
+673,861,Data Scientist SR,$85K-$139K (Glassdoor est.),3.9,"The Buffalo Group
+3.9","Charlottesville, VA",501 - 1000 ,IT Services,Information Technology,$100 to $500 million (USD),85,139,112.0,VA,11
+674,863,Data Scientist,$72K-$121K (Glassdoor est.),3.4,"CompQsoft
+3.4","Washington, DC",51 - 200 ,Consulting,Business Services,$10 to $25 million (USD),72,121,96.5,DC,24
+675,864,"Scientist, Bacteriology",$74K-$149K (Glassdoor est.),2.1,"Cerus Corporation
+2.1","Concord, CA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),74,149,111.5,CA,-1
+676,866,"Associate Director, Platform and DevOps- Data Engineering and Aritifical Intelligence",$113K-$196K (Glassdoor est.),3.7,"Takeda Pharmaceuticals
+3.7","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),113,196,154.5,MA,240
+677,867,Data Scientist,$69K-$121K (Glassdoor est.),3.4,"Remedy BPCI Partners, LLC.
+3.4","New York, NY",201 - 500 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,69,121,95.0,NY,10
+678,868,Data Scientist,$71K-$124K (Glassdoor est.),4.0,"Strategic Financial Solutions
+4.0","New York, NY",501 - 1000 ,Consumer Product Rental,Consumer Services,Unknown / Non-Applicable,71,124,97.5,NY,14
+679,869,Senior Data Scientist,$97K-$160K (Glassdoor est.),4.4,"Maven Wave Partners
+4.4","Chicago, IL",201 - 500 ,Consulting,Business Services,$50 to $100 million (USD),97,160,128.5,IL,13
+680,870,Senior Research Scientist-Machine Learning,$81K-$167K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,81,167,124.0,PA,37
+681,871,Principal Data Scientist,$150K-$238K (Glassdoor est.),3.2,"The Climate Corporation
+3.2","San Francisco, CA",501 - 1000 ,Enterprise Software & Network Solutions,Information Technology,Unknown / Non-Applicable,150,238,194.0,CA,15
+682,875,Clinical Laboratory Scientist,$24-$39 Per Hour(Glassdoor est.),3.7,"Vail Health
+3.7","Vail, CO",501 - 1000 ,Health Care Services & Hospitals,Health Care,$100 to $500 million (USD),49,81,65.0,CO,55
+683,877,"Data Analyst 1, full-time contract worker for up to 12 months",$35K-$65K (Glassdoor est.),4.2,"The Church of Jesus Christ of Latter-day Saints
+4.2","Salt Lake City, UT",10000+ ,Religious Organizations,Non-Profit,Unknown / Non-Applicable,35,65,50.0,UT,-1
+684,878,Data Scientist,$77K-$132K (Glassdoor est.),3.5,"Crossix Solutions
+3.5","New York, NY",201 - 500 ,Advertising & Marketing,Business Services,Unknown / Non-Applicable,77,132,104.5,NY,16
+685,879,Data Scientist,$51K-$88K (Glassdoor est.),4.3,"Solugenix Corporation
+4.3","Phoenix, AZ",201 - 500 ,IT Services,Information Technology,$50 to $100 million (USD),51,88,69.5,AZ,52
+686,880,Data Scientist,$101K-$141K (Glassdoor est.),2.6,"West Coast University
+2.6","Irvine, CA",10000+ ,Colleges & Universities,Education,Unknown / Non-Applicable,101,141,121.0,CA,24
+687,881,Data Engineer - Consultant (Charlotte Based),$59K-$112K (Glassdoor est.),4.2,"Clarity Insights
+4.2","Charlotte, NC",201 - 500 ,IT Services,Information Technology,Unknown / Non-Applicable,59,112,85.5,NC,13
+688,883,Data Engineer,$79K-$147K (Glassdoor est.),3.1,"NCSOFT
+3.1","Aliso Viejo, CA",1001 - 5000 ,Video Games,Media,$10+ billion (USD),79,147,113.0,CA,24
+689,884,Data Scientist (Warehouse Automation),$79K-$127K (Glassdoor est.),3.8,"SoftBank Robotics
+3.8","San Francisco, CA",201 - 500 ,Consumer Products Manufacturing,Manufacturing,$25 to $50 million (USD),79,127,103.0,CA,16
+690,886,"Scientist, Immuno-Oncology",$62K-$119K (Glassdoor est.),3.9,"GSK
+3.9","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),62,119,90.5,MA,191
+691,887,Senior Data Scientist,$119K-$187K (Glassdoor est.),4.3,"Factual
+4.3","Los Angeles, CA",51 - 200 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,119,187,153.0,CA,13
+692,892,Jr. Data Scientist,$81K-$132K (Glassdoor est.),3.2,"MITRE
+3.2","McLean, VA",5001 - 10000 ,Federal Agencies,Government,$1 to $2 billion (USD),81,132,106.5,VA,63
+693,893,Senior Data Scientist,Employer Provided Salary:$120K-$140K,5.0,"SkySync
+5.0","Ann Arbor, MI",51 - 200 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,120,140,130.0,MI,10
+694,895,Products Data Analyst II,$90K-$157K (Glassdoor est.),3.3,"TriNet
+3.3","Dublin, CA",1001 - 5000 ,Consulting,Business Services,$2 to $5 billion (USD),90,157,123.5,CA,33
+695,896,Data Architect / Data Modeler,$63K-$110K (Glassdoor est.),4.3,"Medidata Solutions
+4.3","New York, NY",1001 - 5000 ,Enterprise Software & Network Solutions,Information Technology,$500 million to $1 billion (USD),63,110,86.5,NY,22
+696,897,Analytics Manager - Data Mart,$42K-$86K (Glassdoor est.),3.5,"Central California Alliance for Health
+3.5","Scotts Valley, CA",501 - 1000 ,Health Care Services & Hospitals,Health Care,$500 million to $1 billion (USD),42,86,64.0,CA,25
+697,898,Lead Data Analyst,$32K-$62K (Glassdoor est.),3.9,"Signpost
+3.9","New York, NY",201 - 500 ,Internet,Information Technology,$10 to $25 million (USD),32,62,47.0,NY,11
+698,899,Data Science Engineer - Mobile,$116K-$208K (Glassdoor est.),4.0,"Adobe
+4.0","San Jose, CA",10000+ ,Computer Hardware & Software,Information Technology,$5 to $10 billion (USD),116,208,162.0,CA,39
+699,900,Senior Data Scientist Oncology,$107K-$173K (Glassdoor est.),3.9,"AstraZeneca
+3.9","Gaithersburg, MD",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),107,173,140.0,MD,108
+700,901,Data Scientist,$65K-$113K (Glassdoor est.),3.4,"DatamanUSA, LLC
+3.4","Olympia, WA",51 - 200 ,IT Services,Information Technology,$5 to $10 million (USD),65,113,89.0,WA,-1
+701,902,Sr. Data Engineer - Contract-to-Hire (Java),$69K-$127K (Glassdoor est.),3.0,"Pilot Flying J Travel Centers LLC
+3.0","Knoxville, TN",10000+ ,Gas Stations,Retail,$10+ billion (USD),69,127,98.0,TN,63
+702,904,Senior Data Scientist - R&D Oncology,$102K-$172K (Glassdoor est.),3.9,"AstraZeneca
+3.9","New York, NY",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),102,172,137.0,NY,108
+703,907,Data Engineer,$74K-$124K (Glassdoor est.),4.0,"Pinnacol Assurance
+4.0","Denver, CO",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),74,124,99.0,CO,106
+704,909,Food Scientist - Developer,$40K-$68K (Glassdoor est.),3.3,"Palermo's Pizza
+3.3","Milwaukee, WI",501 - 1000 ,Food & Beverage Manufacturing,Manufacturing,Unknown / Non-Applicable,40,68,54.0,WI,57
+705,910,Senior Data Engineer,$76K-$142K (Glassdoor est.),3.2,"Equian LLC
+3.2","Franklin, TN",1001 - 5000 ,Health Care Services & Hospitals,Health Care,Unknown / Non-Applicable,76,142,109.0,TN,17
+706,911,Data Engineer,$76K-$142K (Glassdoor est.),3.4,"MetroStar Systems
+3.4","Rockville, MD",201 - 500 ,IT Services,Information Technology,$25 to $50 million (USD),76,142,109.0,MD,22
+707,912,Senior Data Scientist,$108K-$171K (Glassdoor est.),4.4,"MathWorks
+4.4","Natick, MA",1001 - 5000 ,Computer Hardware & Software,Information Technology,$1 to $2 billion (USD),108,171,139.5,MA,37
+708,913,"Director II, Data Science - GRM Actuarial",$202K-$306K (Glassdoor est.),3.3,"Liberty Mutual Insurance
+3.3","Chicago, IL",10000+ ,Insurance Carriers,Insurance,$10+ billion (USD),202,306,254.0,IL,109
+709,914,Machine Learning Engineer,$91K-$159K (Glassdoor est.),3.2,"Information Builders
+3.2","New York, NY",1001 - 5000 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,91,159,125.0,NY,46
+710,916,"Sr Expert Data Science, Advanced Visual Analytics (Associate level)",$80K-$133K (Glassdoor est.),3.8,"Novartis
+3.8","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),80,133,106.5,MA,25
+711,919,MED TECH/LAB SCIENTIST- SOUTH COASTAL LAB,$21-$34 Per Hour(Glassdoor est.),3.6,"Beebe Healthcare
+3.6","Millville, DE",1001 - 5000 ,Health Care Services & Hospitals,Health Care,$100 to $500 million (USD),43,70,56.5,DE,86
+712,920,"Scientist, Molecular/Cellular Biologist",$49K-$97K (Glassdoor est.),2.9,"Audentes Therapeutics
+2.9","South San Francisco, CA",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,49,97,73.0,CA,9
+713,921,Staff Scientist-Downstream Process Development,$49K-$113K (Glassdoor est.),2.7,"Advanced BioScience Laboratories
+2.7","Rockville, MD",201 - 500 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$25 to $50 million (USD),49,113,81.0,MD,60
+714,924,Data Scientist,$96K-$161K (Glassdoor est.),3.2,"Numeric, LLC
+3.2","Philadelphia, PA",1 - 50 ,Staffing & Outsourcing,Business Services,$5 to $10 million (USD),96,161,128.5,PA,-1
+715,926,Scientist - Analytical Services,$65K-$134K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),65,134,99.5,NC,146
+716,928,"Associate Scientist / Sr. Associate Scientist, Antibody Discovery",$59K-$125K (Glassdoor est.),4.0,"23andMe
+4.0","South San Francisco, CA",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,59,125,92.0,CA,15
+717,929,Associate Data Analyst- Graduate Development Program,$32K-$59K (Glassdoor est.),3.3,"National Interstate
+3.3","Richfield, OH",501 - 1000 ,Insurance Carriers,Insurance,$500 million to $1 billion (USD),32,59,45.5,OH,32
+718,930,Sr. Data Engineer,$87K-$158K (Glassdoor est.),4.5,"Moser Consulting
+4.5","Indianapolis, IN",51 - 200 ,Consulting,Business Services,$25 to $50 million (USD),87,158,122.5,IN,25
+719,931,Clinical Data Analyst,$27K-$48K (Glassdoor est.),3.0,"Greenway Health
+3.0","Tampa, FL",1001 - 5000 ,Enterprise Software & Network Solutions,Information Technology,$100 to $500 million (USD),27,48,37.5,FL,44
+720,932,IT Associate Data Analyst,$39K-$69K (Glassdoor est.),3.7,"The Hanover Insurance Group
+3.7","Worcester, MA",5001 - 10000 ,Insurance Carriers,Insurance,$5 to $10 billion (USD),39,69,54.0,MA,169
+721,933,Business Data Analyst,$36K-$71K (Glassdoor est.),3.8,"Fareportal
+3.8","New York, NY",1001 - 5000 ,Travel Agencies,Travel & Tourism,$2 to $5 billion (USD),36,71,53.5,NY,19
+722,934,Senior Insurance Data Scientist,$107K-$173K (Glassdoor est.),3.9,"TransUnion
+3.9","Chicago, IL",5001 - 10000 ,Financial Analytics & Research,Finance,$1 to $2 billion (USD),107,173,140.0,IL,53
+723,935,Senior Data Science Systems Engineer,$56K-$99K (Glassdoor est.),3.2,"MITRE
+3.2","Hampton, VA",5001 - 10000 ,Federal Agencies,Government,$1 to $2 billion (USD),56,99,77.5,VA,63
+724,936,ENVIRONMENTAL ENGINEER/SCIENTIST,Employer Provided Salary:$25-$28 Per Hour,3.3,"Mcphail Associates
+3.3","Cambridge, MA",1 - 50 ,Construction,"Construction, Repair & Maintenance",Unknown / Non-Applicable,52,58,55.0,MA,45
+725,938,Senior Scientist - Regulatory Submissions,$80K-$155K (Glassdoor est.),3.1,"Reynolds American
+3.1","Winston-Salem, NC",5001 - 10000 ,Consumer Products Manufacturing,Manufacturing,$10+ billion (USD),80,155,117.5,NC,146
+726,939,Scientist - Biomarker and Flow Cytometry,$43K-$98K (Glassdoor est.),2.4,"Crown Bioscience
+2.4","San Diego, CA",501 - 1000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$50 to $100 million (USD),43,98,70.5,CA,15
+727,940,Revenue Analytics Manager,$45K-$78K (Glassdoor est.),4.8,"HOVER
+4.8","San Francisco, CA",51 - 200 ,Computer Hardware & Software,Information Technology,$25 to $50 million (USD),45,78,61.5,CA,10
+728,941,Sr. Scientist Method Development,$50K-$110K (Glassdoor est.),2.9,"Q2 Solutions
+2.9","Marietta, GA",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,50,110,80.0,GA,6
+729,942,"Associate Scientist, LC/MS Biologics",$44K-$96K (Glassdoor est.),2.9,"Q2 Solutions
+2.9","Ithaca, NY",1001 - 5000 ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,Unknown / Non-Applicable,44,96,70.0,NY,6
+730,943,"Research Scientist, Immunology - Cancer Biology",Employer Provided Salary:$100K-$140K,-1.0,Kronos Bio,"Cambridge, MA",unknown,-1,-1,Unknown / Non-Applicable,100,140,120.0,MA,-1
+731,944,IT - Data Engineer II,$61K-$119K (Glassdoor est.),3.4,"Arbella Insurance
+3.4","Quincy, MA",1001 - 5000 ,Insurance Carriers,Insurance,$100 to $500 million (USD),61,119,90.0,MA,33
+732,945,Machine Learning Engineer (NLP),$80K-$142K (Glassdoor est.),4.1,"CK-12 Foundation
+4.1","Palo Alto, CA",1 - 50 ,K-12 Education,Education,Unknown / Non-Applicable,80,142,111.0,CA,14
+733,946,Senior Data Analyst,$99K-$178K (Glassdoor est.),3.9,"Life360
+3.9","San Francisco, CA",51 - 200 ,Computer Hardware & Software,Information Technology,Unknown / Non-Applicable,99,178,138.5,CA,13
+734,947,Data Science Project Manager,$37K-$100K (Glassdoor est.),3.6,"MassMutual
+3.6","Boston, MA",5001 - 10000 ,Insurance Carriers,Insurance,$10+ billion (USD),37,100,68.5,MA,170
+735,948,Data Engineer,$62K-$113K (Glassdoor est.),3.9,"Fivestars
+3.9","San Francisco, CA",201 - 500 ,Internet,Information Technology,$100 to $500 million (USD),62,113,87.5,CA,10
+736,949,"Principal, Data Science - Advanced Analytics",$86K-$137K (Glassdoor est.),3.6,"IQVIA
+3.6","Plymouth Meeting, PA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$2 to $5 billion (USD),86,137,111.5,PA,4
+737,950,"Sr Scientist, Immuno-Oncology - Oncology",$58K-$111K (Glassdoor est.),3.9,"GSK
+3.9","Cambridge, MA",10000+ ,Biotech & Pharmaceuticals,Biotech & Pharmaceuticals,$10+ billion (USD),58,111,84.5,MA,191
+738,951,Senior Data Engineer,$72K-$133K (Glassdoor est.),4.4,"Eventbrite
+4.4","Nashville, TN",1001 - 5000 ,Internet,Information Technology,$100 to $500 million (USD),72,133,102.5,TN,15
+739,952,"Project Scientist - Auton Lab, Robotics Institute",$56K-$91K (Glassdoor est.),2.6,"Software Engineering Institute
+2.6","Pittsburgh, PA",501 - 1000 ,Colleges & Universities,Education,Unknown / Non-Applicable,56,91,73.5,PA,37
+740,953,Data Science Manager,$95K-$160K (Glassdoor est.),3.2,"Numeric, LLC
+3.2","Allentown, PA",1 - 50 ,Staffing & Outsourcing,Business Services,$5 to $10 million (USD),95,160,127.5,PA,-1
+741,955,Research Scientist – Security and Privacy,$61K-$126K (Glassdoor est.),3.6,"Riverside Research Institute
+3.6","Beavercreek, OH",501 - 1000 ,Federal Agencies,Government,$50 to $100 million (USD),61,126,93.5,OH,54

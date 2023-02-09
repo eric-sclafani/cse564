@@ -4,10 +4,36 @@ from dash.dependencies import Input, Output
 from dash_bootstrap_components.themes import BOOTSTRAP
 import pandas as pd
 import plotly.express as px
+import json
 
-# ~~~ DATA AND HELPER FUNCTIONS ~~~
 
+# ~~~ GLOBAL VARIABLES ~~~
 df = pd.read_csv("data/preprocessed/absenteeism_at_work_preprocessed.csv")
+df["Absence reason"] = df["Absence reason"].astype("category")
+
+CATEGORICAL = ["Absence reason", 
+               "Month", 
+               "Day", 
+               "Seasons", 
+               "Disciplinary failure",
+               "Education", 
+               "Social drinker",
+               "Social smoker",
+               "Disease"]
+
+NUMERICAL = ["Transportation expense",
+             "Distance to work",
+             "Service time",
+             "Age",
+             "Avg work load per day",
+             "Number of children",
+             "Pets",
+             "Weight",
+             "Height",
+             "Body mass index",
+             "Hours absent"]
+
+# ~~~ HELPER FUNCTIONS ~~~
 
 def get_orientation(option:str) -> str:
     """Gets barchart orientation argument from radiobutton string value"""
@@ -15,12 +41,27 @@ def get_orientation(option:str) -> str:
 
 def make_bar_chart(orientation:str, feature:str) -> px.bar:
     """Creates a bar chart according to given arguments"""
-    title = f"Count of {feature}"
+    title = f"Count of {feature}" #NOTE: add better title string formatting and axes 
+    count = {"count": "Number of absences"}
+    
     if orientation == "v":
-        fig = px.bar(df, x=feature, color=feature, title=title, orientation=orientation)
-    else:
-        fig = px.bar(df, y=feature, color=feature, title=title, orientation=orientation)
-    return fig    
+        fig = px.bar(df, 
+                     x=feature, 
+                     color=feature, 
+                     title=title,
+                     orientation=orientation,
+                     labels=count,)
+        
+    elif orientation == "h":
+        fig = px.bar(df,
+                     y=feature, 
+                     color=feature, 
+                     title=title,
+                     orientation=orientation,
+                     labels=count)
+    return fig   
+
+ 
 
 # ~~~ APP ~~~
 app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
@@ -31,12 +72,13 @@ app.layout = html.Div(children=[
     html.H1("Absenteeism at Work", className="h1"),
     html.Hr(),
     html.H2("Select a variable"),
+    
     html.Div(
         className="dropdown-variables",
         children=[
             dcc.Dropdown(
                 id="feature-dropdown",
-                options=["Month", "Day"],
+                options=CATEGORICAL,
                 value="Month",
                 clearable=False)]),
     
@@ -48,20 +90,22 @@ app.layout = html.Div(children=[
                            labelStyle={'display': 'block'}, # forces vertical alignment
                            id="orientation"),
             
-            dcc.Graph(id="barchart")])
+            dcc.Graph(id="tab1-graph")])
     ])
 
 
 
 # ~~~ CALLBACKS ~~~
-@app.callback(Output("barchart", "figure"),
+@app.callback(Output("tab1-graph", "figure"),
               Input("feature-dropdown", "value"),
               Input("orientation", "value"))
-def bar_chart(feature, orientation):
+def tab1_graph(feature, orientation):
     
     orientation = get_orientation(orientation)
     fig = make_bar_chart(orientation, feature)
     fig.update_layout(transition_duration=500, title_x=.5)
+    fig.update_traces(dict(marker_line_width=0))
+    
     return fig
 
 

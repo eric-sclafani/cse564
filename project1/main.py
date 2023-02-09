@@ -12,10 +12,10 @@ app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
 app.title = "Absenteeism at Work"
 
 # ~~~ LAYOUT ~~~
-app.layout = html.Div([
+app.layout = html.Div(children=[
     html.H1("Absenteeism at Work", className="h1"),
     html.Hr(),
-    html.H2("Select a variable from the dropdown menu"),
+    html.H2("Select a variable"),
     html.Div(
         className="dropdown-variables",
         children=[
@@ -24,6 +24,7 @@ app.layout = html.Div([
                 options=["month", "day_of_week"],
                 value="month",
                 clearable=False)]),
+    
     html.Div(
         className="graph-div",
         children=[
@@ -36,8 +37,8 @@ app.layout = html.Div([
 @app.callback(Output("graph", "figure"),
               Input("dropdown", "value"))
 def bar_chart(feature):
-    fig = px.bar(df, x=feature, color=feature)
-    fig.update_layout(transition_duration=500)
+    fig = px.bar(df, x=feature, color=feature, title=f"Count of {feature}")
+    fig.update_layout(transition_duration=500, title_x=.5)
     return fig
 
 

@@ -1,4 +1,4 @@
-Absence reason,Month,Day,Season,Transportation expense,Distance to Work,Service time,Age,Avg work load per day,Education level,Number of children,Pets,Weight,Height,Body mass index,Hours absent,Disease
+Absence reason,Month,Day,Season,Transportation expense,Distance to work,Service time,Age,Avg work load per day,Education level,Number of children,Pets,Weight,Height,Body mass index,Time absent,Disease
 26,Jul,Tue,Spring,289,36,13,33,239.554,h_school,2,1,90,172,30,4,no
 0,Jul,Tue,Spring,118,13,18,50,239.554,h_school,1,0,98,178,31,0,no
 23,Jul,Wed,Spring,179,51,18,38,239.554,h_school,0,0,89,170,31,2,no

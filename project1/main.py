@@ -10,19 +10,17 @@ import plotly.express as px
 df = pd.read_csv("data/preprocessed/absenteeism_at_work_preprocessed.csv")
 
 def get_orientation(option:str) -> str:
-    """Gets barchart orientation argument from radiobutton option string"""
+    """Gets barchart orientation argument from radiobutton string value"""
     return "h" if option == "Horizontal" else "v"
 
-def get_bar_chart(orientation:str, feature:str) -> px.bar:
-    
+def make_bar_chart(orientation:str, feature:str) -> px.bar:
+    """Creates a bar chart according to given arguments"""
     title = f"Count of {feature}"
-    
     if orientation == "v":
         fig = px.bar(df, x=feature, color=feature, title=title, orientation=orientation)
     else:
         fig = px.bar(df, y=feature, color=feature, title=title, orientation=orientation)
-    return fig
-    
+    return fig    
 
 # ~~~ APP ~~~
 app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
@@ -38,14 +36,18 @@ app.layout = html.Div(children=[
         children=[
             dcc.Dropdown(
                 id="feature-dropdown",
-                options=["month", "day_of_week"],
-                value="month",
+                options=["Month", "Day"],
+                value="Month",
                 clearable=False)]),
     
     html.Div(
         className="graph-div",
         children=[
-            dcc.RadioItems(["Vertical", "Horizontal"], "Vertical",labelStyle={'display': 'block'}, id="orientation"),
+            dcc.RadioItems(["Vertical", "Horizontal"],
+                           "Vertical",
+                           labelStyle={'display': 'block'}, # forces vertical alignment
+                           id="orientation"),
+            
             dcc.Graph(id="barchart")])
     ])
 
@@ -58,7 +60,7 @@ app.layout = html.Div(children=[
 def bar_chart(feature, orientation):
     
     orientation = get_orientation(orientation)
-    fig = get_bar_chart(orientation, feature)
+    fig = make_bar_chart(orientation, feature)
     fig.update_layout(transition_duration=500, title_x=.5)
     return fig
 

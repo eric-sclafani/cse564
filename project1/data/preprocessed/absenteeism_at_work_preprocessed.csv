@@ -1,4 +1,4 @@
-absence_reason,month,day_of_week,seasons,transportation_expense,dist_to_work,service_time,age,avg_work_load_per_day,disc_failure,education,num_children,social_drinker,social_smoker,pet,weight,height,body_mass_index,hours_absent,disease
+Absence Reason,Month,Day,Seasons,Transportation expense,Distance to Work,Service time,Age,Avg work load per day,Disciplinary failure,Education,Number of children,Social drinker,Social smoker,Pet,Weight,Height,Body mass index,Hours absent,disease
 26,Jul,Tue,Spring,289,36,13,33,239.554,no,h_school,2,yes,no,1,90,172,30,4,no
 0,Jul,Tue,Spring,118,13,18,50,239.554,yes,h_school,1,yes,no,0,98,178,31,0,no
 23,Jul,Wed,Spring,179,51,18,38,239.554,no,h_school,0,yes,no,0,89,170,31,2,no

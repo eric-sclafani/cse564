@@ -2,6 +2,7 @@
 from dash import Dash, dcc, html
 from dash.dependencies import Input, Output
 from dash_bootstrap_components.themes import BOOTSTRAP
+import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 import json
@@ -11,14 +12,11 @@ import json
 df = pd.read_csv("data/preprocessed/absenteeism_at_work_preprocessed.csv")
 df["Absence reason"] = df["Absence reason"].astype("category")
 
-CATEGORICAL = ["Absence reason", 
-               "Month", 
+CATEGORICAL = ["Month",
+               "Absence reason", 
                "Day", 
-               "Seasons", 
-               "Disciplinary failure",
-               "Education", 
-               "Social drinker",
-               "Social smoker",
+               "Season", 
+               "Education level", 
                "Disease"]
 
 NUMERICAL = ["Transportation expense",
@@ -41,7 +39,7 @@ def get_orientation(option:str) -> str:
 
 def make_bar_chart(orientation:str, feature:str) -> px.bar:
     """Creates a bar chart according to given arguments"""
-    title = f"Count of {feature}" #NOTE: add better title string formatting and axes 
+    title = f"Number of absences per {feature.lower()}" #NOTE: add better title string formatting and axes 
     count = {"count": "Number of absences"}
     
     if orientation == "v":
@@ -61,8 +59,6 @@ def make_bar_chart(orientation:str, feature:str) -> px.bar:
                      labels=count)
     return fig   
 
- 
-
 # ~~~ APP ~~~
 app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
 app.title = "Absenteeism at Work"
@@ -71,7 +67,7 @@ app.title = "Absenteeism at Work"
 app.layout = html.Div(children=[
     html.H1("Absenteeism at Work", className="h1"),
     html.Hr(),
-    html.H2("Select a variable"),
+    html.H2("Select a feature"), #! style this
     
     html.Div(
         className="dropdown-variables",

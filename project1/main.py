@@ -5,60 +5,42 @@ from dash_bootstrap_components.themes import BOOTSTRAP
 import pandas as pd
 import plotly.express as px
 
-# ~~~ DATA HANDLING ~~~
-df = pd.read_csv("data/bike_sharing_daily.csv")
-df.rename(columns={"instant":"id",
-                    "dteday":"datetime",
-                    "yr":"year",
-                    "mnth":"month",
-                    "holiday":"is_holiday",
-                    "workingday":"is_workday",
-                    "cnt": "total_count",
-                    "weathersit":"weather_type"},
-          inplace=True)
-df["datetime"] = pd.to_datetime(df["datetime"])
-
-print(df.info())
-
-
-
-
-
+df = pd.read_csv("data/preprocessed/absenteeism_at_work_preprocessed.csv")
 
 # ~~~ APP ~~~
 app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
-app.title = "Daily bike sharing"
-
-
+app.title = "Absenteeism at Work"
 
 # ~~~ LAYOUT ~~~
 app.layout = html.Div([
-    html.H1("Daily bike sharing"),
+    html.H1("Absenteeism at Work", className="h1"),
     html.Hr(),
     html.H2("Select a variable from the dropdown menu"),
-    dcc.Dropdown(
-        id="dropdown",
-        options=["1", "2", "3", "4"],
-        value="1",
-        clearable=False,
-    ),
-    dcc.Graph(id="graph"),
-])
+    html.Div(
+        className="dropdown-variables",
+        children=[
+            dcc.Dropdown(
+                id="dropdown",
+                options=["month", "day_of_week"],
+                value="month",
+                clearable=False)]),
+    html.Div(
+        className="graph-div",
+        children=[
+            dcc.Graph(id="graph")])
+    ])
 
 
 
 # ~~~ CALLBACKS ~~~
 @app.callback(Output("graph", "figure"),
               Input("dropdown", "value"))
-def update_bar_chart(day):
-    
-    df = px.data.tips() # replace with your own data source
-    filtered_df = df[df['day'] == day]
-    fig = px.bar(filtered_df, x="sex", y="total_bill", 
-                 color="smoker", barmode="group")
+def bar_chart(feature):
+    fig = px.bar(df, x=feature, color=feature)
+    fig.update_layout(transition_duration=500)
     return fig
 
 
     
-# if __name__ == '__main__':
-#     app.run_server(debug=True)
+if __name__ == '__main__':
+    app.run_server(debug=True)

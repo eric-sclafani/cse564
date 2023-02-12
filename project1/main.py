@@ -7,9 +7,6 @@ import plotly.express as px
 import json
 from typing import Union
 
-TEST_DATA = {"x":[1,2,3,4],
-             "y":[2,3,6,8]}
-
 # ~~~ GLOBAL VARIABLES ~~~
 df = pd.read_csv("data/preprocessed/absenteeism_at_work_preprocessed.csv")
 df["Absence reason"] = df["Absence reason"].astype("category")
@@ -96,7 +93,7 @@ app.layout = html.Div(children=[
     dcc.Tabs(children=[
         dcc.Tab(label="Charts", children=[
             
-            html.H2("Select a feature"), #! style this
+            html.H2("Select a feature", className="h2"), #! style this
             
             #! TAB1 DROPDOWN MENU
             html.Div(
@@ -121,8 +118,11 @@ app.layout = html.Div(children=[
                     dcc.Graph(id="tab1-graph")])]),
         
         dcc.Tab(label="Scatterplot", children=[
+            
+            #! X-AXIS RADIOBUTTON + SCATTERPLOT + Y-AXIS RADIOBUTTON
             html.Div(children=[
                 html.Div(children=[
+                    html.H2("Select the x axis", className="h2"),
                     dcc.RadioItems(
                             options=CATEGORICAL+NUMERICAL,
                             value=CATEGORICAL[0],
@@ -132,12 +132,12 @@ app.layout = html.Div(children=[
                 
                 html.Div(children=[
                     dcc.Graph(
-                            id="tab2-graph", 
-                            figure=make_scatter_plot(TEST_DATA["x"], TEST_DATA["y"]))],
+                            id="tab2-graph")],
                         style={'display': 'inline-block',}),
                 
                 
                 html.Div(children=[
+                    html.H2("Select the y axis", className="h2"),
                     dcc.RadioItems(
                             options=CATEGORICAL+NUMERICAL,
                             value=CATEGORICAL[0],
@@ -161,15 +161,20 @@ def tab1_graph(feature, orientation) -> Union[px.bar, px.histogram]:
     elif feature in NUMERICAL:
         fig = make_histogram(orientation, feature)
         
-    fig.update_layout(transition_duration=500, title_x=.5)
+    fig.update_layout(transition_duration=500, title_x=0.5)
     fig.update_traces(dict(marker_line_width=0))
     
     return fig
 
 
-# @app.callback()
-# def tab2_graph(fetaure_x, feature_y):
-#     pass
+@app.callback(Output("tab2-graph", "figure"),
+              Input("x-axis-radio", "value"),
+              Input("y-axis-radio", "value"))
+def tab2_graph(feature_x, feature_y):
+    
+    fig = make_scatter_plot(feature_x, feature_y)
+    fig.update_layout(title=f"{feature_x} vs. {feature_y}", title_x=0.5)
+    return fig
 
 
 

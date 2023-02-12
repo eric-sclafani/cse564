@@ -91,34 +91,35 @@ app.layout = html.Div(children=[
     html.Hr(),
     dcc.Tabs(children=[
         dcc.Tab(label="Charts", children=[
-            
-            html.H2("Select a feature", className="h2"), #! style this
-            
-            #! TAB1 DROPDOWN MENU
-            html.Div(
-                className="dropdown-variables",
-                children=[  
-                    dcc.Dropdown(
-                        id="feature-dropdown",
-                        options=CATEGORICAL + NUMERICAL,
-                        value="Month",
-                        clearable=False)]),
-            
-            #! TAB1 RADIOBUTTON & CHART
-            html.Div(
-                className="graph-div",
-                children=[         
-                    dcc.RadioItems(
-                        options=["Vertical", "Horizontal"],
-                        value="Vertical",
-                        labelStyle={'display': 'block'}, # forces vertical alignment
-                        id="orientation"),
-                    html.Hr(),
-                    dcc.Graph(id="tab1-graph")])]),
+            html.Div(children=[
+                html.H2("Select a feature", className="h2"), #! style this
+                
+                #! TAB1 DROPDOWN MENU
+                html.Div(
+                    className="dropdown-variables",
+                    children=[  
+                        dcc.Dropdown(
+                            id="feature-dropdown",
+                            options=CATEGORICAL + NUMERICAL,
+                            value="Month",
+                            clearable=False)]),
+                
+                #! TAB1 RADIOBUTTON & CHART
+                html.Div(
+                    className="graph-div",
+                    children=[         
+                        dcc.RadioItems(
+                            options=["Vertical", "Horizontal"],
+                            value="Vertical",
+                            labelStyle={"margin-right": "5px"}, # forces vertical alignment
+                            id="orientation"),
+                        html.Hr(),
+                        dcc.Graph(id="tab1-graph")])],
+                     style={"text-align": "center"})]),
         
         dcc.Tab(label="Scatterplot", children=[
             
-            #! X-AXIS RADIOBUTTON + SCATTERPLOT + Y-AXIS RADIOBUTTON
+            #! TAB 2 X-AXIS RADIOBUTTON + SCATTERPLOT + Y-AXIS RADIOBUTTON
             html.Div(children=[
                 html.Div(children=[
                     

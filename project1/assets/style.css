@@ -5,3 +5,21 @@ hr {
 .dropdown-variables {
     padding: 0px 400px;
 }
+.h1{
+    font-family: "copperplate", fantasy;
+}
+.h2{
+    font-family: "copperplate", fantasy;
+}
+.dropdown-text{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.radiobutton-chart{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.tab1{
+    font-family: "copperplate", fantasy;
+}
+.tab2{
+    font-family: "copperplate", fantasy;
+}

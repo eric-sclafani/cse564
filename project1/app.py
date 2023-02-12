@@ -90,7 +90,7 @@ app.layout = html.Div(children=[
     html.H1("Absenteeism at Work", className="h1"),
     html.Hr(),
     dcc.Tabs(children=[
-        dcc.Tab(label="Charts", children=[
+        dcc.Tab(label="Charts", className="tab1", children=[
             html.Div(children=[
                 html.H2("Select a feature", className="h2"), #! style this
                 
@@ -102,7 +102,8 @@ app.layout = html.Div(children=[
                             id="feature-dropdown",
                             options=CATEGORICAL + NUMERICAL,
                             value="Month",
-                            clearable=False)]),
+                            clearable=False,
+                            className="dropdown-text")]),
                 
                 #! TAB1 RADIOBUTTON & CHART
                 html.Div(
@@ -112,18 +113,21 @@ app.layout = html.Div(children=[
                             options=["Vertical", "Horizontal"],
                             value="Vertical",
                             labelStyle={"margin-right": "5px"}, # forces vertical alignment
-                            id="orientation"),
+                            id="orientation",
+                            className="radiobutton-chart"),
+                        
                         html.Hr(),
+                        
                         dcc.Graph(id="tab1-graph")])],
                      style={"text-align": "center"})]),
         
-        dcc.Tab(label="Scatterplot", children=[
+        dcc.Tab(label="Scatterplot", className="tab2",children=[
             
             #! TAB 2 X-AXIS RADIOBUTTON + SCATTERPLOT + Y-AXIS RADIOBUTTON
             html.Div(children=[
                 html.Div(children=[
                     
-                    html.H2("Select the x axis", className="h2"),
+                    html.H2("Choose x axis", className="h2"),
                     dcc.RadioItems(
                             options=CATEGORICAL+NUMERICAL,
                             value="Age",
@@ -139,7 +143,8 @@ app.layout = html.Div(children=[
                 
                 html.Div(children=[
                     
-                    html.H2("Select the y axis", className="h2"),
+                    html.H2("Choose y axis", className="h2"),
+                    
                     dcc.RadioItems(
                             options=CATEGORICAL+NUMERICAL,
                             value="Time absent",

@@ -24,7 +24,6 @@ NEW_LABELS = {
         "Distance to work": "Distance to work (km)",
         "Transportation expense": "Transportation expense (Brazilian Real)"
         }
-    
 # ~~~ HELPER FUNCTIONS ~~~
 
 def get_orientation(option:str) -> str:
@@ -87,7 +86,9 @@ app.title = "Absenteeism at Work"
 
 # ~~~ LAYOUT ~~~
 app.layout = html.Div(children=[
+    html.Hr(),
     html.H1("Absenteeism at Work", className="h1"),
+    html.H4("By: Eric Sclafani", className="h4"),
     html.Hr(),
     dcc.Tabs(children=[
         dcc.Tab(label="Charts", className="tab1", children=[
@@ -112,12 +113,9 @@ app.layout = html.Div(children=[
                         dcc.RadioItems(
                             options=["Vertical", "Horizontal"],
                             value="Vertical",
-                            labelStyle={"margin-right": "5px"}, # forces vertical alignment
                             id="orientation",
-                            className="radiobutton-chart"),
-                        
-                        html.Hr(),
-                        
+                            className="tab1-radiobutton"),
+
                         dcc.Graph(id="tab1-graph")])],
                      style={"text-align": "center"})]),
         
@@ -126,13 +124,13 @@ app.layout = html.Div(children=[
             #! TAB 2 X-AXIS RADIOBUTTON + SCATTERPLOT + Y-AXIS RADIOBUTTON
             html.Div(children=[
                 html.Div(children=[
-                    
                     html.H2("Choose x axis", className="h2"),
                     dcc.RadioItems(
                             options=CATEGORICAL+NUMERICAL,
                             value="Age",
                             labelStyle={'display': 'block'},
-                            id="x-axis-radio")],
+                            id="x-axis-radio",
+                            className="tab2-radiobutton")],
                         style={'display': 'inline-block', "text-align": "left"}),
                 
                 html.Div(children=[
@@ -140,16 +138,14 @@ app.layout = html.Div(children=[
                             id="tab2-graph")],
                         style={'display': 'inline-block',}),
                 
-                
                 html.Div(children=[
-                    
                     html.H2("Choose y axis", className="h2"),
-                    
                     dcc.RadioItems(
                             options=CATEGORICAL+NUMERICAL,
                             value="Time absent",
                             labelStyle={'display': 'block'},
-                            id="y-axis-radio")],
+                            id="y-axis-radio",
+                            className="tab2-radiobutton")],
                         style={'display': 'inline-block', "text-align": "right"})],
                      style={"text-align": "center"})])
     ]),

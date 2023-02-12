@@ -1,5 +1,5 @@
 hr {
-    border-top: 10px solid gray;
+    border-top: 10px solid skyblue;
 }
 
 .dropdown-variables {
@@ -7,14 +7,16 @@ hr {
 }
 .h1{
     font-family: "copperplate", fantasy;
+    text-align: center;
 }
 .h2{
     font-family: "copperplate", fantasy;
 }
-.dropdown-text{
-    font-family: "Lucida Console", "Courier New", monospace;
+.h4{
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
 }
-.radiobutton-chart{
+.dropdown-text{
     font-family: "Lucida Console", "Courier New", monospace;
 }
 .tab1{
@@ -22,4 +24,11 @@ hr {
 }
 .tab2{
     font-family: "copperplate", fantasy;
+}
+.tab1-radiobutton{
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: auto;
+}
+.tab2-radiobutton{
+    font-family: "Lucida Console", "Courier New", monospace;
 }

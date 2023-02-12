@@ -16,6 +16,14 @@ with open("features.json", "r") as fin:
     
 CATEGORICAL = features["CATEGORICAL"]
 NUMERICAL = features["NUMERICAL"]
+NEW_LABELS = {
+        "Service time": "Service time (years)",
+        "Height": "Height (cm)",
+        "Weight": "Weight (kg)",
+        "Time absent": "Time absent (hrs)",
+        "Distance to work": "Distance to work (km)",
+        "Transportation expense": "Transportation expense (Brazilian Real)"
+        }
     
 # ~~~ HELPER FUNCTIONS ~~~
 
@@ -23,9 +31,9 @@ def get_orientation(option:str) -> str:
     """Gets orientation argument for barchart/histogram from radiobutton string value"""
     return "h" if option == "Horizontal" else "v"
 
-def make_bar_chart(orientation:str, feature:str) -> px.bar:
+def make_bar_chart(orientation:str, feature:str):
     """Creates a bar chart according to given arguments"""
-    title = f"Number of absences per {feature.lower()}" #NOTE: add better title string formatting and axes 
+    title = f"Number of absences per {feature.lower()}"
     rename_count = {"count":"Number of absences"}
     if orientation == "v":
         fig = px.bar(df, 
@@ -44,25 +52,17 @@ def make_bar_chart(orientation:str, feature:str) -> px.bar:
                      labels=rename_count)
     return fig   
 
-def make_histogram(orientation:str, feature:str) -> px.histogram:
+def make_histogram(orientation:str, feature:str):
     """Creates a histogram according to given parameters"""
     bin_size = 10
     title = f"Distribution of {feature.lower()}" 
-    new_labels = {
-        "Service time": "Service time (years)",
-        "Height": "Height (cm)",
-        "Weight": "Weight (kg)",
-        "Time absent": "Time absent (hrs)",
-        "Distance to work": "Distance to work (km)",
-        "Transportation expense": "Transportation expense (Brazilian Real)"
-        }
     
     if orientation == "v":
         fig = px.histogram(df, 
                      x=feature,  
                      title=title,
                      orientation=orientation,
-                     labels=new_labels,
+                     labels=NEW_LABELS,
                      nbins=bin_size)
         fig.update_layout(yaxis_title="Number of absences")
         
@@ -71,15 +71,14 @@ def make_histogram(orientation:str, feature:str) -> px.histogram:
                      y=feature, 
                      title=title,
                      orientation=orientation,
-                     labels=new_labels,
+                     labels=NEW_LABELS,
                      nbins=bin_size)
         fig.update_layout(xaxis_title="Number of absences")
     return fig
 
-def make_scatter_plot(feature_x, feature_y):
-    
-    fig = px.scatter(df, x=feature_x, y=feature_y)
-    
+def make_scatter_plot(feature_x:str, feature_y:str):
+    """Creates a scatterplot given x and y"""
+    fig = px.scatter(df, x=feature_x, y=feature_y, labels=NEW_LABELS)
     return fig
         
 # ~~~ APP ~~~
@@ -122,10 +121,11 @@ app.layout = html.Div(children=[
             #! X-AXIS RADIOBUTTON + SCATTERPLOT + Y-AXIS RADIOBUTTON
             html.Div(children=[
                 html.Div(children=[
+                    
                     html.H2("Select the x axis", className="h2"),
                     dcc.RadioItems(
                             options=CATEGORICAL+NUMERICAL,
-                            value=CATEGORICAL[0],
+                            value="Age",
                             labelStyle={'display': 'block'},
                             id="x-axis-radio")],
                         style={'display': 'inline-block', "text-align": "left"}),
@@ -137,10 +137,11 @@ app.layout = html.Div(children=[
                 
                 
                 html.Div(children=[
+                    
                     html.H2("Select the y axis", className="h2"),
                     dcc.RadioItems(
                             options=CATEGORICAL+NUMERICAL,
-                            value=CATEGORICAL[0],
+                            value="Time absent",
                             labelStyle={'display': 'block'},
                             id="y-axis-radio")],
                         style={'display': 'inline-block', "text-align": "right"})],
@@ -153,7 +154,7 @@ app.layout = html.Div(children=[
               Input("feature-dropdown", "value"),
               Input("orientation", "value"))
 def tab1_graph(feature, orientation) -> Union[px.bar, px.histogram]:
-    
+    """This callback generates a bar chart or histogram depending on the event chosen"""
     orientation = get_orientation(orientation)
     
     if feature in CATEGORICAL:
@@ -171,15 +172,10 @@ def tab1_graph(feature, orientation) -> Union[px.bar, px.histogram]:
               Input("x-axis-radio", "value"),
               Input("y-axis-radio", "value"))
 def tab2_graph(feature_x, feature_y):
-    
+    """This callback generates a scatterplot when given x and y features"""
     fig = make_scatter_plot(feature_x, feature_y)
-    fig.update_layout(title=f"{feature_x} vs. {feature_y}", title_x=0.5)
+    fig.update_layout(title=f"{feature_x} vs. {feature_y}", title_x=0.5, transition_duration=500)
     return fig
-
-
-
-
-    
 
 
     

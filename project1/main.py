@@ -12,29 +12,12 @@ from typing import Union
 df = pd.read_csv("data/preprocessed/absenteeism_at_work_preprocessed.csv")
 df["Absence reason"] = df["Absence reason"].astype("category")
 
-CATEGORICAL = [
-    "Month",
-    "Absence reason", 
-    "Day", 
-    "Season", 
-    "Education level", 
-    "Disease"
-    ]
-
-NUMERICAL = [
-    "Transportation expense",
-    "Distance to work",
-    "Service time",
-    "Age",
-    "Avg work load per day",
-    "Number of children",
-    "Pets",
-    "Weight",
-    "Height",
-    "Body mass index",
-    "Time absent"
-    ]
-
+with open("features.json", "r") as fin:
+    features:dict[str, list[str]] = json.load(fin)
+    
+CATEGORICAL = features["CATEGORICAL"]
+NUMERICAL = features["NUMERICAL"]
+    
 # ~~~ HELPER FUNCTIONS ~~~
 
 def get_orientation(option:str) -> str:
@@ -60,7 +43,6 @@ def make_bar_chart(orientation:str, feature:str) -> px.bar:
                      title=title,
                      orientation=orientation,
                      labels=rename_count)
-        
     return fig   
 
 def make_histogram(orientation:str, feature:str) -> px.histogram:
@@ -93,12 +75,8 @@ def make_histogram(orientation:str, feature:str) -> px.histogram:
                      labels=new_labels,
                      nbins=bin_size)
         fig.update_layout(xaxis_title="Number of absences")
-        
-    
     return fig
         
-    
-
 # ~~~ APP ~~~
 app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
 app.title = "Absenteeism at Work"
@@ -107,31 +85,35 @@ app.title = "Absenteeism at Work"
 app.layout = html.Div(children=[
     html.H1("Absenteeism at Work", className="h1"),
     html.Hr(),
-    html.H2("Select a feature"), #! style this
-    html.Div(
-        className="dropdown-variables",
-        children=[  
-            dcc.Dropdown(
-                id="feature-dropdown",
-                options=CATEGORICAL + NUMERICAL,
-                value="Month",
-                clearable=False)
-            ]
-        ),
     
-    html.Div(
-        className="graph-div",
-        children=[    
-            dcc.RadioItems(["Vertical", "Horizontal"],
-                           "Vertical",
-                           labelStyle={'display': 'block'}, # forces vertical alignment
-                           id="orientation"),
-            html.Hr(),
-            dcc.Graph(id="tab1-graph")
-            ]
-        )
-    ]
-                      )
+    dcc.Tabs(children=[
+        dcc.Tab(label="Charts", children=[
+            
+            html.H2("Select a feature"), #! style this
+            
+            html.Div(
+                className="dropdown-variables",
+                children=[  
+                    dcc.Dropdown(
+                        id="feature-dropdown",
+                        options=CATEGORICAL + NUMERICAL,
+                        value="Month",
+                        clearable=False)
+                    ]
+                ),
+            html.Div(
+                className="graph-div",
+                children=[    
+                    dcc.RadioItems(
+                        options=["Vertical", "Horizontal"],
+                        value="Vertical",
+                        labelStyle={'display': 'block'}, # forces vertical alignment
+                        id="orientation"),
+                    html.Hr(),
+                    dcc.Graph(id="tab1-graph")])]),
+        dcc.Tab(label="Scatterplot")
+        ]),
+    ])
 
 # ~~~ CALLBACKS ~~~
 @app.callback(Output("tab1-graph", "figure"),
@@ -150,6 +132,8 @@ def tab1_graph(feature, orientation) -> Union[px.bar, px.histogram]:
     fig.update_traces(dict(marker_line_width=0))
     
     return fig
+
+
 
 
     

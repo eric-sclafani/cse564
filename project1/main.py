@@ -7,6 +7,8 @@ import plotly.express as px
 import json
 from typing import Union
 
+TEST_DATA = {"x":[1,2,3,4],
+             "y":[2,3,6,8]}
 
 # ~~~ GLOBAL VARIABLES ~~~
 df = pd.read_csv("data/preprocessed/absenteeism_at_work_preprocessed.csv")
@@ -21,7 +23,7 @@ NUMERICAL = features["NUMERICAL"]
 # ~~~ HELPER FUNCTIONS ~~~
 
 def get_orientation(option:str) -> str:
-    """Gets barchart orientation argument from radiobutton string value"""
+    """Gets orientation argument for barchart/histogram from radiobutton string value"""
     return "h" if option == "Horizontal" else "v"
 
 def make_bar_chart(orientation:str, feature:str) -> px.bar:
@@ -46,7 +48,7 @@ def make_bar_chart(orientation:str, feature:str) -> px.bar:
     return fig   
 
 def make_histogram(orientation:str, feature:str) -> px.histogram:
-    """Creates a histogramn according to given parameters"""
+    """Creates a histogram according to given parameters"""
     bin_size = 10
     title = f"Distribution of {feature.lower()}" 
     new_labels = {
@@ -76,6 +78,12 @@ def make_histogram(orientation:str, feature:str) -> px.histogram:
                      nbins=bin_size)
         fig.update_layout(xaxis_title="Number of absences")
     return fig
+
+def make_scatter_plot(feature_x, feature_y):
+    
+    fig = px.scatter(df, x=feature_x, y=feature_y)
+    
+    return fig
         
 # ~~~ APP ~~~
 app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
@@ -85,12 +93,12 @@ app.title = "Absenteeism at Work"
 app.layout = html.Div(children=[
     html.H1("Absenteeism at Work", className="h1"),
     html.Hr(),
-    
     dcc.Tabs(children=[
         dcc.Tab(label="Charts", children=[
             
             html.H2("Select a feature"), #! style this
             
+            #! TAB1 DROPDOWN MENU
             html.Div(
                 className="dropdown-variables",
                 children=[  
@@ -98,12 +106,12 @@ app.layout = html.Div(children=[
                         id="feature-dropdown",
                         options=CATEGORICAL + NUMERICAL,
                         value="Month",
-                        clearable=False)
-                    ]
-                ),
+                        clearable=False)]),
+            
+            #! TAB1 RADIOBUTTON & CHART
             html.Div(
                 className="graph-div",
-                children=[    
+                children=[         
                     dcc.RadioItems(
                         options=["Vertical", "Horizontal"],
                         value="Vertical",
@@ -111,9 +119,34 @@ app.layout = html.Div(children=[
                         id="orientation"),
                     html.Hr(),
                     dcc.Graph(id="tab1-graph")])]),
-        dcc.Tab(label="Scatterplot")
-        ]),
-    ])
+        
+        dcc.Tab(label="Scatterplot", children=[
+            html.Div(children=[
+                html.Div(children=[
+                    dcc.RadioItems(
+                            options=CATEGORICAL+NUMERICAL,
+                            value=CATEGORICAL[0],
+                            labelStyle={'display': 'block'},
+                            id="x-axis-radio")],
+                        style={'display': 'inline-block', "text-align": "left"}),
+                
+                html.Div(children=[
+                    dcc.Graph(
+                            id="tab2-graph", 
+                            figure=make_scatter_plot(TEST_DATA["x"], TEST_DATA["y"]))],
+                        style={'display': 'inline-block',}),
+                
+                
+                html.Div(children=[
+                    dcc.RadioItems(
+                            options=CATEGORICAL+NUMERICAL,
+                            value=CATEGORICAL[0],
+                            labelStyle={'display': 'block'},
+                            id="y-axis-radio")],
+                        style={'display': 'inline-block', "text-align": "right"})],
+                     style={"text-align": "center"})])
+    ]),
+])
 
 # ~~~ CALLBACKS ~~~
 @app.callback(Output("tab1-graph", "figure"),
@@ -132,6 +165,11 @@ def tab1_graph(feature, orientation) -> Union[px.bar, px.histogram]:
     fig.update_traces(dict(marker_line_width=0))
     
     return fig
+
+
+# @app.callback()
+# def tab2_graph(fetaure_x, feature_y):
+#     pass
 
 
 

@@ -2,7 +2,6 @@
 from dash import Dash, dcc, html
 from dash.dependencies import Input, Output
 from dash_bootstrap_components.themes import BOOTSTRAP
-import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 import json
@@ -45,15 +44,14 @@ def get_orientation(option:str) -> str:
 def make_bar_chart(orientation:str, feature:str) -> px.bar:
     """Creates a bar chart according to given arguments"""
     title = f"Number of absences per {feature.lower()}" #NOTE: add better title string formatting and axes 
-    count = {"count": "Number of absences"}
-    
+    rename_count = {"count":"Number of absences"}
     if orientation == "v":
         fig = px.bar(df, 
                      x=feature, 
                      color=feature, 
                      title=title,
                      orientation=orientation,
-                     labels=count,)
+                     labels=rename_count)
         
     elif orientation == "h":
         fig = px.bar(df,
@@ -61,20 +59,22 @@ def make_bar_chart(orientation:str, feature:str) -> px.bar:
                      color=feature, 
                      title=title,
                      orientation=orientation,
-                     labels=count)
+                     labels=rename_count)
+        
     return fig   
 
 def make_histogram(orientation:str, feature:str) -> px.histogram:
     """Creates a histogramn according to given parameters"""
     bin_size = 10
     title = f"Distribution of {feature.lower()}" 
-    new_labels = {"count": "Number of absences",
-                  "Service time": "Service time (years)",
-                  "Height": "Height (cm)",
-                  "Weight": "Weight (kg)",
-                  "Time absent": "Time absent (hrs)",
-                  "Distance to work": "Distance to work (km)",
-                  "Transportation expense": "Transportation expense (Brazilian Real)"}
+    new_labels = {
+        "Service time": "Service time (years)",
+        "Height": "Height (cm)",
+        "Weight": "Weight (kg)",
+        "Time absent": "Time absent (hrs)",
+        "Distance to work": "Distance to work (km)",
+        "Transportation expense": "Transportation expense (Brazilian Real)"
+        }
     
     if orientation == "v":
         fig = px.histogram(df, 
@@ -83,6 +83,7 @@ def make_histogram(orientation:str, feature:str) -> px.histogram:
                      orientation=orientation,
                      labels=new_labels,
                      nbins=bin_size)
+        fig.update_layout(yaxis_title="Number of absences")
         
     elif orientation == "h":
         fig = px.histogram(df,
@@ -91,6 +92,9 @@ def make_histogram(orientation:str, feature:str) -> px.histogram:
                      orientation=orientation,
                      labels=new_labels,
                      nbins=bin_size)
+        fig.update_layout(xaxis_title="Number of absences")
+        
+    
     return fig
         
     
@@ -104,28 +108,30 @@ app.layout = html.Div(children=[
     html.H1("Absenteeism at Work", className="h1"),
     html.Hr(),
     html.H2("Select a feature"), #! style this
-    
     html.Div(
         className="dropdown-variables",
-        children=[
+        children=[  
             dcc.Dropdown(
                 id="feature-dropdown",
                 options=CATEGORICAL + NUMERICAL,
                 value="Month",
-                clearable=False)]),
+                clearable=False)
+            ]
+        ),
     
     html.Div(
         className="graph-div",
-        children=[
+        children=[    
             dcc.RadioItems(["Vertical", "Horizontal"],
                            "Vertical",
                            labelStyle={'display': 'block'}, # forces vertical alignment
                            id="orientation"),
-            
-            dcc.Graph(id="tab1-graph")])
-    ])
-
-
+            html.Hr(),
+            dcc.Graph(id="tab1-graph")
+            ]
+        )
+    ]
+                      )
 
 # ~~~ CALLBACKS ~~~
 @app.callback(Output("tab1-graph", "figure"),

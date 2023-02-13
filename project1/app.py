@@ -7,6 +7,7 @@ import plotly.express as px
 import json
 from typing import Union
 
+
 # ~~~ GLOBAL VARIABLES ~~~
 df = pd.read_csv("data/preprocessed/absenteeism_at_work_preprocessed.csv")
 df["Absence reason"] = df["Absence reason"].astype("category")
@@ -24,6 +25,8 @@ NEW_LABELS = {
         "Distance to work": "Distance to work (km)",
         "Transportation expense": "Transportation expense (Brazilian Real)"
         }
+
+
 # ~~~ HELPER FUNCTIONS ~~~
 
 def get_orientation(option:str) -> str:
@@ -79,12 +82,17 @@ def make_scatter_plot(feature_x:str, feature_y:str):
     """Creates a scatterplot given x and y"""
     fig = px.scatter(df, x=feature_x, y=feature_y, labels=NEW_LABELS)
     return fig
+    
+    
         
 # ~~~ APP ~~~
+
 app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
 app.title = "Absenteeism at Work"
 
+
 # ~~~ LAYOUT ~~~
+
 app.layout = html.Div(children=[
     html.Hr(),
     html.H1("Absenteeism at Work", className="h1"),
@@ -151,7 +159,9 @@ app.layout = html.Div(children=[
     ]),
 ])
 
+
 # ~~~ CALLBACKS ~~~
+
 @app.callback(Output("tab1-graph", "figure"),
               Input("feature-dropdown", "value"),
               Input("orientation", "value"))

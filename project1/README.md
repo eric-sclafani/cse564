@@ -6,7 +6,7 @@ This is my first project for CSE 564
 # Directory structure
 
 - `assets/` - contains **style.css** file for custom styling.
-- `data/` - contains both raw and preprocessed data.
+- `data/` - contains both raw and preprocessed data. Also contains both the raw and preprocessed data Excel spreadsheets
 - `app.py` - main file for this application. Contains all functioning Dash and Plotly code.
 - `features.json` - json file of my feature names separated by whether they're categorical or numerical. Gets read by `app.py`.
 - `preprocess_data.ipynb` - file for preprocesing data

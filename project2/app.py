@@ -9,18 +9,27 @@ import json
 # project import
 import component_ids as ids
 
+
+# ~~~ Global variables & data ~~~
 with open("features.json", "r") as fin:
     features:dict[str, list[str]] = json.load(fin)
+    
+NUMERICAL = features["NUMERICAL"]
+data = pd.read_csv("data/absenteeism_at_work_preprocessed.csv")
+pca = PCA()
 
-data = pd.read_csv("data/absenteeism_at_work.csv")
-
+# ~~~ App ~~~
 app = Dash(__name__, external_stylesheets=[BOOTSTRAP])
 app.title = "Insert title here"
 
-app.layout = ()
-
-
-
+app.layout = (
+    html.Div(className="main-div",
+             children=[
+                 html.H1("Absenteeism at Work", className="h1"),
+                 html.H4("By: Eric Sclafani", className="h4"),
+                 
+             ])
+)
 
 
 

@@ -5,21 +5,18 @@ from dash.dependencies import Input, Output
 from dash_bootstrap_components.themes import BOOTSTRAP
 import plotly.express as px
 from sklearn.decomposition import PCA
-import json
+from sklearn.preprocessing import StandardScaler
 import pandas as pd 
+
+# project imports
+import ids
+import components
 
 
 
 # ~~~ Global variables ~~~
 
-def load_numerical_variables(path):
-    with open(path, "r") as fin:
-        features:dict[str, list[str]] = json.load(fin)
-    return features["NUMERICAL"]
 
-df = pd.read_csv("data/absenteeism_at_work_preprocessed.csv")
-df["Absence reason"] = df["Absence reason"].astype("category")
-NUMERICAL = load_numerical_variables("features.json")
 
 # ~~~ Helper functions ~~~
 

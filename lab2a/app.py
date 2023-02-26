@@ -55,8 +55,11 @@ def make_scree_plot(n_to_show:int) -> go.Figure:
     return fig
     
     
-def make_k_plot():
-
+def make_k_plot() -> go.Figure:
+    """
+    Creates a visualization of the objective function in K means
+    :returns: plotly lineplot
+    """
     within_cluster_sum_squares = []
     candidate_k_values = range(1,16)
     for k in candidate_k_values:
@@ -72,14 +75,19 @@ def make_k_plot():
             x="K", 
             y="Within Cluster Sum of Squares (WCSS)", 
             markers=True,
-            title="PCA WCSS Error per K cluster")
+            title="WCSS Error per K cluster")
     fig.update_layout(title_x=0.5)
     
     return fig
 
 
-def make_boplot():
-    pass
+def make_biplot():
+    
+    model = KMeans(n_clusters=3, random_state=1)
+    model.fit(X_reduced)
+    
+    
+    
 
 
 # ~~~ App ~~~

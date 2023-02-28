@@ -3,6 +3,7 @@
 from dash import Dash, dcc, html
 from dash.dependencies import Input, Output
 from dash_bootstrap_components.themes import CERULEAN
+import dash_bootstrap_components as dbc
 import plotly.express as px
 import plotly.graph_objects as go
 from sklearn.decomposition import PCA
@@ -48,7 +49,7 @@ def make_scree_plot(n_to_show:int) -> go.Figure:
     fig.update_xaxes(type="category")
     fig.update_layout(
         title="Explained variance per principle component",
-        title_x = 0.5,
+        title_x = 0.25,
         xaxis_title="Principal Component", 
         yaxis_title="% Explained variance",
         transition_duration=500)
@@ -56,41 +57,59 @@ def make_scree_plot(n_to_show:int) -> go.Figure:
     
     
 def make_k_plot() -> go.Figure:
-    """
-    Creates a visualization of the objective function in K means
-    :returns: plotly lineplot
-    """
-    within_cluster_sum_squares = []
+    """Creates a visualization of the objective function in K means"""
+    sum_squares = []
     candidate_k_values = range(1,16)
     for k in candidate_k_values:
         model = KMeans(n_clusters=k, random_state=1)
         model.fit(X_reduced)
-        within_cluster_sum_squares.append(model.inertia_)
+        sum_squares.append(model.inertia_)
 
     kmeans_df = pd.DataFrame({
         "K":candidate_k_values,
-        "Within Cluster Sum of Squares (WCSS)":within_cluster_sum_squares})
+        "Sum of squares":sum_squares})
     
     fig = px.line(kmeans_df, 
             x="K", 
-            y="Within Cluster Sum of Squares (WCSS)", 
+            y="Sum of squares", 
             markers=True,
-            title="WCSS Error per K cluster")
+            title="Sum of Squares Error per K cluster")
     fig.update_layout(title_x=0.5)
     
     return fig
 
 
-def make_biplot():
-    
-    model = KMeans(n_clusters=3, random_state=1)
+def make_biplot() -> go.Figure:
+    """Creates a biplot using the first two principal components"""
+    model = KMeans(n_clusters=4, random_state=1)
     model.fit(X_reduced)
+
+    pca_data_df = pd.DataFrame(X_reduced).rename(columns={0:"PC1", 1:"PC2", 2:"PC3", 3:"PC4", 4:"PC5", 5:"PC6", 6:"PC7"})
+    kmeans_cluster_labels = pd.DataFrame({"K Cluster":model.labels_})
+
+    kmeans_pca_df = pd.concat([df, pca_data_df, kmeans_cluster_labels], axis=1)
+    fig = px.scatter(kmeans_pca_df,
+                     x="PC1", 
+                     y="PC2", 
+                     color="K Cluster",
+                     title="PC 1 & 2 Biplot")
+    fig.update_layout(title_x=0.5)
     
-    
+    return fig
+
+  
+  
+# ~~~ Dash Components ~~~
+
+scree_plot_comp = dcc.Graph(id="scree-plot", className="scree-plot")
+slider_header_comp = html.P("PC")
+slider_comp = dcc.Slider(id="scree-slider", min=2, max=7, step=1, value=2, vertical=True)
+k_plot_comp = dcc.Graph(figure=make_k_plot())
+biplot_comp = dcc.Graph(figure=make_biplot())
     
 
 
-# ~~~ App ~~~
+# ~~~ App layout ~~~
     
 app = Dash(__name__, external_stylesheets=[CERULEAN])
 app.title = "PAN 2022 Features"
@@ -105,18 +124,17 @@ app.layout = html.Div(children=[
     
     html.Div(className="scree-plot-div",
              children=[
-                 dcc.Graph(id="scree-plot", className="scree-plot"),
-                 html.P("Select number of components"),
-                 dcc.Slider(id="scree-slider", 
-                            min=2, 
-                            max=7, 
-                            step=1, 
-                            value=2)]),
+                 dbc.Container([
+                     dbc.Row([dbc.Col(slider_header_comp, width="auto")]),
+                     dbc.Row([dbc.Col(slider_comp), dbc.Col(scree_plot_comp, width={"size":11})])
+                     ]),
+                 ]),
     
     html.Div(className="k-function-plot-div",
              children=[
-                dcc.Graph(figure=make_k_plot(), id="k-function-plot")
-             ])
+                 dbc.Container([
+                     dbc.Row([dbc.Col(k_plot_comp), dbc.Col(biplot_comp)])])
+                ])
 ])
 
 # ~~~ Callbacks ~~~

@@ -69,27 +69,37 @@ def make_k_plot() -> go.Figure:
         model = KMeans(n_clusters=k, random_state=1)
         model.fit(X_reduced)
         sum_squares.append(model.inertia_)
-
-    kmeans_df = pd.DataFrame({
-        "K":candidate_k_values,
-        "Sum of squares":sum_squares})
     
     fig = go.Figure()
-    fig.add_trace(go.Line(
-        kmeans_df, 
-        x="K", 
-        y="Sum of squares", 
-        markers=True,
-        title="Sum of Squares Error per K cluster"))
+    fig.add_trace(
+        go.Line(
+            x=candidate_k_values, 
+            y=sum_squares))
     
-    fig.update_layout(title_x=0.5)
+    fig.add_shape(
+        type="line",
+        x0=1, y0=max(sum_squares), x1=15, y1=min(sum_squares),
+        line={"color":"grey"}
+    )
+    
+    fig.add_shape(
+        type="line",
+        x0=3, y0=61442.12005352195, x1=6, y1=145000,
+        line={"color":"crimson"}
+    )
+    
+    fig.update_layout(
+        title="Sum of Squares Error per K vlaue",
+        title_x=0.5,
+        xaxis_title="K value", 
+        yaxis_title="Sum of Squares error",)
     
     return fig
 
 
 def make_biplot() -> go.Figure:
     """Creates a biplot using the first two principal components"""
-    model = KMeans(n_clusters=4, random_state=1)
+    model = KMeans(n_clusters=3, random_state=1)
     model.fit(X_reduced)
 
     pca_data_df = pd.DataFrame(X_reduced).rename(columns={0:"PC1", 1:"PC2", 2:"PC3", 3:"PC4", 4:"PC5", 5:"PC6", 6:"PC7"})

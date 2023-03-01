@@ -64,7 +64,7 @@ def make_scree_plot(n_to_highlight:int) -> go.Figure:
 def make_k_plot() -> go.Figure:
     """Creates a visualization of the objective function in K means"""
     sum_squares = []
-    candidate_k_values = range(1,16)
+    candidate_k_values = list(range(1,16))
     for k in candidate_k_values:
         model = KMeans(n_clusters=k, random_state=1)
         model.fit(X_reduced)
@@ -74,11 +74,14 @@ def make_k_plot() -> go.Figure:
         "K":candidate_k_values,
         "Sum of squares":sum_squares})
     
-    fig = px.line(kmeans_df, 
-            x="K", 
-            y="Sum of squares", 
-            markers=True,
-            title="Sum of Squares Error per K cluster")
+    fig = go.Figure()
+    fig.add_trace(go.Line(
+        kmeans_df, 
+        x="K", 
+        y="Sum of squares", 
+        markers=True,
+        title="Sum of Squares Error per K cluster"))
+    
     fig.update_layout(title_x=0.5)
     
     return fig

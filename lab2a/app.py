@@ -107,8 +107,8 @@ def make_biplot() -> go.Figure:
 # ~~~ Dash Components ~~~
 
 scree_plot_comp = dcc.Graph(id="scree-plot", className="scree-plot")
-slider_header_comp = html.P("PC")
-slider_comp = dcc.Slider(id="scree-slider", min=1, max=7, step=1, value=1, vertical=True)
+slider_header_comp = html.P("Select a PC")
+dropdown_comp = dcc.Dropdown(id="scree-dropdown", options=list(range(1,8)), value=1, clearable=False)
 k_plot_comp = dcc.Graph(figure=make_k_plot())
 biplot_comp = dcc.Graph(figure=make_biplot())
     
@@ -131,7 +131,7 @@ app.layout = html.Div(children=[
              children=[
                  dbc.Container([
                      dbc.Row([dbc.Col(slider_header_comp, width="auto")]),
-                     dbc.Row([dbc.Col(slider_comp), dbc.Col(scree_plot_comp, width={"size":11})])
+                     dbc.Row([dbc.Col(dropdown_comp), dbc.Col(scree_plot_comp, width={"size":11})])
                      ]),
                  ]),
     
@@ -145,7 +145,7 @@ app.layout = html.Div(children=[
 # ~~~ Callbacks ~~~
 
 @app.callback(Output("scree-plot", "figure"),
-              Input("scree-slider", "value"))
+              Input("scree-dropdown", "value"))
 def scree_plot_graph(n_to_highlight:int):
     fig = make_scree_plot(n_to_highlight)
     return fig

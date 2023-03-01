@@ -27,24 +27,29 @@ X_reduced = pca.fit_transform(X_scaled)
 
 # ~~~ Helper functions ~~~
 
-def make_scree_plot(n_to_show:int) -> go.Figure:
+def make_scree_plot(n_to_highlight:int) -> go.Figure:
     """
     Creates a scree plot (scatter plot w/ line + bar chart) given n # of principal components to show
     :param n_to_show: number of principal components to show. Received from scree_plot_graph callback
     :rerurns: plotly figure representing a scree plot
     """
     fig = go.Figure()
+    
+    bar_colors = ["gray"] * 7
+    bar_colors[n_to_highlight-1] = "red"
+    
     fig.add_trace(
         go.Scatter(
-            x=list(range(1,8))[0:n_to_show],
-            y=pca.explained_variance_ratio_.cumsum()[0:n_to_show],
+            x=list(range(1,8)),
+            y=pca.explained_variance_ratio_.cumsum(),
             name="Cumulative explained variance",
             hoverlabel={"namelength":-1}))
     fig.add_trace(
         go.Bar(
-            x=list(range(1,8))[0:n_to_show], 
-            y=pca.explained_variance_ratio_[0:n_to_show],
-            name="PC"))
+            x=list(range(1,8)), 
+            y=pca.explained_variance_ratio_,
+            name="PC",
+            marker_color = bar_colors))
                  
     fig.update_xaxes(type="category")
     fig.update_layout(
@@ -103,7 +108,7 @@ def make_biplot() -> go.Figure:
 
 scree_plot_comp = dcc.Graph(id="scree-plot", className="scree-plot")
 slider_header_comp = html.P("PC")
-slider_comp = dcc.Slider(id="scree-slider", min=2, max=7, step=1, value=2, vertical=True)
+slider_comp = dcc.Slider(id="scree-slider", min=1, max=7, step=1, value=1, vertical=True)
 k_plot_comp = dcc.Graph(figure=make_k_plot())
 biplot_comp = dcc.Graph(figure=make_biplot())
     
@@ -141,8 +146,8 @@ app.layout = html.Div(children=[
 
 @app.callback(Output("scree-plot", "figure"),
               Input("scree-slider", "value"))
-def scree_plot_graph(n_to_show:int):
-    fig = make_scree_plot(n_to_show)
+def scree_plot_graph(n_to_highlight:int):
+    fig = make_scree_plot(n_to_highlight)
     return fig
 
 

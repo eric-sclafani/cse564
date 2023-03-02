@@ -24,8 +24,24 @@ Y = df["author_id"].values
 pca = PCA(n_components=7) # n_components determined through experimentation in testing.ipynb
 X_reduced = pca.fit_transform(X_scaled)
 
+model = KMeans(n_clusters=3, random_state=1)
+model.fit(X_reduced)
+
+pca_data_df = pd.DataFrame(X_reduced).rename(columns={0:"PC1", 1:"PC2", 2:"PC3", 3:"PC4", 4:"PC5", 5:"PC6", 6:"PC7"})
+kmeans_cluster_labels = pd.DataFrame({"K Cluster":model.labels_})
+kmeans_pca_df = pd.concat([df, pca_data_df, kmeans_cluster_labels], axis=1)
+
 
 # ~~~ Helper functions ~~~
+
+
+def get_four_highest_loadings(pca:PCA) -> list[int]:
+    pass
+
+
+
+
+# ~~~ Plotting functions ~~~
 
 def make_scree_plot(n_to_highlight:int) -> go.Figure:
     """
@@ -99,19 +115,31 @@ def make_k_plot() -> go.Figure:
 
 def make_biplot() -> go.Figure:
     """Creates a biplot using the first two principal components"""
-    model = KMeans(n_clusters=3, random_state=1)
-    model.fit(X_reduced)
-
-    pca_data_df = pd.DataFrame(X_reduced).rename(columns={0:"PC1", 1:"PC2", 2:"PC3", 3:"PC4", 4:"PC5", 5:"PC6", 6:"PC7"})
-    kmeans_cluster_labels = pd.DataFrame({"K Cluster":model.labels_})
-
-    kmeans_pca_df = pd.concat([df, pca_data_df, kmeans_cluster_labels], axis=1)
+    fig = go.Figure()
     fig = px.scatter(kmeans_pca_df,
                      x="PC1", 
                      y="PC2", 
                      color="K Cluster",
                      title="PC 1 & 2 Biplot")
     fig.update_layout(title_x=0.5)
+    
+    return fig
+
+def make_table():
+    pass
+
+
+def make_scatterplot_matrix():
+    """Creates a scatterplot matrix"""
+    fig = px.scatter_matrix(
+        kmeans_pca_df,
+        color="K Cluster",
+        dimensions=["PC1", "PC2", "PC3", "PC4"],
+    )
+    fig.update_traces(diagonal_visible=False)
+    fig.update_layout(
+        title="Explained variance per principle component",
+        title_x=0.5)
     
     return fig
 
@@ -124,6 +152,7 @@ slider_header_comp = html.P("Select a PC")
 dropdown_comp = dcc.Dropdown(id="scree-dropdown", options=list(range(1,8)), value=1, clearable=False)
 k_plot_comp = dcc.Graph(figure=make_k_plot())
 biplot_comp = dcc.Graph(figure=make_biplot())
+scatterplot_matrix_comp = dcc.Graph(figure=make_scatterplot_matrix())
     
 
 
@@ -152,7 +181,14 @@ app.layout = html.Div(children=[
              children=[
                  dbc.Container([
                      dbc.Row([dbc.Col(k_plot_comp), dbc.Col(biplot_comp)])])
-                ])
+                 ]),
+    
+    html.Div(className="scatterplot-matrix-div",
+             children=[
+                 dbc.Container([
+                     dbc.Row([dbc.Col(scatterplot_matrix_comp)])
+                 ])
+             ])
 ])
 
 # ~~~ Callbacks ~~~

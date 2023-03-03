@@ -143,11 +143,14 @@ def make_biplot() -> go.Figure:
     return fig
 
 def make_table():
+    pca_loadings = pca.components_.T * np.sqrt(pca.explained_variance_) 
     
-    fig = go.Figure(data=[go.Table(
-            header = dict(values=['A Scores', 'B Scores']),
-            cells = dict(values=[[100, 90, 80, 90], [95, 85, 75, 95]]))
-            ])
+    fig = dbc.Table.from_dataframe(
+        pd.DataFrame({"PC1": pca_loadings[0].round(5), "PC2": pca_loadings[1].round(5), "PC3":pca_loadings[2].round(5), "PC4":pca_loadings[3].round(5)}),
+        striped=True,
+        bordered=True,
+        hover=True)
+    
     
     
     return fig

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from dash import Dash, dcc, html
+from dash import Dash, dcc, html, dash_table
 from dash.dependencies import Input, Output
 from dash_bootstrap_components.themes import CERULEAN
 import dash_bootstrap_components as dbc
@@ -10,16 +10,16 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 import pandas as pd 
+import numpy as np
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning) # suppress annoying kmeans future warning
 
 # ~~~ Global variables ~~~
 df = pd.read_csv("data/pan22_features.csv")
-numericals_df = df.drop(columns=["author_id", "discourse_type"]).values
+numericals_df = df.drop(columns=["author_id", "discourse_type"])
 
 scaler = StandardScaler()
-X_scaled = scaler.fit_transform(numericals_df)
-Y = df["author_id"].values
+X_scaled = scaler.fit_transform(numericals_df.values)
 
 pca = PCA(n_components=7) # n_components determined through experimentation in testing.ipynb
 X_reduced = pca.fit_transform(X_scaled)
@@ -29,17 +29,8 @@ model.fit(X_reduced)
 
 pca_data_df = pd.DataFrame(X_reduced).rename(columns={0:"PC1", 1:"PC2", 2:"PC3", 3:"PC4", 4:"PC5", 5:"PC6", 6:"PC7"})
 kmeans_cluster_labels = pd.DataFrame({"K Cluster":model.labels_})
+
 kmeans_pca_df = pd.concat([df, pca_data_df, kmeans_cluster_labels], axis=1)
-
-
-# ~~~ Helper functions ~~~
-
-
-def get_four_highest_loadings(pca:PCA) -> list[int]:
-    pass
-
-
-
 
 # ~~~ Plotting functions ~~~
 
@@ -123,10 +114,43 @@ def make_biplot() -> go.Figure:
                      title="PC 1 & 2 Biplot")
     fig.update_layout(title_x=0.5)
     
+    pca_loadings = pca.components_.T * np.sqrt(pca.explained_variance_) 
+    feat_names = list(numericals_df.columns)[:20]
+   
+    # arrow plottling code from official plotly website: https://plotly.com/python/pca-visualization/#references
+    for i, feature in enumerate(feat_names):
+        fig.add_annotation(
+            ax=0, ay=0,
+            axref="x", ayref="y",
+            x=pca_loadings[i, 0],
+            y=pca_loadings[i, 1],
+            showarrow=True,
+            arrowsize=2,
+            arrowhead=2,
+            xanchor="right",
+            yanchor="top"
+        )
+        fig.add_annotation(
+            x=pca_loadings[i, 0],
+            y=pca_loadings[i, 1],
+            ax=0, ay=0,
+            xanchor="center",
+            yanchor="bottom",
+            text=feature,
+            yshift=5,
+        )
+    
     return fig
 
 def make_table():
-    pass
+    
+    fig = go.Figure(data=[go.Table(
+            header = dict(values=['A Scores', 'B Scores']),
+            cells = dict(values=[[100, 90, 80, 90], [95, 85, 75, 95]]))
+            ])
+    
+    
+    return fig
 
 
 def make_scatterplot_matrix():
@@ -153,7 +177,7 @@ dropdown_comp = dcc.Dropdown(id="scree-dropdown", options=list(range(1,8)), valu
 k_plot_comp = dcc.Graph(figure=make_k_plot())
 biplot_comp = dcc.Graph(figure=make_biplot())
 scatterplot_matrix_comp = dcc.Graph(figure=make_scatterplot_matrix())
-    
+table_comp = make_table()
 
 
 # ~~~ App layout ~~~
@@ -166,7 +190,8 @@ app.layout = html.Div(children=[
     html.Div(className="main-div",
              children=[
                  html.H1("PAN 2022 Features", className="h1"),
-                 html.H4("By: Eric Sclafani", className="h4")
+                 html.H4("By: Eric Sclafani", className="h4"),
+                 html.Hr()
                  ]),
     
     html.Div(className="scree-plot-div",
@@ -186,7 +211,7 @@ app.layout = html.Div(children=[
     html.Div(className="scatterplot-matrix-div",
              children=[
                  dbc.Container([
-                     dbc.Row([dbc.Col(scatterplot_matrix_comp)])
+                     dbc.Row([dbc.Col(table_comp), dbc.Col(scatterplot_matrix_comp)])
                  ])
              ])
 ])

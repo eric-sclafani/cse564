@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from dash import Dash, dcc, html, dash_table
+from dash import Dash, dcc, html
 from dash.dependencies import Input, Output
 from dash_bootstrap_components.themes import CERULEAN
 import dash_bootstrap_components as dbc

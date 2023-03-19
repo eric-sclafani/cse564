@@ -1,0 +1,18 @@
+hr {
+    border-top: 10px solid green;
+}
+
+.h1{
+    font-family: "copperplate", fantasy;
+    text-align: center;
+    color: green;
+}
+.h2{
+    font-family: "copperplate", fantasy;
+}
+.h4{
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    color: green;
+}
+

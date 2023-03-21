@@ -10,7 +10,7 @@ X = df.drop(columns=["author_id", "discourse_type"])
 
 mds = MDS(random_state=42)
 kmeans = KMeans(n_clusters=9, random_state=42)
-kmeans.fit(X)
+kmeans.fit(X.values)
 
 def MDS_data_plot() -> go.Figure:
     
@@ -29,3 +29,24 @@ def MDS_data_plot() -> go.Figure:
         title_x=0.5)
     
     return fig
+
+
+def MDS_variables_plot():
+    pass
+
+def parallel_coords_plot_task5():
+    """Because I have 409 dimensions, I randomly select five dimensions to show"""
+    
+    kmeans_pcp_df = pd.concat([df.sample(n=10, axis="columns"), 
+                               pd.DataFrame({"K Cluster":kmeans.labels_})])
+    
+    fig = px.parallel_coordinates(
+        kmeans_pcp_df,
+        color="K Cluster",
+    )
+    # fig.update_layout(
+    #     title="Numerical & Categorical PCP",
+    #     title_x=0.5)
+    
+    return fig
+

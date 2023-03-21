@@ -13,6 +13,8 @@ mds_tab = dbc.Tab(
 
 pcp_tab = dbc.Tab(
     tabClassName="flex-grow-1 text-center",
-    label="Parallel Coordinates Plot",
-    children=[]
+    label="Parallel Coordinates Plots",
+    children=[
+        dcc.Graph(figure=comps.parallel_coords_plot_task5()),
+        ]
 )

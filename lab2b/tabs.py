@@ -7,7 +7,10 @@ mds_tab = dbc.Tab(
     tabClassName="flex-grow-1 text-center",
     label="Multidimensional Scaling Plots",
     children=[
-        dcc.Graph(figure=comps.MDS_data_plot()),
+        dbc.Container([
+            dbc.Row([dbc.Col(dcc.Graph(figure=comps.MDS_data_plot())), 
+                     dbc.Col(dcc.Graph(figure=comps.MDS_variables_plot()))
+                     ])])
     ]
 )
 

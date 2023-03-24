@@ -6,8 +6,8 @@ from scipy.spatial.distance import pdist
 import pandas as pd 
 import plotly.express as px
 
-df = pd.read_csv("data/pan22_features.csv")
-X = df.drop(columns=["author_id", "discourse_type"])
+data_df = pd.read_csv("data/pan22_features.csv")
+X = data_df.drop(columns=["author_id", "discourse_type"])
 
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
@@ -63,11 +63,14 @@ def MDS_variables_plot():
 def parallel_coords_plot_task5():
     """Because I have 409 dimensions, I randomly select n dimensions to show"""
     
-    kmeans_pcp_df = pd.concat([df.sample(n=10, axis="columns"), 
-                               pd.DataFrame({"K Cluster":kmeans.labels_})])
+    data_df_sample = data_df.sample(n=10, axis="columns",random_state=42)
+    kmeans_pcp_df = pd.concat([data_df_sample, 
+                               pd.DataFrame({"K Cluster":kmeans.labels_})],
+                              axis=1)
     
     fig = px.parallel_coordinates(
         kmeans_pcp_df,
+        dimensions=list(data_df_sample.columns),
         color="K Cluster",
     )
     return fig

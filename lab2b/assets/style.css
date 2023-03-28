@@ -1,11 +1,11 @@
 hr {
-    border-top: 10px solid green;
+    border-top: 10px solid red;
 }
 
 .h1{
-    font-family: "copperplate", fantasy;
+    font-family: "Bradley Hand", cursive;
     text-align: center;
-    color: green;
+    color: red;
 }
 .h2{
     font-family: "copperplate", fantasy;
@@ -13,6 +13,13 @@ hr {
 .h4{
     font-family: "Lucida Handwriting", cursive;
     text-align: center;
-    color: green;
+    color: red;
 }
 
+.page2-note-div{
+    text-align: center;
+}
+
+.page3-note{
+    text-align: center;
+}

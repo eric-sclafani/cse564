@@ -64,7 +64,8 @@ def pcp_all_dims_plot():
         kmeans_pcp_df,
         dimensions=list(data_df_sample.columns),
         color="K Cluster",
-    )
+        title="PCP All Dimensions")
+    fig.update_layout(title_x=0.5)
     return fig
 
 
@@ -110,8 +111,9 @@ def mds_pcp_variables_plot():
     fig = px.parallel_coordinates(
         kmeans_df,
         dimensions=df_subset.columns,
-        color="K Cluster"
-        )
+        color="K Cluster",
+        title="Selected MDS Variables PCP")
+    fig.update_layout(title_x=0.5)
     return fig
 
 # ~~~ Other components ~~~
